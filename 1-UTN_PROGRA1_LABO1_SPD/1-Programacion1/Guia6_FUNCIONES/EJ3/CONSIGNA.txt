@@ -1,0 +1,2 @@
+3) Escribir un subprograma para que dados dos números enteros, obtengamos la suma
+y el producto de ambos. 

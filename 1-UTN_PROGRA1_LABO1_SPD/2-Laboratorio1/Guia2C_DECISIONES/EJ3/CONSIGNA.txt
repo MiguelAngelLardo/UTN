@@ -1,0 +1,10 @@
+Problema 3
+Igual al Problema 2 pero el programa debe poder calcular e informar una serie de
+descuentos y recargos que dependen de la Forma de Pago.
+Forma de pago		 Acción
+E → Efectivo 		 Aplica un 15% de descuento al total de la compra
+Q → QR 			 Aplica un 5% de descuento al total de la compra
+T → Tarjeta 		 Aplica un 10% de recargo al total de la compra
+
+La salida por pantalla debe mostrar el nombre del artículo, el subtotal de la compra, la forma
+de pago y el total de la compra (incluyendo el descuento o recargo aplicado si corresponde).

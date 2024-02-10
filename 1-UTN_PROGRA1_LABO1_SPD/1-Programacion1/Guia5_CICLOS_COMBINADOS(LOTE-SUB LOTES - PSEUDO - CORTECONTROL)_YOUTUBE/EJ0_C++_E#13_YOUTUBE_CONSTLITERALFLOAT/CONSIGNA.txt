@@ -1,0 +1,5 @@
+https://youtu.be/MngME8tXleY?si=yXeuqXhypsasqZYS&t=1607
+dar una lista de numeros compuesta por 10 sub-grupo y cada sub grupo separado por un cero: DETERMINAR
+A-para cada sub grupo el max de numeros pares y max de num impares por sub grupo.
+B-para cada uno de sub grupo el procentaje de numeros positvo y porcentaje de num negativo (positivo*100 / (total) - parcial / total * 100 NO DA -> 100.0f * parcial / total
+C-cuantos numeros habia en total entre los 10 sub grupos sin contar los ceros que separan los sub grupos

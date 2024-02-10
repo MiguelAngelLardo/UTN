@@ -1,0 +1,9 @@
+2) El área de investigación de la UTN tiene registrados a sus investigadores con los siguientes
+datos:
+DNI, nombre, apellido, fecha de nacimiento, unidad académica a la que pertenece (entero entre 1 y
+30), categoría (1 a 5) y especialidad(1 a 10).
+A partir de los señalado desarrollar los siguientes puntos.
+a) Diseñar la clase correspondiente, con:
+* sets() y gets() para todas las propiedades
+* Un constructor con valores por omisión para los parámetros (o alguno de ellos)
+Página

@@ -1,0 +1,2 @@
+7. Hacer un programa que solicite 10 números y luego mostrar por pantalla el
+máximo de ellos y la posición en la que fue ingresado.

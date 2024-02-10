@@ -1,0 +1,5 @@
+8) Diseñar un procedimiento que elimine los espacios blancos sobrantes de una cadena de caracteres dada. Se considera espacio
+sobrante cuando:
+a) Existen espacios blancos al comenzar la cadena. En este caso deben ser eliminados.
+b) Existen dentro de la cadena más de un espacio en blanco seguido. En este caso debe dejarse sólo un.
+c) Existen espacios en blanco al final de la cadena. En este caso deben ser eliminados.

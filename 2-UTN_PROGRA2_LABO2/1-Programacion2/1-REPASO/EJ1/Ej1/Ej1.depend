@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1703814641 source:c:\users\miguels\desktop\programacion\5-utn\cuatri 2\utn_progra2_labo2\programacion2\1-repaso\ej1\ej1\main.cpp
+	<iostream>
+	<cstring>
+	"funciones.h"
+
+1703817422 source:c:\users\miguels\desktop\programacion\5-utn\cuatri 2\utn_progra2_labo2\programacion2\1-repaso\ej1\ej1\funciones.cpp
+	<iostream>
+	"funciones.h"
+
+1703814641 c:\users\miguels\desktop\programacion\5-utn\cuatri 2\utn_progra2_labo2\programacion2\1-repaso\ej1\ej1\funciones.h
+

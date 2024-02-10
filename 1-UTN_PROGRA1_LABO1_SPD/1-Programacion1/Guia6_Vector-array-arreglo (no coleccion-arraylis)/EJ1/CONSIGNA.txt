@@ -1,0 +1,2 @@
+1. Hacer	un	programa	que	solicite 50	números	enteros	y	los	guarde en	un	vector.	Luego	recorrer	
+el	vector	y	determinar	e	informar	cuál	es	la	suma de	los	valores	del	mismo.

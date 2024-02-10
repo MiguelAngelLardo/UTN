@@ -1,0 +1,3 @@
+4) Escribir un subprograma para que dados dos números enteros, calcule y devuelva la
+potencia del primero a la del segundo. Por ejemplo si la rutina recibe 2 y 3 respectivamente,
+el cálculo que generará será 8 (2 a la potencia 3). 

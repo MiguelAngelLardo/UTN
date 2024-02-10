@@ -1,0 +1,19 @@
+15 Hacer un programa que contenga un menú con el siguiente formato:
+
+Menú principal
+-----------------------------
+1 - Ingresar medida en metros
+2 - Convertir a centímetros
+3 - Convertir a kilómetros
+4 - Convertir a pulgadas
+5 - Convertir a pies
+-----------------------------
+0 - Salir del programa
+
+Ingrese opción:
+
+
+Al ingresar a la opción 1, nos pedirá una medida (float) en metros que con las
+siguientes opciones del menú podremos mostrarla convertida a otras unidades.
+El programa debe permitir al usuario ingresar a las opciones las veces que lo
+desee y sólo finalizará al ingresar a la opción 0.

@@ -1,0 +1,2 @@
+1) Hacer un programa para ingresar una lista de 10 números y luego informar cuantos de
+los números ingresados son primos.

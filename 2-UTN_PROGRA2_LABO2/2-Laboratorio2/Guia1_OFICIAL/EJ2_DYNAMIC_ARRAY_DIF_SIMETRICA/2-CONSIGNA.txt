@@ -1,0 +1,7 @@
+Problema 2
+Haceruna funcion que reciba un vector de enteros N elementos llamado A y un vector de eneteros de M elementos llamado B.
+El programa debe generar un vector de enteros llamado C (de manera dinamica) y almacenar secuencialmente en los elementos que se encuentran en el vector A
+pero no en el vector B y visceversa. 
+Luego mostrar el vector C si es que contiene datos.
+
+https://www.youtube.com/watch?v=7SKB_obmMKE

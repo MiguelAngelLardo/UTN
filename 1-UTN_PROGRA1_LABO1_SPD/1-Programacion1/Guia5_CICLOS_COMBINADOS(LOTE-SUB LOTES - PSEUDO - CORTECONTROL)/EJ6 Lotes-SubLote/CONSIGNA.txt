@@ -1,0 +1,13 @@
+6) Hacer un programa para ingresar por teclado 10 grupos compuestos por números
+ordenados de menor a mayor. El final de cada grupo se detecta al ingresar un número
+menor a su anterior.
+
+Se debe obtener y emitir:
+
+a) Para cada uno de los grupos la cantidad de números primos que lo componen.
+b) El mínimo número par de cada uno de los grupos.
+c) El anteúltimo y último número positivo de cada uno de los grupos.
+Ejemplo de cómo se conforman los grupos:
+
+-20, -5, 8,           2, 20, 35, 42,            12, 22,          8, 12, 24, 36, -5
+Grupo 1               Grupo 2                  Grupo 3           …… Grupo 10

@@ -1,0 +1,4 @@
+Hacer un programa para ingresar dos números distintos y luego se muestre por
+pantalla el menor de ellos.
+Nota: no te olvides del ambiente ideal. Qué es eso? Mirá:
+https://youtu.be/TTvnrL1KUZM?t=931

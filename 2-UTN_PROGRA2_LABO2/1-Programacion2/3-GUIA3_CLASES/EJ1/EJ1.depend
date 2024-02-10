@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1704839902 source:c:\users\miguels\desktop\programacion\5-utn\cuatri 2\utn_progra2_labo2\programacion2\guia3_clases\ej1\funciones.cpp
+	<iostream>
+	"funciones.h"
+
+1704839902 c:\users\miguels\desktop\programacion\5-utn\cuatri 2\utn_progra2_labo2\programacion2\guia3_clases\ej1\clases.h
+	<iostream>
+	<cstdlib>
+	<cstring>
+	"funciones.h"
+
+1704838501 source:c:\users\miguels\desktop\programacion\5-utn\cuatri 2\utn_progra2_labo2\programacion2\guia3_clases\ej1\main.cpp
+	<iostream>
+	"clases.h"
+	"funciones.h"
+
+1704839902 c:\users\miguels\desktop\programacion\5-utn\cuatri 2\utn_progra2_labo2\programacion2\guia3_clases\ej1\funciones.h
+	"clases.h"
+
+1704839447 c:\users\miguels\desktop\programacion\5-utn\cuatri 2\utn_progra2_labo2\programacion2\guia3_clases\ej1\funciones.cpp
+	<iostream>
+	"clases.h"
+
+1704893334 source:c:\users\miguels\desktop\programacion\5-utn\programacion - labo - spd\utn_progra2_labo2\programacion2\3-guia3_clases\ej1\main.cpp
+	<iostream>
+	"clases.h"
+	"funciones.h"
+
+1704839902 c:\users\miguels\desktop\programacion\5-utn\programacion - labo - spd\utn_progra2_labo2\programacion2\3-guia3_clases\ej1\clases.h
+	<iostream>
+	<cstdlib>
+	<cstring>
+	"funciones.h"
+
+1704839902 c:\users\miguels\desktop\programacion\5-utn\programacion - labo - spd\utn_progra2_labo2\programacion2\3-guia3_clases\ej1\funciones.h
+	"clases.h"
+
+1704893334 source:c:\users\miguels\desktop\programacion\5-utn\programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\3-guia3_clases\ej1\main.cpp
+	<iostream>
+	"clases.h"
+	"funciones.h"
+
+1704839902 c:\users\miguels\desktop\programacion\5-utn\programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\3-guia3_clases\ej1\clases.h
+	<iostream>
+	<cstdlib>
+	<cstring>
+	"funciones.h"
+
+1704839902 c:\users\miguels\desktop\programacion\5-utn\programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\3-guia3_clases\ej1\funciones.h
+	"clases.h"
+

@@ -1,0 +1,2 @@
+6) Diseñar una rutina que invierta una cadena de caracteres de una palabra. La cadena debe estar validada para que contenga una
+sola palabra.

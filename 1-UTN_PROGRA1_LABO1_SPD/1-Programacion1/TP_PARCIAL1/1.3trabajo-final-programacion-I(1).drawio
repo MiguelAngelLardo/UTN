@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-09-15T20:56:54.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="a8WD8iECocqiklU_EMzz" version="21.7.2" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1050" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5pXr0R31rmwVF_x6JBgt-1" target="5pXr0R31rmwVF_x6JBgt-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-1" value="I" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="421.25" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-2" value="LegajoAlumno,CodigoCarrera,CodigoMateria,Modalidad,Horario" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="180" y="110" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-4" value="LegajoAlumno != 0" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="160" width="760" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-6" value="&lt;div&gt;CodigoActualCarrera==CodigoCarrera &amp;amp;&amp;amp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;LegajoAlumno != 0&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5pXr0R31rmwVF_x6JBgt-4" vertex="1">
+          <mxGeometry x="40" y="90" width="650" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5pXr0R31rmwVF_x6JBgt-6" source="5pXr0R31rmwVF_x6JBgt-12" target="5pXr0R31rmwVF_x6JBgt-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yonmYlfciaBzX_8r0v4c-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="5pXr0R31rmwVF_x6JBgt-6" source="5pXr0R31rmwVF_x6JBgt-12" target="5pXr0R31rmwVF_x6JBgt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-12" value="LegajoAlumno != 0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5pXr0R31rmwVF_x6JBgt-6" vertex="1">
+          <mxGeometry x="310" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-14" value="&lt;div&gt;CodigoCarrera,CodigoMateria,&lt;/div&gt;&lt;div&gt;Modalidad,Horario&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5pXr0R31rmwVF_x6JBgt-6" vertex="1">
+          <mxGeometry x="30" y="275" width="288.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-9" value="CodigoActualCarrera=CodigoCarrera" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5pXr0R31rmwVF_x6JBgt-4" vertex="1">
+          <mxGeometry x="209" y="50" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5pXr0R31rmwVF_x6JBgt-11" target="5pXr0R31rmwVF_x6JBgt-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pXr0R31rmwVF_x6JBgt-11" value="LegajoAlumno" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yonmYlfciaBzX_8r0v4c-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5pXr0R31rmwVF_x6JBgt-11" target="5pXr0R31rmwVF_x6JBgt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
