@@ -1,0 +1,9 @@
+
+Hacer un programa que permita cargar estos registros (Personaje(nomnre), Serie(nombre), Nro Serie, Sueldo, Edad)
+Cargar los personajes AGRUPADOS POR numero de serie. EL programa corta con numero de serie CERO
+
+A-Motrar promedio de todas las edades de todos los personajes de todas las series 
+B-Mostrar el maximo sueldo de cada serie 
+
+
+- cantidad total de  personajes  - cant personajes por serie, mostrar el nombre del personaje si tiene mas de 30 

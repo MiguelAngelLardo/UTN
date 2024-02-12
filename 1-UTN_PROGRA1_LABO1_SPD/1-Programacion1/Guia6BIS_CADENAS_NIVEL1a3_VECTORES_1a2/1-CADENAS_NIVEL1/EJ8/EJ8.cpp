@@ -70,8 +70,28 @@ int main(){
   cout << endl << endl << "PUNTO B: ELIMINAR ESPACIOS DEL MEDIO: \n";
   cout << "CADENA CORREGIDA:" << vCadena << endl;
   
-  
+  //PUNTO C => Elimina espacios al final!
+  int posfinal = 0;
+  while(vCadena[posfinal] != '\0'){
+    cout << vCadena[posfinal] << endl;
+    posfinal ++;
+  } 
+  //hola como_
+ 
+  cout << "La cadena tiene #" << posfinal << " caracteres." << endl;
 
+  if(vCadena[posfinal-2] != ' ' && vCadena[posfinal-1] == ' '){
+    vCadena[posfinal-1] = '\0';
+  }
+   
+   posfinal = 0;
+   while(vCadena[posfinal] != '\0'){
+    cout << vCadena[posfinal] << endl;
+    posfinal ++;
+  } 
+  
+  cout << "La cadena FINAL es:" << vCadena << endl;
+  cout << "La cadena tiene #" << posfinal << " caracteres.";// me da uno mas por el \0
 
   return 0;
 }
