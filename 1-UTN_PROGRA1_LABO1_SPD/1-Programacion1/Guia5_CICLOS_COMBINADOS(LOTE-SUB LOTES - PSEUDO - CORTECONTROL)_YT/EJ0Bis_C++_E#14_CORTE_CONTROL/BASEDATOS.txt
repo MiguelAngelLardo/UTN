@@ -27,3 +27,4 @@
 0
 
 A-Promedio edades 58.84
+C-26 PERSONAJES

@@ -1,2 +1,0 @@
-11. Hacer un programa para ingresar tres números y luego mostrarlos ordenados
-de menor a mayor.

@@ -1,0 +1,10 @@
+Ejercicio 1
+Construya una clase llamada Rectangulo que tenga los siguientes atributos y metodos
+
+Atributos:
+Largo
+Ancho
+
+Metodos
+perimetro()
+area()

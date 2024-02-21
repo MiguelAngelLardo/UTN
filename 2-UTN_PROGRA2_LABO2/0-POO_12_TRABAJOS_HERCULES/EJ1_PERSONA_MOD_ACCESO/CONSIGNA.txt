@@ -1,0 +1,9 @@
+Atributos:
+documento
+nombre
+apellido
+año nacimiento
+
+Metodos
+get
+set

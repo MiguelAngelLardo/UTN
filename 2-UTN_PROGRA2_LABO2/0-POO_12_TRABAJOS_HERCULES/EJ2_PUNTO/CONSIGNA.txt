@@ -1,0 +1,7 @@
+atributos
+x
+y
+
+metodos
+get
+set

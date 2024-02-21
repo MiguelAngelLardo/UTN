@@ -38,6 +38,18 @@ int main (){
 
 
   cout << "El mayor numero es: " << mayor;
+
+    /*
+    VARIANTE USANDO LA 'X' COMO BANDERA
+    for(int x = 0; x < 10; x ++)
+    {
+      if(x==0){
+        max = n1;
+      }else if(n1 > max){
+        max = n1;
+      }
+    }  
+  */
  
   return 0;
 }
