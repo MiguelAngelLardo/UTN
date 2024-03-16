@@ -11,15 +11,17 @@ int main(){
   int maxSueldo; //PTOB
   int contTotalPersonajes = 0; //PTOC
   int cantPersonajesSerie; //PTO D
-
+  char vectorCaracter [50];//PTO E
   
-
   cout << "Ingrese numero de serie: ";
   cin >> nroSerie;  
   cout << "Ingrese el sueldo: ";
   cin >> sueldo;
   cout << "Ingrese la edad: ";
   cin >> edad;
+  cin.ignore();
+  cout << "Ingrese nombre del personaje: ";
+  cin.getline(vectorCaracter, 50);
 
   while(nroSerie != 0)//CORTA
   {
@@ -38,13 +40,17 @@ int main(){
       //PTOD
       cantPersonajesSerie ++;
 
-
-
       //PTOB
       if(maxSueldo == -1){
         maxSueldo = sueldo;
       }else if(sueldo > maxSueldo){
         maxSueldo = sueldo;
+      }
+
+      //PTOE
+      if(edad > 30){
+        cout << endl << "***PUNTO E => NOMBRE***" << endl;
+        cout << vectorCaracter << endl << endl;
       }
 
       cout << "Ingrese numero de serie: ";
@@ -55,6 +61,9 @@ int main(){
         cin >> sueldo;
         cout << "Ingrese la edad: ";
         cin >> edad;
+        cin.ignore();
+        cout << "Ingrese nombre del personaje: ";
+        cin.getline(vectorCaracter, 50);
       }
     }
 
