@@ -1,0 +1,3 @@
+4. Hacer una función que reciba como parámetros una matriz de enteros de 10x10
+y un número entero (entre 0 y 9), y devuelva la cantidad de componentes
+positivos de la columna indicada por el segundo parámetro.

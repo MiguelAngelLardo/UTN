@@ -1,0 +1,9 @@
+Problema 4
+Hacer una función llamada Delta que reciba un vector de enteros llamado Alfa y su tamaño y un vector de enteros llamado Beta y su tamaño. 
+El programa debe generar un vector de enteros llamado Gamma (de manera dinámica) y almacenar secuencialmente en él los elementos que se 
+encuentran en ambos vectores (los que están en Alfa y en Beta). 
+
+Luego, mostrar el vector Gamma, si es que contiene datos, con las siguientes variantes:
+A)	Mostrarlo dentro de la función Delta
+B)	Mostrarlo desde main haciendo uso del vector generado dinámicamente en la función Delta.
+C)	¿Existe sólo una manera de resolver el punto B?

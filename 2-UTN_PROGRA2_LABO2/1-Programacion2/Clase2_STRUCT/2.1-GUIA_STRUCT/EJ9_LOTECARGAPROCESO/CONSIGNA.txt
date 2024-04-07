@@ -1,0 +1,27 @@
+9) Una librería especializada en libros de computación dispone de un lote de registros con los datos de los 1000
+libros que vende con el siguiente formato:
+• Código de libro (1 a 1000)
+• Título (string de 40)
+• Autor (string de 40)
+• Precio (float)
+• Unidades en stock (entero)
+
+Posee además un lote con las ventas realizadas durante los 3 primeros meses del año en curso, con la siguiente
+información:
+• Código de libro (1 a 1000)
+• Cantidad (entero)
+• Vendedor (‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’, ‘g’)
+• Tipo de venta (‘C’: contado, ‘T’: tarjeta)
+• Dia de la venta (1 a 31)
+• Mes de la venta (1 a 3)
+
+El lote termina con un código de libro inexistente.
+
+La librería aplica un 10% de recargo para las ventas por tarjeta de crédito.
+Confeccionar un programa C que resuelva los siguientes puntos:
+
+a. Generar un listado con los importes recaudados para cada uno de los libros durante todo el período con
+el siguiente formato:
+Código de libro Título Descripción del tema Importe recaudado
+b. Informar la cantidad vendida por mes de cada uno de los libros.
+c. Informar el vendedor que más ventas realizó (en $) en cada uno de los 3 meses.

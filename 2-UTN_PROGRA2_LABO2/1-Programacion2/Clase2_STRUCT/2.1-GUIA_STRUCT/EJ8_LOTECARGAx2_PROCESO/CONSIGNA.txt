@@ -1,0 +1,24 @@
+8) Una municipalidad desea efectuar un control de la cobranza del Impuesto Municipal en los 6 bimestres de los
+últimos 5 años. Existen 1200 contribuyentes, numerados del 1 al 1200.
+Se dispone de un primer lote ordenado por año-bimestre, con 30 registros, conteniendo los importes de los
+impuestos de los últimos cinco años. Cada registro contiene:
+- Año del Bimestre (2005 a 2009)
+- Bimestre (1 a 6)
+- Importe
+
+Otro lote, ordenado secuencialmente por nro. de contribuyente, nos informa sobre cada pago efectuado. Cada
+registro contiene:
+- Nro. de Contribuyente (1 a 1200)
+- Año del Impuesto
+- Bimestre
+
+Si el contribuyente no pago algún bimestre, entonces ese registro no existe en el lote.
+Se pide confeccionar un programa para pedir que se ingrese por teclado un número de año a procesar (2005 a
+2009) y luego emitir para ese año la deuda de cada contribuyente, con el siguiente formato:
+
+DEUDAS REGISTRADAS EN EL AÑO: 200X
+
+CONTRIBUYENTE         BIMESTRES: 1-2-3-4-5-6            IMPORTE ADEUDADO
+XXXX                    X X                               XXXX.XX
+XXXX                X X X                                    XXXX.XX
+Nota: Los pagos que no son del año ingresado por teclado se deben ignorar.

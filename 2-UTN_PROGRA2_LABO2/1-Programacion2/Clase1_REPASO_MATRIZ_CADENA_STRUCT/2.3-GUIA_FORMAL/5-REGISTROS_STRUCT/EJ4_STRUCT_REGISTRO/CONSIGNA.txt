@@ -1,0 +1,2 @@
+4) Igual al ejercicio anterior, pero la función debe devolver el registro completo.
+En caso de que no exista coincidencia, debe devolver un registro con valor -1 en el campo precio unitario.

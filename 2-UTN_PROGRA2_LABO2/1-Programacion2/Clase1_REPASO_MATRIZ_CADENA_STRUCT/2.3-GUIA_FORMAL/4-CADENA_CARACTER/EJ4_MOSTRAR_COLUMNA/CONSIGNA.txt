@@ -1,0 +1,1 @@
+4) Diseñar una rutina que liste por pantalla en forma de columna las letras de una palabra dada.

@@ -1,0 +1,3 @@
+3) Hacer una función que reciba un vector de tipo struct articulo, con el mismo formato del ejercicio anterior, 
+y una cadena de caracteres, y devuelva la posición del código del registro que coincida con la cadena recibida. 
+En caso de que no exista coincidencia debe devolver -1.

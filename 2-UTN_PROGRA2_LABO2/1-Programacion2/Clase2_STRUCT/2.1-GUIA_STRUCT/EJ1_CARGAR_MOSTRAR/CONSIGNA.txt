@@ -1,0 +1,7 @@
+1) Un comercio vende un total de 50 artículos diferentes. Para cada uno de ellos almacena la siguiente
+información:
+- Código de artículo (string[5])
+- Descripción (string[30])
+- Precio unitario (float)
+- Unidades en stock (int)
+Hacer un programa para cargar y mostrar por pantalla la lista de artículos.

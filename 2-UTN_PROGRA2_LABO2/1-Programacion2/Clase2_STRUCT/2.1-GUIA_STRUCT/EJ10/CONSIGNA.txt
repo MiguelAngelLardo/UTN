@@ -1,0 +1,30 @@
+10) La cámara de exportadores de cereales y oleaginosas dispone de un lote de registros con las exportaciones
+realizadas durante el último mes. Los registros cuentan con los siguientes datos:
+
+- Código de empresa (string(6))
+- Día de exportación (1 a 31)
+- Código de producto (1 a 15)
+- Código de país de destino (string(20))
+- Cantidad de toneladas
+- Importe
+
+Puede haber más de un registro para un mismo día y empresa. El fin del lote se indica con un código de empresa
+igual a “fin”.
+
+Dispone además de otro lote con los datos de las 100 empresas asociadas con el siguiente formato:
+
+- Código de empresa (string(6))
+- Nombre (string (30))
+- Localidad (string (30))
+- Provincia (1 a 24)
+- Importe mensual de la cuota (float)
+
+Se desea:
+a. El monto total recaudado por cada producto.
+b. Para cada producto y provincia, la cantidad de toneladas exportadas.
+c. Generar un listado con las empresas que no hayan exportado nada el último mes, con el siguiente
+
+formato:
+- Código de empresa
+– Localidad
+- Provincia

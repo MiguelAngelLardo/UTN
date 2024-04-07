@@ -13,12 +13,30 @@ int main(){
 
   p = &vCaracter[0]; // => *p = vCaracter
 
+  int vec[5];
+  cout << "VEC " << vec << endl;
+  cout << "&vec " << &vec << endl;
+  cout << "&vec[0] " << &vec[0] << endl;  
+
   cout << &vCaracter << endl;// direccion
+
     
   //3 sinonimos => muesta toda la cadena
   cout << &vCaracter[0] << endl;//1º
   cout << vCaracter << endl;//2º  // con int me da la direccion de memoria del primer elemento 
   cout << p << endl; //3º
+
+  //casteo a direccion de memoria
+  cout << (void*)vCaracter << endl;
+  cout << (void*)&vCaracter[0] << endl;
+  cout << (void*)&vCaracter[1] << endl;
+
+  //otros casos
+  cout << endl << endl << endl;
+  cout << vCaracter[0] << endl;
+  cout << vCaracter[1] << endl;
+  cout << &vCaracter[1] << endl;
+
 
   //muestra 1 caracter
   cout << *vCaracter << endl;// h idem int
@@ -83,6 +101,9 @@ int main(){
     }
     cout << "LETRA ORIGINAL: " << aux << ", LETRA ROTADA: " << vChain[x] << endl;
   }
+  
+
+ return 0;
 }
 
 
