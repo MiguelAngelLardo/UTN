@@ -1,41 +1,20 @@
 #include <iostream>
+using namespace std;
 #include "Temporizador.h"
 
-using namespace std;
+int main()
+{
+   Temporizador t1(4, 59, 59);
+   Temporizador t2(-1, 40, 40);
+   Temporizador t3(5, 0, 0);
 
-int main(){
-  Temporizador tem(25, 61, 8);
+   for (int i=1; i<=10; i++){
+      t1.mostrar();
+      t1.tic();
+   }
 
-  cout << "getHora: " << tem.getHora() << endl;
-  cout << "getMin: " << tem.getMinuto() << endl;
-  cout << "getSegundo: " << tem.getSegundo() << endl;
+   int valor = t1.comparar(t3);
+   cout << "Comparar: " << valor;
 
-  tem.tic();
-  cout << "\ntem.tic()\n";
-
-  cout << "getHora: " << tem.getHora() << endl;
-  cout << "getMin: " << tem.getMinuto() << endl;
-  cout << "getSegundo: " << tem.getSegundo() << endl;
- 
-  cout << endl << "toString() => " << tem.toString();
-  cout << endl << "toString() => " << tem.toString("SS:MM:HH");
-  cout << endl << "toString() => " << tem.toString("hola");
-
-  Temporizador t1(20,50,50);
-  Temporizador t2(20,50,53);
-
-  int resultado = t1.comparar(t2);
-
-  if(resultado > 0){
-    cout << "\nEl temporizador recibido tiene MENOS tiempo que el objeto";
-  }else if(resultado < 0){
-    cout << "\nEl temporizador recibido tiene MAS tiempo que el objeto";
-  }else{
-    cout << "\nAMBOS SON IGUALES";
-  }
-
-
-
-
-  return 0;
+    return 0;
 }

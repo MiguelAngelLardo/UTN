@@ -1,26 +1,22 @@
-#pragma once
-#include <string>
+#ifndef TEMPORIZADOR_H_INCLUDED
+#define TEMPORIZADOR_H_INCLUDED
 
 class Temporizador{
-private:
-  int _hora, _minuto,  _segundo;
 
-public:
-  Temporizador();
-  Temporizador(int hora, int minuto, int segundo);
+   private:
+   int _hora, _minuto, _segundo;
+   void mostrarHora();
+   void mostrarMinuto();
+   void mostrarSegundo();
 
-  int getHora();
-  int getMinuto();
-  int getSegundo();
-  void setHora(int hora);
-  void setMinuto(int minuto);
-  void setSegundo(int segundo);
-  
-  void tic();
-  int comparar(const Temporizador &otroTemporizador);
-  //const es para que otroTemporizador no sea modificado
-  //hago referencia para evitar copias innecesarias
+   public:
+   Temporizador(int hora, int minuto, int segundo);
+   int comparar(Temporizador aux);
+   void mostrar();
+   void tic();
+   void tac();
 
-  std::string toString(std::string formato = "HH:MM:SS");
 
 };
+
+#endif // TEMPORIZADOR_H_INCLUDED

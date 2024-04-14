@@ -1,89 +1,91 @@
+#include <iostream>
+using namespace std;
 #include "Temporizador.h"
 
-Temporizador::Temporizador (){
-  _hora = _minuto = _segundo = 0;
-}
-
 Temporizador::Temporizador(int hora, int minuto, int segundo){
-  setHora(hora);
-  setMinuto(minuto);
-  setSegundo(segundo);
+   if (hora < 0 || (minuto > 59 || minuto < 0) || (segundo > 59 || segundo < 0)){
+      _hora = 0;
+      _minuto = 0;
+      _segundo = 0;
+   }
+   else{
+      _hora = hora;
+      _minuto = minuto;
+      _segundo = segundo;
+   }
 }
 
-int Temporizador::getHora(){return _hora;}
-int Temporizador::getMinuto(){return _minuto;}
-int Temporizador::getSegundo(){return _segundo;}
-
-void Temporizador::setHora(int hora){
-  if(hora < 0 || hora > 24){
-    _hora = 0;
-  }else{
-    _hora = hora;
-  }
+void Temporizador::mostrarHora(){
+   if (_hora <= 9){
+      cout << "0" << _hora;
+   }
+   else{
+      cout << _hora;
+   }
+   cout << ":";
+}
+void Temporizador::mostrarMinuto(){
+   if (_minuto <= 9){
+      cout << "0" << _minuto;
+   }
+   else{
+      cout << _minuto;
+   }
+   cout << ":";
+}
+void Temporizador::mostrarSegundo(){
+   if (_segundo <= 9){
+      cout << "0" << _segundo;
+   }
+   else{
+      cout << _segundo;
+   }
+   cout << endl;
 }
 
-void Temporizador::setMinuto(int minuto){
-  _minuto = (minuto < 0 || minuto > 59) ? 0 : minuto;
+void Temporizador::mostrar(){
+
+//   mostrarHora();
+//   mostrarMinuto();
+//   mostrarSegundo();
+
+   cout << (_hora <= 9 ? "0" : "" ) << _hora << ":";
+   cout << (_minuto <= 9 ? "0" : "" ) << _minuto << ":";
+   cout << (_segundo <= 9 ? "0" : "" ) << _segundo << endl;
 }
 
-void Temporizador::setSegundo(int segundo){
-  _segundo = (segundo < 0 || segundo > 59) ? 0 :segundo;
+int Temporizador::comparar(Temporizador aux){
 
+   int totalSegundos, totalSegundosAux;
+   totalSegundos = _hora * 3600 + _minuto * 60 + _segundo;
+   totalSegundosAux = aux._hora * 3600 + aux._minuto * 60 + aux._segundo;
+
+   if (totalSegundos == totalSegundosAux){
+      return 0;
+   }
+
+   if (totalSegundos > totalSegundosAux){
+      return 1;
+   }
+
+   if (totalSegundos < totalSegundosAux){
+      return -1;
+   }
 }
 
-void Temporizador::tic(){_segundo ++;}
+void Temporizador::tic(){
+   _segundo++;
 
-int Temporizador::comparar(const Temporizador &otroTemporizador){
-  if (_hora < otroTemporizador._hora) {
-    return +1;
-  } else if (_hora > otroTemporizador._hora) {
-    return -1;
-  }
-  
-  if (_minuto < otroTemporizador._minuto) {
-    return +1;
-  } else if (_minuto > otroTemporizador._minuto) {
-    return -1;
-  }
-  
-  if (_segundo < otroTemporizador._segundo) {
-     return +1;
-  } else if (_segundo > otroTemporizador._segundo) {
-    return -1;
-  }
-    
-  return 0;
+   if (_segundo == 60){
+      _segundo = 0;
+      _minuto++;
+      if (_minuto == 60){
+         _minuto = 0;
+         _hora++;
+      }
+   }
 }
 
-std::string Temporizador::toString(std::string formato){
-  std::string tiempoFormateado;
-  std::string HH, MM, SS;
-
-  if(_hora < 10){
-    HH = "0" + std::to_string(_hora);
-  }else{
-    HH = std::to_string(_hora);
-  }
-
-  if(_minuto < 10){
-    MM = "0" + std::to_string(_minuto);
-  }else{
-    MM = std::to_string(_minuto);
-  }
-
-  if(_segundo < 10){
-    SS = "0" + std::to_string(_segundo);
-  }else{
-    SS = std::to_string(_segundo);
-  }
-
-  if(formato == "HH:MM:SS"){
-    tiempoFormateado = HH + ":" + MM + ":" + SS;
-  }else if(formato == "SS:MM:HH"){
-    tiempoFormateado = SS + "\"" + MM + "'" + HH + "H";
-  }else{
-    tiempoFormateado = HH + ":" + MM + ":" + SS;
-  }
-
-  return tiempoFormateado;
+void Temporizador::tac(){
+   tic();
 }
