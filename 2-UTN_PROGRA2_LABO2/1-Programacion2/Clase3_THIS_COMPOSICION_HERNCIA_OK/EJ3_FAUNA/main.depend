@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1713290212 source:c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\main.cpp
+	<iostream>
+	"MamiferoAcuatico.h"
+	"MamiferoTerrestre.h"
+	"Pez.h"
+	"Anfibio.h"
+
+1713282009 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\denominacion.h
+	<cstring>
+	"Funciones.h"
+
+1713278834 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\funciones.h
+
+1713281905 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\dimension.h
+
+1713288333 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\animal.h
+	"Denominacion.h"
+	"Dimension.h"
+
+1713288707 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\mamiferoacuatico.h
+	"Mamifero.h"
+
+1713288333 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\mamifero.h
+	"Animal.h"
+
+1713289158 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\mamiferoterrestre.h
+	"Mamifero.h"
+
+1713289700 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\pez.h
+	"Animal.h"
+
+1713290421 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej3_fauna\anfibio.h
+	"Animal.h"
+

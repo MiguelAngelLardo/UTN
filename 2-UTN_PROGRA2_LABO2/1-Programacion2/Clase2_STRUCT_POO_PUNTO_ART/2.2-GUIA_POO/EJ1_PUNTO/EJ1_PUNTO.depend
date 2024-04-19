@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1712855479 source:c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase2_struct_poo\2.2-guia_poo\ej1_punto\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<windows.h>
+	<ctime>
+	<chrono>
+	<thread>
+
+1712857367 source:c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase2_struct_poo_punto_art\2.2-guia_poo\ej1_punto\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<windows.h>
+	<ctime>
+	<chrono>
+	<thread>
+

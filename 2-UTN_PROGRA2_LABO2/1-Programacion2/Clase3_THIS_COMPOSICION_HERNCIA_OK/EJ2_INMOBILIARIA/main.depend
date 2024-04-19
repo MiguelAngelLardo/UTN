@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1713269101 source:c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej2_inmobiliaria\main.cpp
+	<iostream>
+	"Inmueble.h"
+
+1713269663 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej2_inmobiliaria\inmueble.h
+	<cstring>
+	"Fecha.h"
+	"Funciones.h"
+
+1713152083 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej2_inmobiliaria\fecha.h
+
+1713180380 c:\users\miguels\desktop\programacion\5-utn\utn - programacion - labo - spd\2-utn_progra2_labo2\1-programacion2\clase3_this_composicion_herncia\ej2_inmobiliaria\funciones.h
+
