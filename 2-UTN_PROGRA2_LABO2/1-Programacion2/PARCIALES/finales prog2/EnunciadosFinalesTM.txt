@@ -1,0 +1,93 @@
+*************Enunciado Final A
+//1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+//guías.dat: DNI (int), nombre y apellido (char[50]), código de nacionalidad (1 a 50), nivel (1 a 15) y fecha de nacimiento.
+//(6 puntos)
+//2) Agregar un constructor para alguna de las clases del ejercicio 1.
+//El método debe poner en 0 alguna propiedad de tipo int si no se le envía valor; si se envía un valor debe usar el valor enviado para la propiedad.
+//(2 puntos)
+//3) Listar el archivo del punto 1 usando asignación dinámica de memoria.
+//Se deben copiar los registros en el vector dinámico que tengan una fecha anterior a una fecha que se ingresa por teclado (2 puntos)
+
+***************Enunciado Final B
+1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+
+
+
+guías.dat: DNI (int), nombre y apellido (char[50]), código de nacionalidad (1 a 50), nivel (1 a 15) y fecha de nacimiento.
+
+(6 puntos)
+
+2) Agregar un constructor para la clase que da formato a los registros del archivo con valores por omisión que deben usarse en caso que el constructor sea llamado sin valores. Si recibe valores debe usarlos ignorando los que tiene por omisión (2 puntos)
+
+3) Agregar una sobrecarga para alguna de las clases del programa (2 puntos)
+
+***************Enunciado Final C
+1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+
+
+
+guías.dat: DNI (int), nombre y apellido (char[50]), código de nacionalidad (1 a 50), nivel (1 a 15) y fecha de nacimiento.
+
+(6 puntos)
+
+2) Agregar un constructor para la clase que da formato a los registros del archivo con valores por omisión que deben usarse en caso que el constructor sea llamado sin valores. Si recibe valores debe usarlos ignorando los que tiene por omisión (2 puntos)
+
+3) Agregar una sobrecarga para alguna de las clases del programa (2 puntos)
+
+***************ENUNCIADO FINAL D
+1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+
+
+
+Partidos.dat
+
+Código de partido (entero)
+
+Código de sede (entero)
+
+Código de equipo 1 (local)
+
+Código de equipo 2 (visitante)
+
+Fecha de realización (Objeto Fecha)
+
+Nombre del árbitro
+
+Estado
+
+
+2) Agregar un constructor para alguna de las clases del ejercicio 1. El método debe poner en 0 alguna propiedad de tipo int si no se le envía valor; si se envía un valor debe usar el valor enviado para la propiedad.
+
+(2 puntos)
+3) Listar el archivo del punto 1 usando asignación dinámica de memoria. Se deben copiar los registros en el vector dinámico que tengan una fecha anterior a una fecha que se ingresa por teclado (2 puntos)
+
+*********FINAL E
+1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+
+
+
+Partidos.dat
+
+Código de partido (entero)
+
+Código de sede (entero)
+
+Código de equipo 1 (local)
+
+Código de equipo 2 (visitante)
+
+Fecha de realización (Objeto Fecha)
+
+Nombre del árbitro
+
+Estado
+
+
+2) Agregar un constructor para alguna de las clases del ejercicio 1. El método debe poner en 0 alguna propiedad de tipo int
+ si no se le envía valor; si se envía un valor debe usar el valor enviado para la propiedad.
+(2 puntos)
+
+3) Listar el archivo del punto 1 usando asignación dinámica de memoria.
+Se deben copiar los registros en el vector dinámico que tengan una fecha anterior a una fecha que se ingresa por teclado
+(2 puntos)
+
