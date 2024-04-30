@@ -1,0 +1,73 @@
+1)
+- A partir de un número de municipio que se ingresa por teclado, generar un archivo con las empresas que pertenezcan e ese municipio.
+
+Los registros del archivo nuevo deben tener el siguiente formato:
+- Número empresa, nombre de la empresa y cantidad de empleados.
+
+punto 1: ingresar un 1
+
+2)
+A partir de un número de sección que se ingresa por teclado, generar un archivo nuevo con aquellas empresas que pertenezcan a municipios de esa sección. 
+
+Los registros del archivo nuevo deben tene el mismo formato que el archivo del punto anterior.
+
+NOTA: las clases para trabajar con los archivos de empresas y municipios se encuentran en el archivo clases.h que se adjunta.
+Crear la/s clase/s necesarias para resolver los puntos
+
+punto 2: ingresar un dos
+
+empresa
+1
+abc
+120
+1
+1
+2
+bca
+50
+1
+1
+3
+opp
+30
+1
+1
+4 
+klo
+7
+2
+1
+5
+dam
+14
+3
+1
+6
+lie
+133
+4
+2
+7
+upa
+120
+3
+1
+8
+EEAA
+155
+8
+3
+
+municipo
+1
+TIGRE
+350000
+1
+2
+SAN FERNANDO
+280000
+1
+3
+BANFIELD
+666777
+2
