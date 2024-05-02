@@ -1,25 +1,8 @@
 
-/*
-1.	Hacer una clase de nombre Articulo con las siguientes propiedades:
-Código (char[5]), Descripción (char[30])
-Precio (float), Stock(int), Estado(bool)
 
-Y los siguientes métodos:
-Cargar()
-Mostrar()
-Gets() para todas las propiedades
-Sets() para todas las propiedades
-Un constructor con parámetros por omisión
-Un constructor para asignar valor sólo a la descripción
- 
-2.	A partir de la clase Articulo del ejercicio anterior desarrollar las siguientes funciones:
-a)    Cargar un vector de 10 artículos
-b) Listar todos los artículos del vector.
-c)     Listar todos los artículos cuyo precio sea mayor a un valor que se ingresa por teclado.
-d)      A partir de un valor de código recibido como parámetro, devolver la posición del objeto que contiene ese código. De no encontrarlo devolver -1.
-e)    Igual a la función del punto anterior, pero debe devolver el objeto completo que contiene el código. De no encontrar el código la función debe devolver un objeto Articulo con un valor de -1 en el stock.
-f)     Dado un valor de stock que se recibe como parámetro devolver la cantidad de artículos cuyo stock sea inferior a ese valor recibido.
-g)     Dado un porcentaje de incremento que se recibe como parámetro, modificar el precio unitario de todos los objetos.
+/*
+
+
 Todas las funciones reciben el vector de Articulo y la cantidad de elementos del vector, además de los parámetros específicos.
 Desarrollar un proyecto de CodeBlock con un menú que llame a cada una de las funciones.
 
@@ -65,49 +48,50 @@ Desarrollar un proyecto de CodeBlock con un menú que llame a cada una de las fu
 /***************************
 ingresar valores de la class Articulo
 
-1
+a1
 uno
 93
 38
-3
+a3
 tres
 75
 29
-6
+a6
 seis
 899
 23
-9
+a9
 nueve
 968
 21
-12
+a12
 doce
 345
 32
-15
+a15
 quince
 242
 40
-18
+a18
 dieciocho
 773
 45
-21
+a21
 veintiuno
 578
 19
-24
+a24
 veinticuatro
 148
 50
-27
+a27
 ventisiete
 626
 27
 /***************************
 
 */
+
 
 #include <iostream>
 #include<cstring>
@@ -126,8 +110,6 @@ void cargarCadena(char *pal, int tam){
     pal[i]='\0';
     fflush(stdin);
 }
-
-
 
 
 
@@ -183,14 +165,14 @@ public:
     //cout<<"estado: "<<_estado<<endl;
   }
 
-  void cargar(Articulo vec[], int tam=10){
+  void cargarPTOA(Articulo vec[], int tam=10){
     cout << "CARGAR VECTOR" << endl;
     for(int i=0; i<tam; i++){
         vec[i].cargar();
     }
   }
 
-  void mostrar(Articulo vec[], int tam=10){
+  void mostrarPTOB(Articulo vec[], int tam=10){
     cout << "MOSTRAR VECTOR" << endl;
     for(int i = 0; i < tam; i ++){
       vec[i].mostrar();
@@ -218,31 +200,62 @@ public:
     }
     return -1;
   }
-  
 
+  Articulo puntoE(Articulo vec[], int tam, const char *codigo){
+    for(int i = 0; i < tam; i ++){
+      if(strcmp(vec[i].getCodigo(), codigo)== 0){
+        return vec[i];
+      }       
+    }  
+    vec[0].setStock(-1);
+
+    return vec[0];     
+  }
+
+  int puntoF(Articulo vec[], int tam, int valorStock){
+    int contador = 0;
+    for(int i = 0; i < tam; i ++){
+      if(vec[i].getStock() < valorStock){
+        contador ++;    
+      }  
+    }  
+    return contador;
+  }
+
+  void puntoG(Articulo vec[], int tam, int porcentajeIncremento){
+    for(int i = 0; i < tam; i ++){
+     // Calcula el incremento en función del porcentaje
+     float incremento = vec[i].getPrecio() * porcentajeIncremento / 100.0;//100 * 20 / 100
+        
+      // Aumenta el precio del artículo
+      vec[i].setPrecio(vec[i].getPrecio() + incremento);
+
+    }
+  }
 
 };
 
 
+
 void Menu(){
     char opc;
-    Articulo ob;
-    Articulo obj[10];
+    Articulo objE;
+    Articulo vObjE[10];
     
   while(true)
   {
     cout<<"MENU"<<endl;
     cout << "----------------------------------------------------------" << endl;
-    cout<<"x. Punto X -> Cargar un ARTICULO"<<endl;
-    cout<<"y. Punto Y -> Mostrar un ARTICULO"<<endl;
+    cout<<"x. Punto X -> Cargar un ARTICULO (EN MEMORIA)"<<endl;
+    cout<<"y. Punto Y -> Mostrar un ARTICULO (EN MEMORIA)"<<endl;
     cout << "----------------------------------------------------------" << endl;
-    cout<<"a. Punto A -> Cargar un vector de 10 artículos"<<endl;
-    cout<<"b. Punto B -> Listar todos los artículos del vector"<<endl;
-    cout<<"c. Punto C -> Listar todos los artículos cuyo precio sea mayor a un valor que se ingresa por teclado"<<endl;
-    cout<<"d. Punto D -> A partir de un valor de código recibido como parámetro, devolver la posición del objeto que contiene ese código. De no encontrarlo devolver -1"<<endl;
-    cout<<"e. Punto E ->  Igual a la función del punto anterior, pero debe devolver el objeto completo que contiene el código. De no encontrar el código la función debe devolver un objeto Articulo con un valor de -1 en el stock."<<endl;
-    cout<<"f. Punto F ->  Dado un valor de stock que se recibe como parámetro devolver la cantidad de artículos cuyo stock sea inferior a ese valor recibido"<<endl;
-    cout<<"g. Punto G -> Dado un porcentaje de incremento que se recibe como parámetro, modificar el precio unitario de todos los objetos."<<endl;
+    cout<<"a. Punto A -> Cargar un vector de 10 articulos (EN MEMORIA)"<<endl;
+    cout<<"b. Punto B -> Listar todos los articulos del vector (EN MEMORIA)"<<endl;
+    cout<<"c. Punto C -> Listar todos los articulos cuyo precio sea mayor a un valor que se ingresa por teclado"<<endl;
+    cout<<"d. Punto D -> A partir de un valor de código recibido como parametro, devolver la posición del objeto que contiene ese código. De no encontrarlo devolver -1"<<endl;
+    cout<<"e. Punto E -> Igual a la funcion del punto anterior, pero debe devolver el objeto completo que contiene el codigo. De no encontrar el codigo la función debe devolver un objeto Articulo con un valor de -1 en el stock."<<endl;
+    cout<<"f. Punto F -> Dado un valor de stock que se recibe como parametro devolver la cantidad de artculos cuyo stock sea inferior a ese valor recibido"<<endl;
+    cout<<"g. Punto G -> Dado un porcentaje de incremento que se recibe como parametro, modificar el precio unitario de todos los objetos."<<endl;
     cout<<"z. Salir"<<endl;
     cout << "----------------------------------------------------------" << endl;
     cout<<"ingrese una opcion: ";
@@ -252,22 +265,22 @@ void Menu(){
     {
       /*******************************/
       case 'x': case 'X':{
-        ob.cargar();
+        objE.cargar();
         }break;
       case 'y': case 'Y':{
-        ob.mostrar();
+        objE.mostrar();
       }break;  
       /*******************************/
       case 'a': case 'A':{
-        obj->cargar(obj,10);
+        vObjE->cargarPTOA(vObjE,10);
         }break;
       /*******************************/
       case 'b': case 'B':{
-        obj->mostrar(obj,10);
+        vObjE->mostrarPTOB(vObjE,10);
       }break;
       /*******************************/
       case 'c': case 'C':{
-        obj->puntoC(obj, 10);        
+        vObjE->puntoC(vObjE, 10);        
       }break;
       /*******************************/
       case 'd': case 'D':{
@@ -275,9 +288,27 @@ void Menu(){
         int posicion;
         cout << "Ingrese el codigo del articulo del cual quiere saber la posicion: ";
         cargarCadena(cod, 5);
-        posicion = obj->puntoD(obj, 10, cod);
+        posicion = vObjE->puntoD(vObjE, 10, cod);
         cout << "La posicion del articulo es: " << posicion << endl;   
       }break;
+      /*******************************/
+      case 'e': case 'E':{
+        objE = objE.puntoE(vObjE, 10, "aaa"); 
+        objE.mostrar();
+        }break;
+      /*******************************/
+      case 'f': case 'F':{
+        int cantidadArticulosInferiorAUnValor;
+        cantidadArticulosInferiorAUnValor = objE.puntoF(vObjE, 10, 30);
+        cout << "La cantidad de articulos inferiores a un valor es: " << cantidadArticulosInferiorAUnValor << endl;
+      }break;  
+      /*******************************/
+      case 'g': case 'G':{
+        objE.puntoG(vObjE, 10, 20);        
+      }break;
+
+
+      
       default:{
       
       }break;

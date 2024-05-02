@@ -26,17 +26,3 @@ Número Nombre  Cantida de empleados Categoría Municipio Estado
 4 SAP 5 7 4 1
 5 USB 23 1 4 0
 6 RET 14 1 4 1
-
-
- ///Hacer la funci�n buscarRegistro() que se llama desde el men�. La funci�n debe pedir un n�mero de empresa y mostrar la empresa que
- ///tenga ese n�mero. Si no encuentra la empresa debe informarlo.
-
- ///Modificar la funci�n altaEmpresa(). No debe aceptar un registro que contenga un n�mero de empresa existente.
-
- ///Hacer la funci�n modificarCantidadEmpleados() que se llama desde el men� principal. La funci�n debe pedir un n�mero de empresa, verificar si
- ///existe en el archivo, y cambiar la cantidad de empleados de esa empresa. El nuevo valor de cantidad se debe ingresar por teclado
-
-
-
-
-

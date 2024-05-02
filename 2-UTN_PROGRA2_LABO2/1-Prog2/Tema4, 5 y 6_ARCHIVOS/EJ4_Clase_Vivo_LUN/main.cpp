@@ -61,7 +61,7 @@ class ArchivoPunto1{
   
   }
 
-void listarArticulo(){
+void listarArticulo(const char *nombre="punto1.dat"){
   Punto1 obj;
   FILE *p;
   p = fopen(nombre, "rb");
@@ -78,7 +78,7 @@ void listarArticulo(){
 }
     
     
-  bool GuardarArchivo(Punto1 obj){
+  bool GuardarArchivo(Punto1 obj, const char *nombre="punto1.dat"){
     bool result;
     FILE *p;
     p = fopen(nombre,"ab");
@@ -88,7 +88,7 @@ void listarArticulo(){
     return result;
    }
 
-   void borrarArchivo(){
+   void borrarArchivo(const char *nombre="punto1.dat"){
    FILE *p;
    p = fopen(nombre,"wb");
    if(p == NULL){
@@ -105,11 +105,9 @@ void punto1(){
   Empresa objE;//numero, nombre, cantidadEmpleados, categoria(1 a 80), numeroMunicipio (1 a 153)
   ArchivoEmpresas ARobjE;
 
-
   Punto1 objPunto1;
   ArchivoPunto1 ARobjPunto1;
   ARobjPunto1.borrarArchivo();
-  
   
   int numMunicipio;
   cout << "Ingrese el numero de municipio: ";
@@ -134,6 +132,10 @@ void punto2(){
 
   Municipio objM; //numero(1 a 135), nombre, cantidadHabitantes, seccion(1 a 6), estado
   ArchivoMunicipios ARobjM;
+
+  Punto1 objPTO1;
+  ArchivoPunto1 ARobjPunto1;
+  ARobjPunto1.borrarArchivo("punto2.dat");
   
   
   int numSeccion;
@@ -153,14 +155,18 @@ void punto2(){
 
           if(objE.getNumeroMunicipio() == objM.getNumero()){
             if(objM.getSeccion() == numSeccion){
-              objE.Mostrar();
-              cout << endl;
+              objPTO1.setearTododos(objE.getNumero(), objE.getNombre(), objE.getCantidadEmpleados());
+              ARobjPunto1.GuardarArchivo(objPTO1, "punto2.dat");              
             }
           }    
         }  
       }  
     }
   }
+
+  ARobjPunto1.listarArticulo("punto2.dat");
+
+
 }
 
 void menu(){
@@ -189,7 +195,6 @@ void menu(){
 
     switch (opc)
     {
-    
     
 
     case 1:{
@@ -235,17 +240,12 @@ void menu(){
       break;
     }
     system("pause");
-
   } 
 }
 
 int main(){
  
   menu();
-
- 
-  
-  //punto1();
 
   return 0;
 }
