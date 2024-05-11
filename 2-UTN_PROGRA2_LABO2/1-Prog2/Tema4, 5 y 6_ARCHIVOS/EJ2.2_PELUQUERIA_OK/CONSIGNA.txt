@@ -1,0 +1,6 @@
+2) Una peluquería tiene un archivo (color.dat) con la información de las coloraciones (tinturas) realizadas a
+los/las clientes en lo que va del año. Cada registro contiene los siguientes campos:
+Código de tintura (número entero entre el 100 y el 135), fecha (día, mes y año), género (‘H’: hombre; ‘M’:
+mujer; ‘O’: otro), tipo de pelo.
+Hacer un programa para informar el/los códigos de tintura que hayan registrado al menos 10 coloraciones
+en el mes de marzo.
