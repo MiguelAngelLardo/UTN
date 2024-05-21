@@ -1,0 +1,7 @@
+1) Una empresa de tecnología registra a sus empleados mediante el DNI, nombre,  apellido, domicilio, email, fecha de nacimiento y cargo (número entre 1 y 10).
+A partir de los señalado desarrollar los siguientes puntos.
+a)	Crear la clase correspondiente, con:
+* sets() y gets() para todas las propiedades
+* Un constructor con valores por omisión para todos los parámetros (o alguno de ellos)
+
+b) Hacer un programa para cargar y mostrar un vector de 5 empleados. Hacer un menú y usar funciones.
