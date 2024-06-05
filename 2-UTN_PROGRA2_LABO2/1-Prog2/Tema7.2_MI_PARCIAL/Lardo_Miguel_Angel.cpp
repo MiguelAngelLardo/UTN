@@ -170,73 +170,7 @@ void BorrarArchivo(){
 
 
 
-void punto(){
-
-Jugador objJ;//dni(PK), nombre, apellido, email,telefono, claustro (1 docente, 2 alumno 3 no docente; 4 graduado), idDeporte(FK) , numEquipo, FechaInscripcion, Matricula, estado
-ArchivoJugadores ARobjJ("jugadores.dat");
-
-Deporte objD; //idDeporte(PK), nombre, CategoriaDeporte, anioOrigen, Estado
-ArchivoDeportes ARobjD("deportes.dat");
-
-int tam1 = ARobjJ.contarRegistros();
-int tam2 = ARobjD.contarRegistros();
-
-Punto objP;
-ArchivoPunto ARobjP;
-ARobjP.BorrarArchivo();
-
-int contNodocent = 0;  
-int contAlumInscript = 0;
-
-for(int i = 0; i < tam2; i++){ //deporte con ID primary key
-  objJ = ARobjJ.leerRegistro(i);
-
-  if(objJ.getEstado() == true){
-     contNodocent = 0;
-     contAlumInscript = 0;
- 
-    for(int j = 0; j < tam1; j++){//jugador
-        objD = ARobjD.leerRegistro(j);
-
-        if(objD.getEstado() == true){
-          if((objJ.getIdDeporte() == objD.getIdDeporte()) && (objD.getIdCtegoria() == 1) ) {           
-            
-            if(objJ.getClaustro() == 2 ){contAlumInscript ++;}
-            
-            if(objJ.getClaustro() == 3 ){contNodocent ++;}
-
-            cout << "DEPORTE MOSTRAR:" << endl;
-            objD.Mostrar();
-            cout << endl;
-            cout << "JUGADOR MOSTRAR:" << endl;
-            objJ.Mostrar();
-            cout << endl;
-            cout << "contador de alumnos inscriptos: " << contAlumInscript << endl;
-            cout << "contador de no docentes: " << contNodocent << endl;
-            system("pause");
-
-        }
-      }
-    
-    }
-
-    if(contNodocent >=2){
-      objP.setearTodos(objJ.getIdDeporte()/*es lo mismo que objD.getIdDeporte()*/, objJ.getNombre()/*nombre del jugador o del deporte?*/, objJ.getFechaInscirpcion().getAnio(), contAlumInscript);
-      ARobjP.GuardarArchivo(objP);
-    }
-
-  }
-
-
-}
-
-ARobjP.listarArchivo();
-
-
-}
-
-
-void puntoAux(){
+void puntoA(){
   Deporte objD;
   ArchivoDeportes ARobjD("deportes.dat");
 
@@ -250,7 +184,6 @@ void puntoAux(){
   int tam1 = ARobjD.contarRegistros();
   int tam2 = ARobjJ.contarRegistros();
 
-  int contAlumInscript = 0;
   int contNodocent = 0;
 
   for (int i = 0; i < tam1; i++){
@@ -260,54 +193,341 @@ void puntoAux(){
       for (int j = 0; j < tam2; j++){
         objJ = ARobjJ.leerRegistro(j);
         if(objJ.getEstado() == true){
-          if( (objD.getIdDeporte() == objJ.getIdDeporte()) && (objD.getIdCtegoria() == 1) ){
-            
-            if(objJ.getClaustro() == 2 ){contAlumInscript ++;}            
-            if(objJ.getClaustro() == 3 ){contNodocent ++;}
-
+          if( (objD.getIdDeporte() == objJ.getIdDeporte()) && (objD.getIdCtegoria() == 1) ){        
+            if(objJ.getClaustro() == 3 ){
+              contNodocent ++;
+            }
           }  
-        
         }  
       }
 
-      if(contNodocent >=2){
-        objP.setearTodos(objJ.getIdDeporte(), objJ.getNombre(), objJ.getFechaInscirpcion().getAnio(), contAlumInscript);
+      if(contNodocent >=50){
+        objP.setearTodos(objJ.getIdDeporte(), objJ.getNombre(), objJ.getFechaInscirpcion().getAnio(), contNodocent);
         ARobjP.GuardarArchivo(objP);
       }
 
-      contAlumInscript = 0;
       contNodocent = 0;
-
-    
     }  
-  
-  
-  
   }  
 
   ARobjP.listarArchivo();
+}
+
+class PuntoB{
+  private:
+  int _DNI;
+  char _nombre[25], _apellido[30];
+  Fecha _fechaInscripcion;
+public:
+
+  void setDNI(int dni){_DNI = dni;}
+  void setNombre(const char *nombre){strcpy(_nombre, nombre);}
+  void setApellido(const char *apellido){strcpy(_apellido, apellido);}
+  void setFechaInscripcion(Fecha fecha){_fechaInscripcion = fecha;}
+  void setearTodo(int dni, const char *nombre, const char *apellido, Fecha fecha){
+    setDNI(dni);
+    setNombre(nombre);
+    setApellido(apellido);
+    setFechaInscripcion(fecha);
+  }
+
+
+  int getDNI(){return _DNI;}
+  const char *getNombres(){return _nombre;}
+  const char *getApellidos(){return _apellido;}
+  Fecha getFechaInscripcion(){return _fechaInscripcion;}
+
+
+  void mostrar(){
+    cout << "DNI: " << _DNI<< endl;
+    cout << "Nombres: " << _nombre << endl;
+    cout << "Apellidos: " << _apellido << endl;
+    cout << "Fecha de inscripcion: ";
+    _fechaInscripcion.Mostrar();
+  }  
+    
+};
+
+class ArchivoPuntoB{
+private:
+  char nombre[30];
+
+public:
+  ArchivoPuntoB(const char* nombre="PuntoB.dat")  {
+    strcpy(this->nombre, nombre);
+  }
+
+  void BorrarArchivo(){
+  FILE *p;
+  p = fopen(nombre,"wb");
+  if(p == NULL){
+    cout<<"No se pudo borrar el archivo";    
+  }
+  fclose(p);
+  }
+
+
+  int contarRegistros(){
+    FILE *p;
+    p=fopen(nombre, "rb");
+    if(p==NULL){ return -1;}
+    fseek(p, 0,2);
+    int tam=ftell(p);
+    fclose(p);
+    return tam/sizeof(PuntoB);
+  }
+
+  PuntoB leerRegistro(int pos){
+    PuntoB reg;
+    FILE *p;
+    p=fopen(nombre, "rb");
+    if(p==NULL){ return reg;}
+    fseek(p, sizeof reg*pos,0);
+    fread(&reg, sizeof reg,1, p);
+    fclose(p);
+    return reg;
+  }
+
+
+
+  void GuardarArchivo(PuntoB& obj){
+    FILE *p;
+    p = fopen(nombre,"ab");
+    if(p == NULL){
+      cout<<"No se pudo abrir el archivo";  
+    }
+    fwrite(&obj,sizeof(PuntoB),1,p);
+    fclose(p);
+  }
+
+  void listarArchivo(){
+  PuntoB objE;
+  FILE *p;
+  p = fopen(nombre,"rb");
+  if(p==NULL){
+    cout << "No se pudo abrir el archivo mostrarArchivo" << endl;
+    exit(1);
+  }
+  while (fread(&objE, sizeof(PuntoB), 1, p) == true){
+    objE.mostrar();
+    cout << endl;
+  }
+  fclose(p);
+}
+
+
+
+};
+
+//generar un archivo con los alumnos que participan de equipos de nivel avanzado. Cada registro del archivo nuevo debe tener el siguiente formato:
+//dni, nombre, apellidos, fecha de inscripcion
+
+
+void puntoB(){
+  Equipo objE;//NumeroEquipo(Id), nombre[char], nivel (1 inicial 2 intermedio 3 avanzado)
+  ArchivoEquipos ARobjE("equipos.dat");
+ 
+  Jugador objJ; //DNI(id), nombre[char], Apellido[char], FechaInscripcion, claustro (2 alumno)
+  ArchivoJugadores ARobjJ("jugadores.dat");
+
+
+
+  PuntoB objPuntoB;
+  ArchivoPuntoB ARobjPuntoB;
+  ARobjPuntoB.BorrarArchivo();
+
+  int tam1 = ARobjE.contarRegistros();
+  int tam2 = ARobjJ.contarRegistros();
+  
+  for (int i = 0; i < tam1; i++){ // PK => numero equipo
+    objE = ARobjE.leerRegistro(i);
+    if(objE.getEstado() == true && (objE.getNivel() == 3)){
+
+      for (int j = 0; j < tam2; j++){ //FK numero equipo
+        objJ = ARobjJ.leerRegistro(j);
+        if((objJ.getEstado() == true)  &&  (objE.getIdEquipo() == objJ.getIdEquipo()) && (objJ.getClaustro() == 2)){
+          objPuntoB.setearTodo(objJ.getDNI(), objJ.getNombre(), objJ.getApellido(), objJ.getFechaInscirpcion());
+          ARobjPuntoB.GuardarArchivo(objPuntoB);
+        }  
+      }
+    } 
+  }
+  
+
+  ARobjPuntoB.listarArchivo();
+
+}
+
+class PuntoC{
+  private:
+  int _idDeporte;
+  char _nombre[30];
+  int _anioOrigen;
+  int _cantidadAlumnosInscriptos;
+public:
+
+  void setIdDeporte(int idDeporte){_idDeporte=idDeporte;}
+  void setNombre(const char *nombre){strcpy(_nombre, nombre);}
+  void setAnioOrigen(int anioOrigen){_anioOrigen=anioOrigen;}
+  void setCantidadAlumnosInscriptos(int cantidadAlumnosInscriptos){_cantidadAlumnosInscriptos=cantidadAlumnosInscriptos;}
+  void setearTodo(int idDeporte, const char *nombre, int anioOrigen, int cantidadAlumnosInscriptos){
+    setIdDeporte(idDeporte);
+    setNombre(nombre);
+    setAnioOrigen(anioOrigen);
+    setCantidadAlumnosInscriptos(cantidadAlumnosInscriptos);
+  }
+
+  int getIdDeporte(){return _idDeporte;}
+  const char *getNombre(){return _nombre;}
+  int getAnioOrigen(){return _anioOrigen;}
+  int getCantidadAlumnosInscriptos(){return _cantidadAlumnosInscriptos;}
+
+
+  void mostrar(){
+    cout<< "idDeporte: " << _idDeporte<<endl;
+    cout<< "nombre: " << _nombre<<endl;
+    cout<< "anioOrigen: " << _anioOrigen<<endl;
+    cout<< "cantidadAlumnosInscriptos: " << _cantidadAlumnosInscriptos<<endl;
+  }  
+};
+
+class ArchivoPuntoC{
+private:
+  char nombre[30];
+
+public:
+  ArchivoPuntoC(const char* nombre="PuntoC.dat")  {
+    strcpy(this->nombre, nombre);
+  }
+
+  void BorrarArchivo(){
+  FILE *p;
+  p = fopen(nombre,"wb");
+  if(p == NULL){
+    cout<<"No se pudo borrar el archivo";    
+  }
+  fclose(p);
+  }
+
+
+  int contarRegistros(){
+    FILE *p;
+    p=fopen(nombre, "rb");
+    if(p==NULL){ return -1;}
+    fseek(p, 0,2);
+    int tam=ftell(p);
+    fclose(p);
+    return tam/sizeof(PuntoC);
+  }
+
+  PuntoC leerRegistro(int pos){
+    PuntoC reg;
+    FILE *p;
+    p=fopen(nombre, "rb");
+    if(p==NULL){ return reg;}
+    fseek(p, sizeof reg*pos,0);
+    fread(&reg, sizeof reg,1, p);
+    fclose(p);
+    return reg;
+  }
+
+
+
+  void GuardarArchivo(PuntoC& obj){
+    FILE *p;
+    p = fopen(nombre,"ab");
+    if(p == NULL){
+      cout<<"No se pudo abrir el archivo";  
+    }
+    fwrite(&obj,sizeof(PuntoC),1,p);
+    fclose(p);
+  }
+
+  void listarArchivo(){
+  PuntoC objE;
+  FILE *p;
+  p = fopen(nombre,"rb");
+  if(p==NULL){
+    cout << "No se pudo abrir el archivo mostrarArchivo" << endl;
+    exit(1);
+  }
+  while (fread(&objE, sizeof(PuntoC), 1, p) == true){
+    objE.mostrar();
+    cout << endl;
+  }
+  fclose(p);
+}
+
+};
+
+//Archivo => Deportes de cat 5 que tengan mas de 50 ALUMNOS inscriptos => 
+//(id Deporte, nombre Deporte, anio de origen Deporte, cantidad de alumnos inscriptos)
+void puntoC(){
+  Deporte objD; // idDeporte (PK), nombre, categoria de deporte (5), anio Oriten, estado
+  ArchivoDeportes ARobjD("deportes.dat");
+
+  Jugador objJ;//DNI(PK), idDeporte (fk), claustro (2 - alumno)
+  ArchivoJugadores ARobjJ("jugadores.dat");
+
+  PuntoC objPuntoC;
+  ArchivoPuntoC ARobjPuntoC;
+  ARobjPuntoC.BorrarArchivo();
+
+  int tamDeporte = ARobjD.contarRegistros();
+  int tamJugadores = ARobjJ.contarRegistros();
+
+  int cantidadAlumnosInscriptos;
+
+  for (int i = 0; i < tamDeporte; i++){
+    objD = ARobjD.leerRegistro(i);
+    if((objD.getEstado() == true) && objD.getIdCtegoria() == 5){ 
+      
+      cantidadAlumnosInscriptos = 0;
+      for(int j = 0; j < tamJugadores; j++){
+        objJ = ARobjJ.leerRegistro(j);
+        if((objJ.getEstado() == true) && (objD.getIdDeporte() == objJ.getIdDeporte()) &&  (objJ.getClaustro() == 2)){
+          cantidadAlumnosInscriptos ++;          
+        }    
+      } 
+
+      if(cantidadAlumnosInscriptos > 2){
+        objPuntoC.setearTodo(objD.getIdDeporte(), objD.getNombre(), objD.getAnioOrigen(), cantidadAlumnosInscriptos);
+        ARobjPuntoC.GuardarArchivo(objPuntoC);
+      }   
+    
+    
+    }  
+  
+  }  
+
+  ARobjPuntoC.listarArchivo();
 
 
 }
 
+
 int main(){
-  Jugador objJ; ArchivoJugadores ARobjJ("jugadores.dat");
-  //  for (int i = 0; i < 30; i++){
+  // Jugador objJ; ArchivoJugadores ARobjJ("jugadores.dat");
+  //  for (int i = 0; i < 5; i++){
   //   objJ.Cargar();
   //   ARobjJ.grabarRegistro(objJ);
   //  }
 
-  Deporte objD; ArchivoDeportes ARobjD("deportes.dat");
-  // for (int i = 0; i < 30; i++){
+  // Deporte objD; ArchivoDeportes ARobjD("deportes.dat");
+  // for (int i = 0; i < 5; i++){
   //   objD.Cargar();
   //   ARobjD.grabarRegistro(objD);
   // }
 
-//ARobjJ.listarRegistros();
+  //ARobjJ.listarRegistros();
 
- //punto();
 
-  puntoAux();
+  //puntoA();
+
+  //puntoB();
+
+
+  puntoC();
 
   return 0;
 }
