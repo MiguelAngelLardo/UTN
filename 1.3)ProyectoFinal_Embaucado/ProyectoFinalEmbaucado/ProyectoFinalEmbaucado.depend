@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1717897089 source:c:\users\miguels\desktop\programacion\5-utn\labo1proyectofinal_embaucado\proyectofinalembaucado\main.cpp
+	<iostream>
+	<ctime>
+	"estructuras.h"
+	"menu.h"
+
+1717551561 c:\users\miguels\desktop\programacion\5-utn\labo1proyectofinal_embaucado\proyectofinalembaucado\estructuras.h
+
+1717901955 c:\users\miguels\desktop\programacion\5-utn\labo1proyectofinal_embaucado\proyectofinalembaucado\menu.h
+	"jugar.h"
+
+1717901899 c:\users\miguels\desktop\programacion\5-utn\labo1proyectofinal_embaucado\proyectofinalembaucado\jugar.h
+
