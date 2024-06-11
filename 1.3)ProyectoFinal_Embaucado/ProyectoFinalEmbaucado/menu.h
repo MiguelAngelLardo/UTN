@@ -56,7 +56,7 @@ void implementarOpcion(int op){
 
   }
 
-  system("cls");
+  //system("cls");
 
 
 }
