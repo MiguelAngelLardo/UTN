@@ -2,9 +2,15 @@
 
 void jugar();
 void cargarNombre(Jugador &j1, Jugador &j2);
-void inicializarMazo(Carta vMazo[TAM_BARAJA_FRANCESA]);
-void mostrarMazoEnMesa(Carta vMazo[TAM_BARAJA_FRANCESA]);
-void mezclarMazo(Carta vMazo[TAM_BARAJA_FRANCESA]);
+
+///FX para MazoFrancesa
+void inicializarMazoFrancesa(Carta vMazo[TAM_BARAJA_FRANCESA]);
+void mostrarMazoFrancesaEnMesa(Carta vMazo[TAM_BARAJA_FRANCESA]);
+void mezclarMazoFrancesa(Carta vMazo[TAM_BARAJA_FRANCESA]);
+
+///FX para MazoFigura
+void inicializarMazoFigura(Figura vMazoFigura[TAM_PALO]);
+void mostrarMazoFigura(Figura vMazoFigura[TAM_PALO]);
 
 
 
@@ -17,13 +23,18 @@ using namespace std;
 
 void jugar(){
   Jugador jugador1, jugador2;//Declaro 2 jugadores
-  Carta vMazo[TAM_BARAJA_FRANCESA];//Declaro el mazo de TAM = 20 -> string _valor; string _palo;
+  Carta vMazoFrancesa[TAM_BARAJA_FRANCESA];//Declaro el mazo de TAM = 20 -> string _valor; string _palo;
+  Figura vMazoFigura[TAM_PALO]; //vMazofigura de 4 cartas embaucadoras
+
 
   cargarNombre(jugador1, jugador2);//Cargo nombres con sus validaciones
-  inicializarMazo(vMazo);//inicializo mazo
-  mostrarMazoEnMesa(vMazo);
-  mezclarMazo(vMazo);
-  mostrarMazoEnMesa(vMazo);
+  /*inicializarMazoFrancesa(vMazoFrancesa);//inicializo mazo
+  mostrarMazoFrancesaEnMesa(vMazoFrancesa);
+  mezclarMazoFrancesa(vMazoFrancesa);
+  mostrarMazoFrancesaEnMesa(vMazoFrancesa);*/
+
+  inicializarMazoFigura(vMazoFigura);
+  mostrarMazoFigura(vMazoFigura);
 
 
 }
@@ -78,9 +89,8 @@ void cargarNombre(Jugador &j1, Jugador &j2){
 
 }
 
-
 //Esta funcion arma inicializa el mazo de fabrica
-void inicializarMazo(Carta vMazo[TAM_BARAJA_FRANCESA]){
+void inicializarMazoFrancesa(Carta vMazo[TAM_BARAJA_FRANCESA]){
   for (int i = 0; i < TAM_BARAJA_FRANCESA; i++)
   {            //de palos toma el indice[i]
     vMazo[i] = {PALOS[i / TAM_VALOR], VALORES[i % TAM_VALOR]};
@@ -93,7 +103,7 @@ void inicializarMazo(Carta vMazo[TAM_BARAJA_FRANCESA]){
                //19/5 = [3] = "trebol", 19%5[4] = "A"
 }
 
-void mostrarMazoEnMesa(Carta vMazo[TAM_BARAJA_FRANCESA])
+void mostrarMazoFrancesaEnMesa(Carta vMazo[TAM_BARAJA_FRANCESA])
 {
   cout << "+--------------------+" << endl;
   cout << "|                    |" << endl;
@@ -114,26 +124,39 @@ void mostrarMazoEnMesa(Carta vMazo[TAM_BARAJA_FRANCESA])
 }
 
 
-
-void mezclarMazo(Carta vMazo[TAM_BARAJA_FRANCESA]){
+void mezclarMazoFrancesa(Carta vMazo[TAM_BARAJA_FRANCESA]){
   cout << "Mezclando el mazo" << endl;
   system("pause");
   int numAleatorio1, numAleatorio2;
   Carta aux;
 
   for(int x = 0; x < 1000; x++){
-      numAleatorio1 = rand() % TAM_BARAJA_FRANCESA;//resultado de 0 a 19
-      numAleatorio2 = rand() % TAM_BARAJA_FRANCESA;//resultado de 0 a 19
+    numAleatorio1 = rand() % TAM_BARAJA_FRANCESA;//resultado de 0 a 19
+    numAleatorio2 = rand() % TAM_BARAJA_FRANCESA;//resultado de 0 a 19
 
-        //aux tiene carta 8
-      aux = vMazo[numAleatorio1];
-       //<---donde estaba la 2 ahora tengo la carta 5
-      vMazo[numAleatorio1] = vMazo[numAleatorio2];
-      //donde estaba la 5 ahora pongola 2
-      vMazo[numAleatorio2] = aux;
+     //aux tiene carta 8
+    aux = vMazo[numAleatorio1];
+     //<---donde estaba la 2 ahora tengo la carta 5
+    vMazo[numAleatorio1] = vMazo[numAleatorio2];
+    //donde estaba la 5 ahora pongola 2
+    vMazo[numAleatorio2] = aux;
   }
 }
 
+
+void inicializarMazoFigura(Figura vMazoFigura[TAM_PALO]){
+  for(int i = 0; i < TAM_PALO; i ++){
+    vMazoFigura[i] = {PALOS[i]};
+  }
+}
+
+void mostrarMazoFigura(Figura vMazoFigura[TAM_PALO]){
+  for(int i = 0; i < TAM_PALO; i ++){
+    cout << "EMBAUCADORA -> " << vMazoFigura[i]._palo << endl;
+  }
+}
+
+void mezclarMazoFigura(Figura vMazoFigura[TAM_PALO]);
 
 
 

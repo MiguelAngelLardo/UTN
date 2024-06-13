@@ -11,9 +11,9 @@ struct Carta
   string _palo;
 };
 
-struct figura
+struct Figura ///PALO
 {
-  string _palo[TAM_PALO];///EMBAUCADORA
+  string _palo;
 };
 
 struct Jugador

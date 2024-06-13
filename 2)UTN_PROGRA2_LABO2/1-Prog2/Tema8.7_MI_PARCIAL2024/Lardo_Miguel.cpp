@@ -47,15 +47,6 @@ public:
     _estado = true;
   }
 
-  void cargar(){
-    cout << "CODIGO PAIS: "; cargarCadena(_codigoPais, 5);
-    cout << "NOMBRE PAIS: "; cargarCadena(_nombrePais, 30);
-    cout << "CODIGO CONTINENTE: "; cin >> _codigoContinente;
-    cout << "NIVEL DE INGRESO: "; cin >> _nivelDeIngreso;
-    cout << "CANTIDAD DE HABITANTES: "; cin >> _cantidadHabitantes;
-    cout << "PBI: "; cin >> _PBI;
-    _estado = true;
-  }
 
   void mostrar(){
     cout << "CODIGO PAIS: " << _codigoPais << endl;
@@ -304,12 +295,12 @@ public:
 //calcular e informar los continente con mas de 20 paises
 void punto1(){
  Continente objC;//codigoCOntinente(PK)
-  ArchivoContinente ARobjC("continentes.dat");
+ ArchivoContinente ARobjC("continentes.dat");
 
   Pais objP;//codigoContinente(FK)
   ArchivoPais ARobjP("paises.dat");
 
-  int vAcumPaisesPorContinente5[5];
+  int vAcumPaisesPorContinente5[5]={0};
 
   int tam1 = ARobjC.contarRegistrosContinente();
   int tam2 = ARobjP.contarRegistrosPais();
@@ -327,7 +318,7 @@ void punto1(){
 
   cout << "Los continentes con mas de 20 paises son: " << endl;
   for(int i = 0; i < 5; i++){
-    if(vAcumPaisesPorContinente5[i] > 20){
+    if(vAcumPaisesPorContinente5[i] >= 4){
       cout << "El continente " << i+1 << " tiene " << vAcumPaisesPorContinente5[i] << " paises" << endl;
     }
   }
@@ -367,51 +358,45 @@ void punto2(){
 }
 
 void punto3(){ //con memoria dinamica listar
-  Continente objC;//codigoCOntinente(PK) , **nombre asia**
-  ArchivoContinente ARobjC("continentes.dat");
-
-  Pais objP;//codigoContinente(FK), **nivelIngreso 5**
-  ArchivoPais ARobjP("paises.dat");
-
-  PaisesIngresoBajo objPunto2; 
   ArchivoPaisesIngresoBajo ARobjPunto2;
-  ARobjPunto2.borrarRegistrosPais();
+  //ARobjPunto2.borrarRegistrosPais();
   
-  int contIndex = 0;
   PaisesIngresoBajo *vPunto3;
+  int tam = ARobjPunto2.contarRegistrosPais();
+  cout << "Tamanio: " << tam << endl;
+  
+  //int contIndex = 0;
+  // int tam1 = ARobjC.contarRegistrosContinente();
+  // int tam2 = ARobjP.contarRegistrosPais();
 
-  int tam1 = ARobjC.contarRegistrosContinente();
-  int tam2 = ARobjP.contarRegistrosPais();
+  // for(int i = 0; i < tam1; i++){
+  //   objC = ARobjC.leerPorIndiceContinente(i);
 
-  for(int i = 0; i < tam1; i++){
-    objC = ARobjC.leerPorIndiceContinente(i);
+  //   for(int j = 0; j < tam2; j++){
+  //     objP = ARobjP.leerPorIndicePais(j);
+  //     if((objP.getEstado()) && (objC.getCodigoContinente() == objP.getCodigoContinente()) && (strcmp(objC.getNombreContinente(), "Asia")==0) && (objP.getNivelIngreso() == 5)){
+  //       objPunto2.setearTodo(objP.getCodigoPais(), objP.getNombrePais(), objP.getCodigoContinente(), objP.getNivelIngreso(), objP.getCantidadHabitantes(), objP.getPBI());
+  //       ARobjPunto2.GuardarRegistroPais(objPunto2);
+  //       contIndex ++;
+  //     }
+  //   }
+  // }
 
-    for(int j = 0; j < tam2; j++){
-      objP = ARobjP.leerPorIndicePais(j);
-      if((objP.getEstado()) && (objC.getCodigoContinente() == objP.getCodigoContinente()) && (strcmp(objC.getNombreContinente(), "Asia")==0) && (objP.getNivelIngreso() == 5)){
-        objPunto2.setearTodo(objP.getCodigoPais(), objP.getNombrePais(), objP.getCodigoContinente(), objP.getNivelIngreso(), objP.getCantidadHabitantes(), objP.getPBI());
-        ARobjPunto2.GuardarRegistroPais(objPunto2);
-        contIndex ++;
-      }
-    }
-  }
-
-  vPunto3 = new PaisesIngresoBajo[contIndex];
+  vPunto3 = new PaisesIngresoBajo[tam];
   if(vPunto3 == NULL){cout<<"No se pudo crear el vector";exit(1);}
 
-  for(int i = 0; i < contIndex; i++){
+  for(int i = 0; i < tam; i++){
     vPunto3[i] = ARobjPunto2.leerPorIndicePais(i);
   }
 
   
-  cout << "paises de ingreso BAJO(5) que pertenezcan al continente de ASIA.";
-  for(int i = 0; i < contIndex; i++){
+  cout << "paises de ingreso BAJO(5) que pertenezcan al continente de ASIA.\n";
+  for(int i = 0; i < tam; i++){
     vPunto3[i].mostrar();
     cout << endl;
-  }  
+  } 
 
-
-
+  delete [] vPunto3;
 
 }
 
@@ -420,25 +405,27 @@ void punto3(){ //con memoria dinamica listar
 int main(){
   Continente objC;//codigoCOntinente(PK) , **nombre asia**
   ArchivoContinente ARobjC("continentes.dat");
+ // ARobjC.listarRegistrosContinente();
 
-  for(int i = 0; i < 5; i++){
-    cout << "CONTINENTE " << i+1 << endl;
-    objC.cargar();
-    ARobjC.GuardarRegistroContinente(objC);
-    cout << endl;
-  }
+  // for(int i = 0; i < 5; i++){
+  //   cout << "CONTINENTE " << i+1 << endl;
+  //   objC.cargar();
+  //   ARobjC.GuardarRegistroContinente(objC);
+  //   cout << endl;
+  // }
 
   Pais objP;//codigoContinente(FK), **nivelIngreso 5**
   ArchivoPais ARobjP("paises.dat");
+  //ARobjP.listarRegistrosPais();
 
-  for(int i = 0; i < 30; i++){
-    cout << "PAIS " << i+1 << endl;
-    objP.cargar();
-    ARobjP.GuardarRegistroPais(objP);
-    cout << endl;
-  }
+  // for(int i = 0; i < 30; i++){
+  //   cout << "PAIS " << i+1 << endl;
+  //   objP.cargar();
+  //   ARobjP.GuardarRegistroPais(objP);
+  //   cout << endl;
+  // }
 
-    punto1();
+    // punto1();
     punto2();//listar comun
     punto3();//listar mem dinamica
 
