@@ -3,11 +3,21 @@
 
 using namespace std;
 
+///CARTAS
 void tiradaDeCartas();
 void dibujarRectangulo(int posX, int posY, int ancho, int alto, char fondo = 219);
 void dibujarReversoCarta(int posX, int posY);
-void dibujarCarta(std::string num, char palo, int posX, int posY);  // Cambié el tipo de palo a int para el ejemplo
 std::string obtenerNumeroCarta(int numero);
+void dibujarCarta(std::string num, char palo, int posX, int posY);  // Cambié el tipo de palo a int para el ejemplo
+
+///TEXTO
+void dibujarTextoCentrado(std::string texto, int fila = 2);
+void pintarFila(int fila);
+int contarEnters(std::string texto);
+int filaMaxima(std::string texto);
+
+void mostrarMensaje(std::string texto);
+
 
 
 int main()
@@ -17,7 +27,33 @@ int main()
     rlutil::hidecursor();
     rlutil::saveDefaultColor();;
 
+    ///fondo verde
+    rlutil::setBackgroundColor(rlutil::GREEN);
+    rlutil::cls();
+    rlutil::setColor(rlutil::WHITE);
+    rlutil::setBackgroundColor(rlutil::BLUE);
+    pintarFila(1); pintarFila(2); pintarFila(3);
+    dibujarTextoCentrado("Jugar compulsivamente y C++ pueden ser perjudicial para la salud");
+
+
+
     tiradaDeCartas();
+    rlutil::setBackgroundColor(rlutil::BLUE);
+    rlutil::setColor(rlutil::WHITE);
+    mostrarMensaje("-- GANASTE --\n"
+                   "\n"
+                   "Espero que disfrutes del juego.\n"
+                   "Nos vemos en la proxima jugada :)\n"
+                   "\n"
+                   "[S]salir [C]ontinuar");
+    char opcion = rlutil::getkey();
+    if(opcion == 'S' || opcion == 's'){
+       mostrarMensaje("SALISTE!");
+    }else{
+      mostrarMensaje("CONTINUASTE!");
+    }
+
+    rlutil::anykey();
     rlutil::locate(1,25);
     return 0;
 }
@@ -97,10 +133,84 @@ void tiradaDeCartas(){//4 diamante, 6 pica, 3 corazon, 5 trebol
           dibujarReversoCarta(j*8, i);
         }else{
           dibujarCarta(obtenerNumeroCarta(j), (char)palos[(i/5)-1], j*8,i);
-          rlutil::msleep(25);
+            rlutil::msleep(25);
         }
       }
     }
   }
 
 }
+
+
+void dibujarTextoCentrado(string texto, int fila){
+  int posX = (rlutil::tcols()/2) - (texto.size()/2);
+  rlutil::locate(posX,fila);
+  cout << texto;
+}
+
+void pintarFila(int fila){
+  int tamCol = rlutil::tcols();
+  for(int x = 1; x <= tamCol; x++){
+    rlutil::locate(x, fila);
+    cout << " ";
+  }
+}
+
+int contarEnters(string texto){
+  int cantidad = 0;
+  for(char letra : texto){
+    if(letra == '\n'){
+      cantidad ++;
+    }
+  }
+  return cantidad; //me da la cantidad de lienas
+}
+
+int filaMaxima(string texto){
+  int cantidad = 0;
+  int cantidadMaxima = 0;
+  for(char letra : texto){
+    cantidad ++;
+    if(letra == '\n'){
+      if(cantidad > cantidadMaxima){
+        cantidadMaxima = cantidad;
+      }
+      cantidad = 0;
+    }
+  }
+
+  if(cantidad > cantidadMaxima){
+    cantidadMaxima = cantidad;
+  }
+
+  return cantidadMaxima; //me da la cantidad de lienas
+}
+
+
+void mostrarMensaje(string texto){
+  int lineas = contarEnters(texto)+1;
+  int columnas = filaMaxima(texto);
+  int posXCentrado = (rlutil::tcols()/2) - (columnas/2);
+  int posYCentrado =  rlutil::trows()/2 - (lineas/2);
+
+
+  //3 por que es 1 arriba, el texto y el de abajo
+  dibujarRectangulo(posXCentrado-2, posYCentrado-1, columnas+4, lineas+2, ' ');
+  rlutil::locate(posXCentrado,posYCentrado);
+
+  int posInicial = 0;
+  int posFinal = 0;
+  for(int i = 1; i <= lineas; i ++){
+    posFinal = texto.find('\n', posInicial);
+    dibujarTextoCentrado(texto.substr(posInicial, posFinal-posInicial), posYCentrado +i -1);
+    posInicial = posFinal +1;
+  }
+}
+
+
+
+
+
+
+
+
