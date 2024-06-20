@@ -11,17 +11,18 @@ void implementarOpcion(int op);
 #include "jugar.h"
 using namespace std;
 void desplegarMenu(){
+
   int opcion;
 
   do{
     cout <<endl << "EMBAUCADO" << endl;
     cout << "-------------------------" << endl;
     cout << "1 - JUGAR" << endl;
-    cout << "2 - ESTADÍSTICAS" << endl;
-    cout << "3 - CRÉDITOS" << endl;
+    cout << "2 - ESTADISTICAS" << endl;
+    cout << "3 - CREDITOS" << endl;
     cout << "-------------------------" << endl;
     cout << "0 - SALIR" << endl;
-    cout << "Ingrese su opción: ";
+    cout << "Ingrese su opcion: ";
     cin >> opcion;
 
     implementarOpcion(opcion);
@@ -30,6 +31,7 @@ void desplegarMenu(){
 }
 
 void implementarOpcion(int op){
+
   system("cls");
 
   switch(op)

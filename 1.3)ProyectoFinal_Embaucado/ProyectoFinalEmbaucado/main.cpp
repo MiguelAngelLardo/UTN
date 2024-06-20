@@ -8,9 +8,13 @@ using namespace std;
 
 int main()
 {
-  setlocale(LC_ALL, "Spanish");
+  //setlocale(LC_ALL, "Spanish");
   srand(time(NULL));
 
+
+  //rlutil::setBackgroundColor(rlutil::GREEN);
+  //rlutil::cls();//sin esto solo pone fondo verde al menu
+  rlutil::setColor(rlutil::WHITE);
 
 
   desplegarMenu();

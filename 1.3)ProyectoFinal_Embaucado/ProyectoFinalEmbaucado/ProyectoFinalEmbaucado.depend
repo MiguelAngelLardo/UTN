@@ -13,7 +13,7 @@
 1718067729 c:\users\miguels\desktop\programacion\5-utn\labo1proyectofinal_embaucado\proyectofinalembaucado\jugar.h
 	<iomanip>
 
-1718115266 source:c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\main.cpp
+1718745451 source:c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\main.cpp
 	<iostream>
 	<ctime>
 	"rlutil.h"
@@ -34,11 +34,11 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1718303156 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\estructuras.h
+1718843512 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\estructuras.h
 
-1718126906 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\menu.h
+1718840220 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\menu.h
 	"jugar.h"
 
-1718304611 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\jugar.h
+1718849909 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\jugar.h
 	<iomanip>
 
