@@ -4,11 +4,13 @@ const int CARTAS_POR_MANO = 5, TAM_BARAJA_FRANCESA = 20;
 const int TAM_VALOR =  5, TAM_PALO = 4;
 const string VALORES[TAM_VALOR] = {"10", "J", "Q", "K", "A"};
 const string PALOS[TAM_PALO] = {"Corazon", "Diamante", "Pica", "Trebol"};
+const int PUNTAJE[TAM_VALOR] = {10, 11, 12, 15, 20};
 
 struct Carta
 {
   string _valor;
   string _palo;
+  int _puntaje;
 };
 
 struct Figura ///PALO

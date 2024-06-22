@@ -7,7 +7,7 @@ void jugar();
 void cargarNombre(Jugador &j1, Jugador &j2);
 
 ///FX para MazoFrancesa
-void inicializarMazoFrancesa(Carta vMazo[TAM_BARAJA_FRANCESA]);
+void inicializarMazoFrancesa(Carta vMazoFrancesa[TAM_BARAJA_FRANCESA]);
 void mostrarMazoFrancesaEnMesa(Carta vMazo[TAM_BARAJA_FRANCESA]); // NO SE USA!
 void mezclarMazoFrancesa(Carta vMazo[TAM_BARAJA_FRANCESA]);
 
@@ -21,9 +21,9 @@ void crearHeader(int filaInicial, int ronda, Jugador &j1, Jugador &j2);
 
 ///DIBUJOCARTAS
 void dibujarRectangulo(int posX, int posY, int ancho, int alto, char fondo);
-void dibujarNumero(string num, int posX, int posY);
+void dibujarNumero(string num, int puntaje, int posX, int posY);
 void dibujarReversoCarta(int posX, int posY);//usa Rectangulo
-void dibujarCarta(string num, char palo, int posX, int posY);//usa Rectangulo y el Numero
+void dibujarCarta(string num, int puntaje, char palo, int posX, int posY);//usa Rectangulo y el Numero
 template <typename T>//funcion PLANTILLA para aceptar Carta y Figura
 int obtenerPalo(T vMazo[], int index);//Transforma el STRING en un INT para el char
 
@@ -77,7 +77,7 @@ void jugar(){
   system("cls");
 
   crearHeader(1, 1, jugador1, jugador2);//paso filaInicial, ronda, j1, j2
-  ronda1(jugador1, jugador2, vMazoFrancesa, vMazoFigura);
+ // ronda1(jugador1, jugador2, vMazoFrancesa, vMazoFigura);
 
 }
 
@@ -146,27 +146,32 @@ void dibujarReversoCarta(int posX, int posY){
   dibujarRectangulo(posX,posY,5,3, 176);
 }
 
-void dibujarNumero(string num, int posX, int posY){
+void dibujarNumero(string num, int puntaje, int posX, int posY){
   rlutil::locate(posX, posY);
   cout << num;
 
   rlutil::locate(posX+5-num.size(), posY+2);
   cout << num;
+
+  rlutil::setBackgroundColor(rlutil::GREEN);
+  rlutil::setColor(rlutil::BLACK);
+  rlutil::locate(posX, posY+3);
+  (puntaje == 0) ? cout << "S/P" : cout << puntaje << " pt";
 }
 
-void dibujarCarta(string num, char palo, int posX, int posY){///dibuja Rectangulo y el Numero
+void dibujarCarta(string num, int puntaje, char palo, int posX, int posY){///dibuja Rectangulo y el Numero
   rlutil::setColor(rlutil::WHITE);
   dibujarRectangulo(posX,posY,5,3, 219);
 
-  rlutil::setColor((palo == 3 || palo == 4) ? rlutil::LIGHTRED : rlutil::BLACK);
-
-  rlutil::setBackgroundColor(rlutil::WHITE); // Establecer color de fondo blanco
-  dibujarNumero(num, posX, posY);
+  // Determinar color del palo (tamb se usa para el num) y fondo blanco
+  rlutil::setBackgroundColor(rlutil::WHITE);
+  rlutil::setColor((palo == 3 || palo == 4) ? rlutil::BLUE : rlutil::BLACK);
   rlutil::locate(posX+2, posY+1);
   cout << palo;
-  rlutil::setBackgroundColor(rlutil::GREEN);///Dejo el fondo verde para que no me pinte de blanco las letras
-  rlutil::setColor(rlutil::BLACK);
 
+  //uso el color del palo para el num y pongo fondo blanco para el num
+  rlutil::setBackgroundColor(rlutil::WHITE);
+  dibujarNumero(num, puntaje, posX, posY);
 }
 
 template <typename T>///funcion PLANTILLA
@@ -200,14 +205,14 @@ void tiradaDeCartas(Carta vMazoFrancesa[], Figura vMazoFigura[]){
             }
         }else{
           banderaEmbaucadora = false;
-          dibujarCarta(vMazoFrancesa[index]._valor, obtenerPalo(vMazoFrancesa,index), j*8, i*6);
+          dibujarCarta(vMazoFrancesa[index]._valor, vMazoFrancesa[index]._puntaje, obtenerPalo(vMazoFrancesa,index), j*8, i*6);
           index ++;
           rlutil::msleep(25);
           if(i == 4 && j == 5)banderaEmbaucadora = true;
             if(banderaEmbaucadora){
               index = 0;
               for(int z = 1; z <= 4; z++){//5*8 es la 5ta fila y el z es la col
-                dibujarCarta("E", obtenerPalo(vMazoFigura, index++), (z*8)+4, (5*6)-1);
+                dibujarCarta("E", 0,obtenerPalo(vMazoFigura, index++), (z*8)+4, (5*6)-1);
               }
             }
 
@@ -217,20 +222,19 @@ void tiradaDeCartas(Carta vMazoFrancesa[], Figura vMazoFigura[]){
   }
 }
 
-
-
 //Esta funcion arma inicializa el mazo de fabrica
-void inicializarMazoFrancesa(Carta vMazo[TAM_BARAJA_FRANCESA]){
+void inicializarMazoFrancesa(Carta vMazoFrancesa[]){
   for (int i = 0; i < TAM_BARAJA_FRANCESA; i++)
-  {            //de palos toma el indice[i]
-    vMazo[i] = {VALORES[i % TAM_VALOR], PALOS[i / TAM_VALOR]};
-  }            //0/5 = [0] = "corazon", 0%5[0] = "10"
-               //1/5 = [0] = "corazon", 1%5[1] = "J"
-               //2/5 = [0] = "corazon", 2%5[2] = "Q"
-               //3/5 = [0] = "corazon", 3%5[3] = "K"
-               //4/5 = [0] = "corazon", 4%5[4] = "A"
-               //5/5 = [1] = "diamante", 5%5 [0] = "10"
-               //19/5 = [3] = "trebol", 19%5[4] = "A"
+  {
+    vMazoFrancesa[i] = {VALORES[i%TAM_VALOR], PALOS[i/TAM_VALOR], PUNTAJE[i%TAM_VALOR]};
+  }
+               //vMazoFrancesa[2] = {"10", "Corazon", 10}, {"J", "Corazon", 11};
+               //0%5 -> [0] = "10", 0/5 -> [0] = "Corazon"
+               //1%5 -> [1] = "J",  1/5 -> [0] = "Corazon"
+               //4%5 -> [4] = "A", 4/5 -> [0] = "Corazon"
+
+
+
 }
 
 void mostrarMazoFrancesaEnMesa(Carta vMazo[TAM_BARAJA_FRANCESA]){ // NO SE USA!
@@ -357,7 +361,7 @@ void repartirCartas(Jugador &j1, Jugador &j2, Carta vMazoFrancesa[], Figura vMaz
   }
 }
 
-void ronda1(Jugador &j1, Jugador &j2, Carta vMazoFrancesa[], Figura vMazoFigura[]){
+/*void ronda1(Jugador &j1, Jugador &j2, Carta vMazoFrancesa[], Figura vMazoFigura[]){
   repartirCartas(j1, j2, vMazoFrancesa, vMazoFigura);
 
   // Posiciona y muestra el nombre y puntaje del jugador 1
@@ -389,7 +393,7 @@ void ronda1(Jugador &j1, Jugador &j2, Carta vMazoFrancesa[], Figura vMazoFigura[
   rlutil::locate(1, 20);
   system("pause");
 
-}
+}*/
 
 
 
