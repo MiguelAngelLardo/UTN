@@ -132,8 +132,13 @@ void tiradaDeCartas(){//4 diamante, 6 pica, 3 corazon, 5 trebol
         if(k == 1){
           dibujarReversoCarta(j*8, i);
         }else{
+          for(int m=0; m<=20; m++){
+            dibujarCarta(obtenerNumeroCarta(rand()%13+1), (char)palos[rand()%4], j*8,i);
+            rlutil::msleep(10);
+
+          }
           dibujarCarta(obtenerNumeroCarta(j), (char)palos[(i/5)-1], j*8,i);
-            rlutil::msleep(25);
+          rlutil::msleep(18);
         }
       }
     }

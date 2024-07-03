@@ -22,6 +22,7 @@ struct Jugador
 {
   string _nombre;
   Carta _mano[CARTAS_POR_MANO];
-  int _turno; ///turno para ver si es el jugador 1 o 2
+  //int _turno; ///turno para ver si es el jugador 1 o 2
   int _puntaje = 0;
+  int _puntajeRonda[3] = {}; // array de 3 para guardar el puntaje REAL de cada ronda
 };

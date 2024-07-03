@@ -37,6 +37,7 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="menu.h" />
 		<Unit filename="rlutil.h" />
+		<Unit filename="textoResponsivo.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

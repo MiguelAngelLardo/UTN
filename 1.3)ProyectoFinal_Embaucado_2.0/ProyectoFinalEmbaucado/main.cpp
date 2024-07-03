@@ -1,3 +1,4 @@
+
 #include <iostream>
 //#include <cstdlib> //Necesario para rand() y srand() => ver si esto hace falta
 #include <ctime> //Necesario para time()
@@ -8,16 +9,15 @@ using namespace std;
 
 int main()
 {
-  //setlocale(LC_ALL, "Spanish");
+
   srand(time(NULL));
-
-
-  //rlutil::setBackgroundColor(rlutil::GREEN);
-  //rlutil::cls();//sin esto solo pone fondo verde al menu
   rlutil::setColor(rlutil::WHITE);
+  rlutil::setBackgroundColor(rlutil::GREEN);
+  rlutil::cls();//sin esto el fondo de las letras se pone verde y no todo el tablero
 
+  rlutil::hidecursor();
 
-  desplegarMenu();
-
+  mostrarMenu();
   return 0;
 }
+
