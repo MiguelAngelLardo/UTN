@@ -1,2 +1,0 @@
-19 Dada una lista de 10 números enteros. Calcular e informar el primer número par,
-el primer número primo.

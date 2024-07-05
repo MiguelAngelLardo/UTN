@@ -1,0 +1,3 @@
+8. Dada	una	cadena	de	caracteres	y	un	carácter (dos	ingresos),	mostrar	por	pantalla	la	primera
+posición	 donde	 aparece	 ese	 carácter	 o	 un	 -1	 si	 el	 carácter	 no	 se	 encuentra	 dentro	 de	 la	
+cadena

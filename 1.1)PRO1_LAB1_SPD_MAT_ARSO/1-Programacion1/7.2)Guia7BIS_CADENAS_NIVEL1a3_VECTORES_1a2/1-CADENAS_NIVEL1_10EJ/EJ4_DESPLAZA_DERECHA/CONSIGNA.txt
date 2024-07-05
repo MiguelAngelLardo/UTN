@@ -1,0 +1,7 @@
+4) Diseñar una rutina que dada una cadena de caracteres, una posición de ella y 1 carácter, devuelva una cadena donde aparezca el
+carácter dado insertado en la posición pedida.
+Ejemplo:
+CADENA FUENTE: "La mar estba serena"
+CARÁCTER: ’a’
+POSICION: 11
+CADENA RESULTADO: "La mar estaba serena"

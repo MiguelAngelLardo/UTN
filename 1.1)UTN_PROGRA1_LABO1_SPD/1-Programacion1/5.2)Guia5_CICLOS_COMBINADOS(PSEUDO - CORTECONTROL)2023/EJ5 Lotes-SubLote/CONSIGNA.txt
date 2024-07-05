@@ -1,7 +1,0 @@
-5) Se dispone de una lista de 10 grupos de números enteros separados entre ellos por
-ceros. Se pide determinar e informar:
-
-a) Calcular el promedio de valores de cada grupo.
-b) Determinar e informar el valor mínimo de todo los grupos, indicando en que grupo se
-encontró y su posición relativa en el mismo.
-c) El mayor de los promedios y a que grupo pertenecía.7)

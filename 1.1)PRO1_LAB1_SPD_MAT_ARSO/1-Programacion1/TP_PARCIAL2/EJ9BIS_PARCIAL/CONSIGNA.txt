@@ -1,0 +1,42 @@
+Ejercicio:
+
+Una aerolínea tiene los siguientes lotes de registros. Un primer lote con la información de las ventas de pasajes durante el año pasado. Cada registro contiene:
+
+- Número de Cliente (1 a 150)
+- Código de vuelo (1 a 50)
+- Día de la Venta (1 a 31)
+- Mes de la Venta (1 a 12)
+- Cantidad de pasajes adquiridos por el cliente en esa venta
+- Número de vendedor que efectuó la venta (1 a 8)
+
+Este lote finaliza con un registro con día igual a cero. Puede haber más de un registro para el mismo cliente, para el mismo día y para el mismo vuelo. Un segundo lote con la información de los vuelos que realiza la empresa. Cada registro contiene los siguientes datos:
+
+- Número de Vuelo (1 a 50)
+- Ciudad Origen (1 a 20)
+- Ciudad Destino (1 a 20)
+- Costo del pasaje (por Persona)
+- Distancia en millas del vuelo
+
+Este lote viene ordenado por número de vuelo de mayor a menor.A partir de esta información se pide determinar e informar:
+
+a. Cuál es el número de cliente que recorrió mayor cantidad de millas teniendo en cuenta todos los pasajes que adquirió en el año.
+
+b. Informar para cada mes del año cual fue el número de vendedor que realizó la venta individual por mayor cantidad de pasajes. (Se deben emitir doce resultados, uno por cada mes. No debe totalizar).
+
+c. Teniendo en cuenta que cada vendedor obtiene un 5% de comisión sobre las ventas, emitir un listado con las comisiones totales anuales por vendedor.
+
+| Número de Vendedor | Comisión Total Anual |
+|                    |                      |
+| 9                  | 9999,99              |
+
+Este listado debe salir ordenado de mayor a menor por número de vendedor y no se deben informar aquellos vendedores que no obtuvieron comisión.
+
+d. Informar para cada vendedor cual es el número de cliente que le haya realizado la compra individual por mayor importe.
+
+e. Informar cual fue la recaudación total de la empresa por cada bimestre del año, teniendo solamente en cuenta las ventas de pasajes de vuelos de más de 500 millas.
+
+
+| Bimestre | Recaudación Total en Pesos |
+|          |                            |
+| 1        |  999,99                    |
+

@@ -1,3 +1,0 @@
-Problema 2
-Igual al Problema 1 pero el programa debe poder informar también el vuelto que debe
-otorgarse al cliente, si es que debe hacerlo

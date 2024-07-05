@@ -1,3 +1,0 @@
-8) Escribir un subprograma llamado PRIMO que devuelva 1 si el número recibido es
-primo y 0 si no es primo. Luego hacer un programa para que dada una lista de números que
-finaliza con cero informa cuantos de ellos eran primos. 

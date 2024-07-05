@@ -1,2 +1,0 @@
-7) Diseñar una rutina que cuente las palabras de una cadena de caracteres dada, asumiendo que existen uno o varios espacios en
-blanco separando una palabra de la otra.

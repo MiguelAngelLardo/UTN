@@ -1,0 +1,4 @@
+Problema 1
+Un comercio solicita hacer un programa que permita ingresar el nombre de un artículo, su
+precio unitario y la cantidad de unidades vendidas (entero) y calcular e informar el nombre
+del artículo y el importe total de la venta que deberá pagar el cliente.

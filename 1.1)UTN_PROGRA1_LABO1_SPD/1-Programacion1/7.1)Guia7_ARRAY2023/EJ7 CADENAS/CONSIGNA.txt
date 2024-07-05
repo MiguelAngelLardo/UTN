@@ -1,2 +1,0 @@
-7. Dada	 una	 cadena	 de	 caracteres,	 mostrar	 por	 pantalla	 cada	 uno	 de	 los	 caracteres	 que	 lo
-compone.

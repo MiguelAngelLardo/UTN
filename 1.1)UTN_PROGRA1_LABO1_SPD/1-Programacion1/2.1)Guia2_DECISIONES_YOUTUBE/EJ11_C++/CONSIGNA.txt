@@ -1,2 +1,0 @@
-11. Hacer un programa para ingresar cuatro números y luego mostrar por pantalla
-cuántos son menores a 100.

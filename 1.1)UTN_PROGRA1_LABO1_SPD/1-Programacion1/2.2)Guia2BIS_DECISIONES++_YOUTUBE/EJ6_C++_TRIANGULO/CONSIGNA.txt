@@ -1,6 +1,0 @@
-Hacer un programa para ingresar por teclado la longitud de los tres lados de un
-triángulo y que luego determine e informe con un cartel aclaratorio a qué tipo
-de triángulo corresponde:
-a. Equilátero: cuando los tres lados sean iguales.
-b. Isósceles: cuando dos de los tres lados sean iguales.
-c. Escaleno: cuando todos los lados sean distintos.

@@ -1,2 +1,0 @@
-8. Hacer un programa que solicite 20 números y luego mostrar por pantalla el
-menor de ellos y la posición en la que fue encontrado.

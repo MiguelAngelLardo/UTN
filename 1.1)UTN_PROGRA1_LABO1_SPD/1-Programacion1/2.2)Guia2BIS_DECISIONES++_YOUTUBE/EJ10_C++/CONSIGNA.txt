@@ -1,2 +1,0 @@
-10. Hacer un programa que solicite cuatro números y emitir un cartel aclaratorio si
-son todos iguales entre sí, caso contrario, no emitir nada.

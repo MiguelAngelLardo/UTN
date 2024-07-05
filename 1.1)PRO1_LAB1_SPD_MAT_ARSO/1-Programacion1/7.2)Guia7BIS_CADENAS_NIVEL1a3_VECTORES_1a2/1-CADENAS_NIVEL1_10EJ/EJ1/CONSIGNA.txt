@@ -1,0 +1,7 @@
+1) Diseñar una rutina que dada una cadena de caracteres, y dos caracteres, devuelva una cadena donde todas la ocurrencias del
+primer carácter dado hayan sido reemplazadas por el segundo.
+Ejemplo:
+CADENA FUENTE: “La mar estaba serena"
+CARÁCTER 1: ‘a’
+CARÁCTER 2: ‘i’
+CADENA RESULTADO: “Li mir estibi sereni"

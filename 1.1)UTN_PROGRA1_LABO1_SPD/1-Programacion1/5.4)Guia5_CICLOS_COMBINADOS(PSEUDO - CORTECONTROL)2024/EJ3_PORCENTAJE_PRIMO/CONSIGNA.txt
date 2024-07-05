@@ -1,3 +1,0 @@
-3-Hacer un programa para ingresar una lista de números que finaliza cuando se
-ingresa un cero y luego informar el porcentaje de números primos y el
-porcentaje de números no primos. Se informan 2 resultados al final

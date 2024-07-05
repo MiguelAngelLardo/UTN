@@ -1,1 +1,0 @@
-9) Hacer un programa para ingresar tres números y listar el máximo de ellos. 

@@ -1,0 +1,7 @@
+9) Se dispone de un lote de registros donde cada uno contiene los valores de la abscisa
+y la ordenada de un punto en el plano, distintos de cero. El lote finaliza con un registro que
+tiene ambos valores en cero.
+Se debe determinar e informar la cantidad de puntos que han correspondido a cada uno de
+los cuadrantes, con mensajes aclaratorios.
+Confeccionar y utilizar una función o procedimiento CUADRANTE, que recibiendo las
+coordenadas de un punto, devuelva el número de cuadrante. 

@@ -1,3 +1,0 @@
-11. Hacer un programa para ingresar 10 números y luego calcule y emita el mayor
-de los primos de la lista. En caso de no haber ningún número primo, deberá
-aclararlo con un cartel.

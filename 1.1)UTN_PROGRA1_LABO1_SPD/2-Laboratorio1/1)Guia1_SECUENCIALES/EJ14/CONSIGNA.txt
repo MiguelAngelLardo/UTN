@@ -1,9 +1,0 @@
-15) Hacer un programa para ingresar el importe de una compra y el descuento a
-aplicar. Listar por pantalla, el importe sin descuento, el descuento aplicado y el
-importe total a cobrar.
-Ejemplo:
-Importe : 4500 ↲
-Descuento: 40 ↲
-Importe : $ 4500
-Descuento : $ 1800
-Total : $ 2700

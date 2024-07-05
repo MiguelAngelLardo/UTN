@@ -1,2 +1,0 @@
-5) Diseñar una rutina que valide el ingreso de una cadena de caracteres para que esté formada por una sola palabra, devolviendo
-el valor 1 si es válida y 0 en caso de no serlo.

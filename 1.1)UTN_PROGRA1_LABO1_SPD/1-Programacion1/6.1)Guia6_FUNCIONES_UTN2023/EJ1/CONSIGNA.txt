@@ -1,2 +1,0 @@
-1) Escribir un subprograma para que dados dos números enteros, obtengamos la suma
-de ambos. 

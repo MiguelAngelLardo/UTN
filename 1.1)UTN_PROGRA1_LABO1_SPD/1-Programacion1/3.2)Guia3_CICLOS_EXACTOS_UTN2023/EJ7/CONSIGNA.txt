@@ -1,2 +1,0 @@
-7) Hacer un programa para ingresar una lista de 10 números, luego informar cuántos son
-positivos, cuántos son negativos, y cuántos iguales a cero.

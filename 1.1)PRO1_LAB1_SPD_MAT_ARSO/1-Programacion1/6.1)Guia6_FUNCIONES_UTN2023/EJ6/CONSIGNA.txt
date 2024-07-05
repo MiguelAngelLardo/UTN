@@ -1,0 +1,3 @@
+6) Escribir un subprograma para que dado un número de cinco dígitos devuelva 1 si el
+mismo es capicúa y 0 si lo es. Nota: para recibir el número se esperan los cinco dígitos por
+separado. 

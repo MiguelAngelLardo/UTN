@@ -1,0 +1,2 @@
+Hacer un programa para ingresar cinco números distintos y luego mostrar por
+pantalla el mayor y el menor de ellos

@@ -1,0 +1,7 @@
+3) Un comercio guarda los siguientes datos de cada una de las compras que realiza:
+Número de compra, fecha, nombre del producto comprado, tipo de producto (entero entre 1 y 15), forma de pago acordada (1 a 5) , cantidad e importe total.
+A partir de los señalado desarrollar los siguientes puntos.
+a)	Diseñar la clase correspondiente, con:
+* sets() y gets() para todas las propiedades
+* Un constructor con 0 como valor por omisión para las propiedades de tipo numérico.
+ 

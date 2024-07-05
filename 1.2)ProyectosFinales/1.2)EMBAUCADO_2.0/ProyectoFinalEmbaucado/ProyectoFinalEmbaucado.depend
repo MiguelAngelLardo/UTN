@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1718066420 source:c:\users\miguels\desktop\programacion\5-utn\labo1proyectofinal_embaucado\proyectofinalembaucado\main.cpp
+	<iostream>
+	<ctime>
+	"estructuras.h"
+	"menu.h"
+
+1718066428 c:\users\miguels\desktop\programacion\5-utn\labo1proyectofinal_embaucado\proyectofinalembaucado\estructuras.h
+
+1717901955 c:\users\miguels\desktop\programacion\5-utn\labo1proyectofinal_embaucado\proyectofinalembaucado\menu.h
+	"jugar.h"
+
+1718067729 c:\users\miguels\desktop\programacion\5-utn\labo1proyectofinal_embaucado\proyectofinalembaucado\jugar.h
+	<iomanip>
+
+1718745451 source:c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\main.cpp
+	<iostream>
+	<ctime>
+	"rlutil.h"
+	"estructuras.h"
+	"menu.h"
+
+1718115143 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718918912 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\estructuras.h
+
+1718840220 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\menu.h
+	"jugar.h"
+
+1719283729 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado\proyectofinalembaucado\jugar.h
+	<iomanip>
+
+1719847429 source:c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado_2.0\proyectofinalembaucado\main.cpp
+	<iostream>
+	<ctime>
+	"rlutil.h"
+	"estructuras.h"
+	"menu.h"
+
+1718115143 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado_2.0\proyectofinalembaucado\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1719530730 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado_2.0\proyectofinalembaucado\estructuras.h
+
+1720026309 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado_2.0\proyectofinalembaucado\menu.h
+	<cstring>
+	"jugar.h"
+	"textoResponsivo.h"
+
+1719846382 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado_2.0\proyectofinalembaucado\jugar.h
+	<iomanip>
+	"textoResponsivo.h"
+
+1720026335 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado_2.0\proyectofinalembaucado\textoresponsivo.h
+

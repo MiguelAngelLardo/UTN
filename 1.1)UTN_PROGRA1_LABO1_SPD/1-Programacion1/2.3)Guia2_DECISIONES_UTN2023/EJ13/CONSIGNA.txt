@@ -1,2 +1,0 @@
-13) Hacer un programa para leer tres números diferentes y determinar e informar el número
-del medio. Ejemplo: si se ingresan 6, 10, 8, se emitirá 8.

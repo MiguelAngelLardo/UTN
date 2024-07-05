@@ -1,3 +1,0 @@
-5) Escribir un subprograma que reciba la fecha de nacimiento de una persona y la fecha
-de hoy, y calcule y devuelva la edad en años de esa persona. Suponer que cada fecha está
-compuesta por tres valores independientes (día, mes y año). 

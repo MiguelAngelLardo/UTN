@@ -1,6 +1,0 @@
-17) El Laboratorio Gonzalez&Velez hace frascos de píldoras para aprender a
-programar. Cada frasco contiene 75 píldoras y cada píldora contiene 45mg de
-Briancetamol, 2grs de Pintoxicilina y 7mg de Ácido Simonítico.
-Nos solicitan un programa donde se ingrese la cantidad de frascos de un
-pedido y muestre la cantidad de miligramos de Briancetamol, Pintoxicilina y de
-Ácido Simonítico que son necesarios para elaborarlos.

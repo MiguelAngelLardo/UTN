@@ -1,3 +1,0 @@
-7) Escribir un subprograma llamado PAR que devuelva 1 si el número recibido es par y 0
-si es impar. Luego hacer un programa para que dada una lista de números que finaliza con
-cero informa cuantos de ellos eran pares y cuantos impares. 

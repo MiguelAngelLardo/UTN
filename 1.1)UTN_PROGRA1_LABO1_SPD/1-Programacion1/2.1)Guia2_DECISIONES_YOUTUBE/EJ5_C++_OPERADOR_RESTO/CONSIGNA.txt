@@ -1,3 +1,0 @@
-Hacer un programa para ingresar un número y mostrar por pantalla un cartel
-aclaratorio si el mismo es PAR o IMPAR.
-Nota: leé sobre el operador “Resto”. En el próximo video lo explicaremos!

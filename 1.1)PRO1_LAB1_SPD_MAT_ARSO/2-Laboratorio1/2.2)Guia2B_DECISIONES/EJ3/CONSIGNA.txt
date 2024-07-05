@@ -1,0 +1,10 @@
+3 Una granja dispone de 45 conejos blancos, 50 conejos negros, 40 marrones y
+49 grises. Se pide hacer un programa donde se ingresen tres ventas. Cada
+venta está compuesta por:
+- Cantidad de conejos
+- Tipo de conejo (1 - Blanco, 2 - Negro, 3- Marrón, 4 - Gris)
+Calcular e informar:
+- Cantidad total de conejos vendidos en total.
+- Cuántos conejos quedaron de cada tipo.
+- Los tipos de conejos que no se vendieron.
+NOTA: Ninguna venta superará los 10 conejos.

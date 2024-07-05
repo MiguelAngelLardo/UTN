@@ -1,0 +1,18 @@
+10) Diseñar un procedimiento que reciba tres parámetros:
+a) Una cadena fuente.
+b) Una cadena destino
+c) Una cadena prefijo.
+
+Ejemplo:
+CADENA PREFIJO: “anti”
+CADENA FUENTE: "tanque"
+CADENA DESTINO: “”
+
+
+CADENA DESTINO: "antitanque"
+
+
+Se debe modificar a la cadena destino("") de tal manera que quede formada por la concatenación de la cadena prefijo("anti")y la cadena fuente("tanque").
+
+Restricciones: 
+Las cadenas fuente y prefijo deben estar validadas para que estén formadas por una sola palabra sin espacios ni al principio ni al final.

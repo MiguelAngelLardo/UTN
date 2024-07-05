@@ -1,0 +1,4 @@
+Problema 6
+Hacer un programa que solicite la lectura de kWh del medidor del mes actual y del mes
+anterior (ambos números enteros) de un domicilio y el código de tarifa del mismo. Debe
+calcular e informar el importe a abonar en concepto de suministro eléctrico en ese mes.

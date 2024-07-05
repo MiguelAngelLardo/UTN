@@ -1,0 +1,30 @@
+1 30000 50 Gustavo Fring
+1 1000000 55 Don Eladio
+1 300 24 Jessy Rosa
+1 450 25 Novia Jessy
+1 5000 50 Mister White
+2 1800000 35 Lagherta
+2 20000 20 Bjorn Ironside
+2 1800000 36 Ragnar Lothbrok
+2 150000 30 Athelstan
+3 100 40 Goku
+3 150 45 bulma
+3 200 67 Maestro roshi
+4 5000 18 Arya Stark
+4 2000 26 Juan Nieve
+4 12000 26 Khalessi
+4 50000 30 Lady Brian
+5 60000 40 Berlin
+5 80000 28 Tokio
+5 100000 34 Palermo
+5 99999999 666 Jose Paz
+6 500000 32 Ross Geller
+6 500000 30 Monica Geller
+6 600000 31 Chandler Bing
+6 800000 30 Rachel Green
+6 500000 30 Phoebe Buffay
+6 500000 32 Joey Trivianni
+0
+
+A-Promedio edades 58.84
+C-26 PERSONAJES

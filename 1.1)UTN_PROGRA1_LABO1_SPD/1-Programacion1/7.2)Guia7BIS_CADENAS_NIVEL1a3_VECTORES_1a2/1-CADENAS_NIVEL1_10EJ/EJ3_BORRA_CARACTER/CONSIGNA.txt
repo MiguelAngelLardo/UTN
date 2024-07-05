@@ -1,8 +1,0 @@
-3) Diseñar un procedimiento que reciba 2 parámetros:
-a) una cadena de caracteres
-b) 1 carácter.
-Y borre todas las ocurrencias del carácter dado de la cadena pasada.
-Ejemplo:
-CADENA FUENTE: "La mar estaba serena"
-CARÁCTER: ‘a’
-CADENA RESULTADO:”L mr estb seren"

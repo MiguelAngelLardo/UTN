@@ -1,6 +1,0 @@
-4) La NASA guarda los siguientes datos de las misiones espaciales que realiza: 
-Número de misión, nombre de la misión, nombre del astronauta  a cargo, fecha de inicio, fecha de fin, presupuesto disponible. 
-A partir de los señalado desarrollar los siguientes puntos.
-a)	Diseñar la clase correspondiente, con:
-* sets() y gets() para todas las propiedades
-* Un constructor que asigne la palabra “nada” como valor por omisión para las propiedades de tipo cadena

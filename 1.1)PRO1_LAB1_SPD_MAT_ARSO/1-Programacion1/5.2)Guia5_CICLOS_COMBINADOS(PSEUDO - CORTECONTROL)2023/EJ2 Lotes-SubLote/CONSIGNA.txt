@@ -1,0 +1,7 @@
+2) Dada una lista de números compuesta por 10 grupos y cada grupo separado del
+siguiente por un cero, se pide determinar e informar:
+
+a) Para cada uno de los grupos el máximo de los números pares y el máximo de los
+números impares.
+b) Para cada uno de los grupos el porcentaje de números negativos y números positivos.
+c) Cuantos números positivos había en total entre los 10 grupos.
