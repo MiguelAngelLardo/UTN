@@ -32,27 +32,18 @@ void dibujarCartasResponsivasHeader(){
         dibujarCarta(letraStr, -2, 169, posX, posY); // le paso -2 así no hace nada con el número
     }
 }
-/*
-void dibujarRectanguloMenu(int posX, int posY, int ancho, int alto, char relleno) {
-  for(int i = 0; i < alto;i ++){
-    rlutil::locate(posX, posY+i);
-    for(int j = 0; j < ancho; j++){
-      cout << relleno;
-    }
-  }
-}
-*/
 
 
 
 void body() {
     //texto que sale y calculo de la mitad responsiva y del texto responsivo
-    string menuTexto = "Ganaste!\nHola";
-    int anchoMax = anchoMaxletras(menuTexto) + 20; // Asegurarse de que el ancho sea suficiente
+    string menuTexto = "INGRESE UNA OPCION\n\nJUGAR\nREGLAS\nESTADISTICAS\nCREDITOS\nCONTACTO\nSALIR";
+
+
+       int anchoMax = anchoMaxletras(menuTexto) + 20; // Asegurarse de que el ancho sea suficiente
     int altoMax = altoMaxFilas(menuTexto); // Ajustar la altura para incluir todas las filas
     int posX = rlutil::tcols() / 2 - anchoMax / 2;
     int posY = rlutil::trows() / 2 - altoMax / 2;
-
     cout << "ancho consol: " << rlutil::tcols() << " - alto consol: " << rlutil::trows()
          << " - Ancho Texto: " << anchoMax << " - alto Texto: " << altoMax << endl;
     cout <<"pos X " << posX << " pos Y " << posY << endl;//55 13
@@ -60,61 +51,18 @@ void body() {
          << "712345678981234567899123456789C12345678911";
 
     rlutil::setColor(rlutil::WHITE);
+    rlutil::setBackgroundColor(rlutil::BLACK);
+    mostrarMensaje(menuTexto,-1,-1,10,3,18,4);//padding der es((paddingIzq*2)-2), paddingInf es + 1 del sup
 
-    rlutil::locate(posX, posY);
-    cout << (char)201;//angulo supero izquierdo ╔ , a partir de aca inicia el for
-    for (int i = 0; i < anchoMax; ++i) cout << (char)205; //═══════════ el 1er 205 se inicia posX+1 despues del 201
-    cout << (char)187; //╗
-
-    mostrarMensaje(menuTexto);
-   /*
-    cout << "h";
-    istringstream lineaEditada(menuTexto); //istringstream me lee como si fuera getline(cin, linea) pero hardcodeado
-    string linea;
-    while (getline(lineaEditada, linea)){ //devuelve false cuando no hay mas lineas
-      posY++;//uno mas abajo del techo
-      rlutil::locate(posX, posY);//posX idem al cout << (char)201 ║ con un Y+1
-      cout << (char)186;
-      cout << linea;*/
-      //rlutil::locate(posX/*55*/ + anchoMax/*11*/ +1, posY);//sumo 1 para que sea al terminar el texto
-      //cout << (char)186;  // Línea vertical derecha ║
-    //}
-  /*
-    posY ++;
-    rlutil::locate(posX, posY);
-    cout << (char)200;  // Esquina inferior izquierda ╚
-    for (int i = 0; i < anchoMax; ++i) cout << (char)205; // Línea horizontal inferior ═
-    cout << (char)188;  // Esquina inferior derecha ╝
-    cout << "hola; ";*/
 }
 
+void footer(){
+  string menuTexto1 = "Programar compulsivamente es perjudicial para la salud";
+  string menuTexto2 = "TODOS LOS DERECHOS RESERVADOS";
 
-
-
-
-void dibujarDiamante1(int posX = 10, int posY = 10, int altura = 9) {
-    rlutil::setColor(rlutil::RED); // Establecer color rojo para el diamante
-
-    int mitad = altura / 2;
-
-    // Dibujar el diamante completo
-    for (int i = 0; i < altura; ++i) {                                                     //0 1 2 3 4 5 6 7 8
-      int espacios = abs(mitad - i); // abs asegura que el resultado sea siempre positivo => 4 3 2 1 0 1 2 3 4
-      int caracteres = altura - 2 * espacios; // 9(-2*4)=1   9(-2*3)= 3  9(-2*2)=5 9(-2*1)=7  9(-2*0)=9
-
-      rlutil::locate(posX + espacios, posY + i);
-      //vuelta 0 => rlutil::locate(10 + 4, 10 + 0); => rlutil::locate(14, 10)
-      //vuelta 1 => rlutil::locate(10 + 3, 10 + 1); => rlutil::locate(13, 11)
-      //vuelta 2 => rlutil::locate(10 + 2, 10 + 2); => rlutil::locate(12, 12)
-      // rlutil::locate(11, 13) - rlutil::locate(10, 14) - rlutil::locate(11, 15) - rlutil::locate(12, 16) - rlutil::locate(13, 17)- rlutil::locate(14, 18)
-
-      // Imprimir caracteres (█)
-      for (int j = 0; j < caracteres; j++){//i=0 es j<1   i=1 es j<3     i=2 es j<5
-        cout << (char)219;
-      }
-    }
-
-    rlutil::setColor(rlutil::WHITE); // Restaurar color blanco al finalizar
+  rlutil::setBackgroundColor(rlutil::BLUE);
+  mostrarMensaje(menuTexto1, 25, -1, 0, 0, -2, -1, false);
+  mostrarMensaje(menuTexto2, 27, -1, 0, 0, -2, -1, false);
 }
 
 
@@ -190,7 +138,7 @@ void dibujarTrebol(int posX = 20, int posY = 9) {
 
 }
 
-void dibujarCorazon1(int posX = 10, int posY = 10){
+void dibujarCorazon2(int posX = 10, int posY = 10){
   rlutil::setColor(rlutil::RED); // Establecer color negro para el trébol
 
   //centro del corazon
@@ -215,7 +163,7 @@ void dibujarCorazon1(int posX = 10, int posY = 10){
 
 }
 
-void dibujarCorazon2(int posX = 10, int posY = 10){
+void dibujarCorazon(int posX = 10, int posY = 10){
   rlutil::setColor(rlutil::RED); // Establecer color negro para el trébol
 
   //centro del corazon
@@ -241,7 +189,7 @@ void dibujarCorazon2(int posX = 10, int posY = 10){
 
 }
 
-void dibujarDiamante2(int posX = 40, int posY = 9) {
+void dibujarDiamante(int posX = 40, int posY = 9) {
   rlutil::setColor(rlutil::RED); // Establecer color negro para el trébol
 
   //centro de diamante
@@ -264,13 +212,18 @@ void dibujarDiamante2(int posX = 40, int posY = 9) {
 
 void mostrarMenu(){
 
-    dibujarDiamante2();
-    dibujarPica();
-    dibujarTrebol();
-    dibujarCorazon2();
+    dibujarCorazon(10, 10);
+    dibujarCorazon(111, 10);
+    dibujarPica(29, 9);
+    dibujarPica(91, 9);
+    dibujarTrebol(10, 16);
+    dibujarDiamante(29, 17);
+
+
     //dibujarCorazon1();
     dibujarCartasResponsivasHeader();
     body();
+    footer();
 
   rlutil::locate(1, 28);
 }

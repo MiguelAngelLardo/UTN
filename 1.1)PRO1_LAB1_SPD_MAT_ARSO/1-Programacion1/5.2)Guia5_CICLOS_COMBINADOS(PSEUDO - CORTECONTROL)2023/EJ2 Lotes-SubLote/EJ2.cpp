@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <iomanip>
 
 /*
 2) Dada una lista de números compuesta por 10 grupos y cada grupo separado del
@@ -68,7 +69,8 @@ int main()
     porcentajeNeg = (float)contNeg*100/contTotal;
 
     cout << endl << "Grupo #" << x+1 << " PUNTO A:  Maximo par => " << maxPar << ". Maximo impar => " << maxImpar << endl; 
-    cout << "PUNTO B: Porcentaje positivo %" << porcentajePos << ". Porcentaje negativo %" << porcentajeNeg << endl; 
+
+    cout << "PUNTO B: Porcentaje positivo %" << fixed << setprecision(2) << porcentajePos << ". Porcentaje negativo %" << porcentajeNeg << endl; 
 
   }
 

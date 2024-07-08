@@ -76,3 +76,37 @@
 
 1720026335 c:\users\miguels\desktop\programacion\5-utn\utn\1.3)proyectofinal_embaucado_2.0\proyectofinalembaucado\textoresponsivo.h
 
+1720390865 source:c:\users\miguels\desktop\programacion\5-utn\utn\1.2)proyectosfinales\1.2)embaucado_2.0\proyectofinalembaucado\main.cpp
+	<iostream>
+	<ctime>
+	"rlutil.h"
+	"estructuras.h"
+	"menu.h"
+
+1718115143 c:\users\miguels\desktop\programacion\5-utn\utn\1.2)proyectosfinales\1.2)embaucado_2.0\proyectofinalembaucado\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1719530730 c:\users\miguels\desktop\programacion\5-utn\utn\1.2)proyectosfinales\1.2)embaucado_2.0\proyectofinalembaucado\estructuras.h
+
+1720394101 c:\users\miguels\desktop\programacion\5-utn\utn\1.2)proyectosfinales\1.2)embaucado_2.0\proyectofinalembaucado\menu.h
+	<cstring>
+	"jugar.h"
+	"textoResponsivo.h"
+
+1719846382 c:\users\miguels\desktop\programacion\5-utn\utn\1.2)proyectosfinales\1.2)embaucado_2.0\proyectofinalembaucado\jugar.h
+	<iomanip>
+	"textoResponsivo.h"
+
+1720394439 c:\users\miguels\desktop\programacion\5-utn\utn\1.2)proyectosfinales\1.2)embaucado_2.0\proyectofinalembaucado\textoresponsivo.h
+
