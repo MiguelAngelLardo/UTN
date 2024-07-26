@@ -39,7 +39,7 @@ void body() {
     //texto que sale y calculo de la mitad responsiva y del texto responsivo
     string menuTexto = "INGRESE UNA OPCION\n\nJUGAR\nREGLAS\nESTADISTICAS\nCREDITOS\nCONTACTO\nSALIR";
 
-
+/*
        int anchoMax = anchoMaxletras(menuTexto) + 20; // Asegurarse de que el ancho sea suficiente
     int altoMax = altoMaxFilas(menuTexto); // Ajustar la altura para incluir todas las filas
     int posX = rlutil::tcols() / 2 - anchoMax / 2;
@@ -48,7 +48,7 @@ void body() {
          << " - Ancho Texto: " << anchoMax << " - alto Texto: " << altoMax << endl;
     cout <<"pos X " << posX << " pos Y " << posY << endl;//55 13
     cout << "123456789112345678921234567893123456789412345678951234567896123456789"
-         << "712345678981234567899123456789C12345678911";
+         << "712345678981234567899123456789C12345678911";*/
 
     rlutil::setColor(rlutil::WHITE);
     rlutil::setBackgroundColor(rlutil::BLACK);
@@ -62,7 +62,7 @@ void footer(){
 
   rlutil::setBackgroundColor(rlutil::BLUE);
   mostrarMensaje(menuTexto1, 25, -1, 0, 0, -2, -1, false);
-  mostrarMensaje(menuTexto2, 27, -1, 0, 0, -2, -1, false);
+  mostrarMensaje(menuTexto2, 27, -1, 0, 0, -3, -1, false);
 }
 
 
@@ -209,15 +209,43 @@ void dibujarDiamante(int posX = 40, int posY = 9) {
 
 }
 
+void dibujarJoker(int posX = 20, int posY = 20) {
+    // CENTRO
+    rlutil::setColor(rlutil::BLACK);
+    rlutil::locate(posX + 0, posY + 0); cout << (char)219;
+
+    rlutil::setColor(rlutil::BLACK);
+    rlutil::locate(posX + 0, posY + 1); cout << (char)220;
+    rlutil::setColor(rlutil::BLACK);
+    rlutil::locate(posX + 0, posY + 4); cout << (char)223;
+
+    // DERECHA
+    rlutil::setColor(rlutil::BLACK);
+    rlutil::locate(posX + 1, posY + 0); cout << (char)219;
+
+    rlutil::setColor(rlutil::BLACK);
+    rlutil::locate(posX + 1, posY + 1); cout << (char)220;
+    rlutil::setColor(rlutil::BLACK);
+    rlutil::locate(posX + 1, posY + 2); cout << (char)223;
+    rlutil::setColor(rlutil::BLACK);
+    rlutil::locate(posX + 1, posY + 4); cout << (char)223;
+
+
+
+}
+
 
 void mostrarMenu(){
-
+/*
     dibujarCorazon(10, 10);
     dibujarCorazon(111, 10);
     dibujarPica(29, 9);
     dibujarPica(91, 9);
     dibujarTrebol(10, 16);
+    dibujarTrebol(111, 16);
     dibujarDiamante(29, 17);
+    dibujarDiamante(91, 17);*/
+dibujarJoker();
 
 
     //dibujarCorazon1();

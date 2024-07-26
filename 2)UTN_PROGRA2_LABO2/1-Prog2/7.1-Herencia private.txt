@@ -1,0 +1,5 @@
+Defina brevemente que sucede si una clase derivada hereda de su clase base con el especificador de acceso private
+Lo que sucede es que la instancia del objeto de la clase derivada (creada en el 'main()') no podra acceder a los metodos publicos de la clase base (Como si lo  haria una instancia de la clase Base creada en el 'Main()'). 
+
+Para poder acceder a los metodos de la clase base debo hacerlo desde los metodos de la clase derivada.
+De esa manera, dentro del metodo propio publico de la clase derivada podre acceder al metodo publico de la clase base. 
