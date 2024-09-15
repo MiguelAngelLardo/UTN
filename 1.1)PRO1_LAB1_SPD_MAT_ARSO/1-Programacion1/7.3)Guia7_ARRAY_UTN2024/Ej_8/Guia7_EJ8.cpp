@@ -1,7 +1,7 @@
 /*
-8 Dada una lista de números compuesta por 10 subgrupos y cada grupo
+8 Dada una lista de nï¿½meros compuesta por 10 subgrupos y cada grupo
 separado del siguiente por un cero, se pide generar un vector de 10 elementos
-con el máximo de cada uno de los subgrupos. Luego mostrar los elementos del
+con el mï¿½ximo de cada uno de los subgrupos. Luego mostrar los elementos del
 vector por pantalla.
 */
 
@@ -20,19 +20,20 @@ int main(){
 
     for(int i=0;i<10;i++){
 
-        cout << "Ingrese un número ";
+        cout << "Ingrese un numero ";
         cin >> numero;
-        maximo =numero;// para cada grupo de números el primer ingreso es el maximo
+        maximo = numero;// para cada grupo de numeros el primer ingreso es el maximo
 
         while (numero !=0){
-        //comparación de maximos
-        if (numero >=maximo){
-            maximo=numero;
+        //comparacion de maximos
+        if (numero >= maximo){
+            maximo = numero;
         }
 
-        cout << "Ingrese un número ";
+        cout << "Ingrese un numero ";
         cin >> numero;
         }
+        
         /// lleno el vector
         vecMaximos[i]=maximo;
 

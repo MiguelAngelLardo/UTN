@@ -1,58 +1,60 @@
 /*
-Leer 10 números y guardarlos en un vector. Determinar e informar los dos
-últimos números pares en el vector y sus respectivas posiciones en el mismo.
-Suponer que habrá al menos dos números pares.
+Leer 10 numeros y guardarlos en un vector. Determinar e informar los dos
+ultimos numeros pares en el vector y sus respectivas posiciones en el mismo.
+Suponer que habru al menos dos numeros pares.
 */
 
 
 #include <iostream>
 using namespace std;
-void cargarVector(int vec[], int tamanio);
-void informarParesYPosicion(int vec[], int tamanio);
 
+const int TAM = 10;
 
-void cargarVector(int vec[], int tamanio){
-    for (int i=0; i<tamanio; i++){
-        cin >> vec[i];
-    }
-}
-void informarParesYPosicion(int vec[], int tamanio){
-    int ultimoPar=0, anteUltimoPar=0;
-    int posUltimo, posAnteUltimo;
+//declaracion, firma, prototipo -> Parametro
+void cargarVector(int vec[]);
+void informarParesYPosicion(int vec[]);
 
-    for (int i=0; i<tamanio;i++){
-        if(vec[i]%2==0){
-            if(ultimoPar==0){
-                ultimoPar=vec[i];
-                posUltimo=i+1;
-            }
-            else{
-                anteUltimoPar=ultimoPar;
-                ultimoPar=vec[i];
-                posAnteUltimo=posUltimo;
-                posUltimo=i+1;
-            }
-
-        }
-
-    }
-    cout << "Ante último número par " << anteUltimoPar << ", posición # " << posAnteUltimo<< endl,
-    cout << "Último número par " << ultimoPar << ", posición # " << posUltimo<< endl;
-
-
-
-}
 
 int main(){
-    setlocale(LC_ALL, "Spanish");
-    const int TAM = 10;
+     setlocale(LC_ALL, "Spanish");
     int vecNumeros[TAM];
     int menorImpar,mayorPar;
 
-    cout << "Ingresar " << TAM << " números al vector: " << endl;
-    cargarVector(vecNumeros,TAM);
-    informarParesYPosicion(vecNumeros,TAM);
-
+    cout << "Ingresar " << TAM << " numeros al vector: " << endl;
+    cargarVector(vecNumeros);//argumento de la funcion
+    informarParesYPosicion(vecNumeros);
 
 return 0;
+}
+
+
+//definicion
+void cargarVector(int vec[]){
+    for (int i=0; i < TAM; i++){
+        cin >> vec[i];
+    }
+}
+
+void informarParesYPosicion(int vec[]){
+    int ultimoPar = 0, anteUltimoPar = 0;
+    int posUltimo, posAnteUltimo;
+
+    for (int i=0; i < TAM;i++){
+        if(vec[i] % 2 == 0){
+            if(i == 0){ //uso i como bandera
+                ultimoPar = vec[i];
+                posUltimo = i+1;
+            }
+            else{
+                anteUltimoPar = ultimoPar;
+                posAnteUltimo=posUltimo;
+                ultimoPar=vec[i];
+                posUltimo=i+1;
+            }
+        }//no necesito guardar impares
+    }
+
+    cout << "Ante ultimo numero par " << anteUltimoPar << ", posicion # " << posAnteUltimo<< endl,
+    cout << "ultimo numero par " << ultimoPar << ", posicion # " << posUltimo<< endl;
+
 }

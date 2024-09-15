@@ -1,2 +1,0 @@
-2) Escribir un subprograma para que dados dos números enteros, obtengamos el
-máximo de ambos. 

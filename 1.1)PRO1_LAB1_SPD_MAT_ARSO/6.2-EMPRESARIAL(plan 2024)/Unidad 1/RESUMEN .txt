@@ -1,0 +1,14 @@
+*  + Demanda   (+consumidores)      Precio sube  --> Mas productores dispuestos a vender     
+   - Oferta  (-servicio/producto)   Precio sube  --> Menos consumidores dispuestos a comprar
+
+*EXCESO DE DEMANDA = Precio menor al Peq --> Precio sube para reducir numero de demandantes --> Nuevo Peq
+
+   - Demanda   (-consumidores)      Precio baja  --> Menos productores dispuestos a vender
+** + Oferta  (+servicio/producto)   Precio Baja  --> Mas consumidores dispuestos a comprar
+
+**EXCESO DE OFERTA = Precio mayor al Peq --> Precio baja para aumentar las ventas --> Nuevo Peq
+
+Pmer > Peq --> Oferta > Demanda
+
+Pmer < Peq --> Demanda > Oferta
+
