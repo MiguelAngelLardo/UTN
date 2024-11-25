@@ -4,3 +4,5 @@
 3 conjunto conteo https://www.youtube.com/watch?v=GJtS7sd1TeU
 4.1 probabilidad 1 https://www.youtube.com/watch?v=xKxg3j1gCxc&t=97s
 4.2 probabilidad https://www.youtube.com/watch?v=nfUnhPrK0wo
+5.1 variable aleatoria discreta https://www.youtube.com/watch?v=4WcT0uXY-h8
+5.2 Binomial y Poisson https://www.youtube.com/watch?v=XlJTtrjIQ2Q
