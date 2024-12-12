@@ -6,3 +6,16 @@
 4.2 probabilidad https://www.youtube.com/watch?v=nfUnhPrK0wo
 5.1 variable aleatoria discreta https://www.youtube.com/watch?v=4WcT0uXY-h8
 5.2 Binomial y Poisson https://www.youtube.com/watch?v=XlJTtrjIQ2Q
+6 Aleatorea continua rectangulo, triangulo, trapecio https://www.youtube.com/watch?v=EAxeexZE73w
+7 distribucion normal gauss https://www.youtube.com/watch?v=gi82_5YsS7c&t=124s
+8 aproximacion binomial a normal https://www.youtube.com/watch?v=jt2vmhurcbE
+
+Conjuntos y conteo: https://youtu.be/q9iYfkY_sMQ
+Probabilidad parte 1: https://youtu.be/ty2DFl3ylDs
+Probabilidad parte 2: https://youtu.be/MiraJKMTd9U
+Variables aleatorias discretas: https://youtu.be/kWbfylB-XLM
+Distribución normal/Poisson: https://youtu.be/Pz2yAjw_7vk
+Variables aleatorias continuas: https://youtu.be/EAxeexZE73w
+Distribución normal: https://youtu.be/gi82_5YsS7c
+Estadística descriptiva parte 1: https://youtu.be/lLFruZmZtrc
+Estadística descriptiva parte 2: https://youtu.be/mWS584ie9vE
