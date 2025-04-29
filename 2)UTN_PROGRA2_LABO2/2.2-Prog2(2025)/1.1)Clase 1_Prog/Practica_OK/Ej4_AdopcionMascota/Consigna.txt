@@ -1,0 +1,45 @@
+Una fundación que se dedica a fomentar la adopción de mascotas dispone de los registros de adopciones del año 2024. 
+Por cada adopción que se haya efectuado se registró:
+-	Mes de la adopción (entero entre 1 y 12)
+-	Tipo de animal adoptado (entero entre 10 y 15)
+-	Edad del adoptante responsable
+-	Tipo de vivienda del adoptante responsable (entero entre 1 y 5)
+
+La información no se encuentra agrupada ni ordenada bajo ningún criterio. 
+Para indicar el fin de la carga de datos se ingresa un mes de adopción igual a cero.
+
+Se pide calcular e informar
+A)	El tipo de animal más adoptado en general.
+B)	El promedio de edad de los adoptantes de cada tipo de animal.
+C)	Por cada tipo de animal y tipo de vivienda la cantidad total de adopciones registradas.
+
+Aclaración:
+Los tipos de animales son:
+10 - Perro, 11 - Gato, 12 - Conejo, 13 - Hurón, 14 - Caballo, 15 - Oveja
+
+Los tipos de vivienda son:
+1 - Casa, 2 - Departamento, 3 - Casa Quinta, 4 - Finca, 5 - Duplex
+
+Mes de adopción	Tipo de animal	Edad adoptante	Tipo de vivienda  
+1	10	35	2  
+2	12	42	3  
+3	11	29	1  
+4	14	50	5  
+5	13	33	4  
+6	15	27	2  
+7	10	40	3  
+8	12	31	1  
+9	11	45	5  
+10	14	38	4  
+11	13	30	2  
+12	15	28	3  
+1	10	47	1  
+2	12	34	5  
+3	11	25	4  
+4	14	41	2  
+5	13	39	3  
+6	15	32	1  
+7	10	44	5  
+8	12	37	4
+
+	

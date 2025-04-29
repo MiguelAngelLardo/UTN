@@ -1,0 +1,14 @@
+Sem 1
+Encuentro 01 Lunes PR2 17/03 parte 1 Presentación de la materaURL  https://www.youtube.com/watch?v=qOeiu0tSLe8
+Encuentro 01 - Lunes - 17/03 - Vectores, punteros y cadenas de caracteresU RL https://www.youtube.com/watch?v=grBhdQsOpB0
+Encuentro 02 - Jueves - 20/03URL https://www.youtube.com/watch?v=N2vykbAR4c0 Repaso Punteros, Referencias, parámetros por omisión, sobrecarga de funciones, vectores y matrices
+
+Sem2
+Encuentro 3 de Progra 2 no hubo por feriedo
+Encuentro 03 - Jueves - 27/03URL https://www.youtube.com/watch?v=bR36DSnouEo Resolución de la actividad de Matrices - Explicación y Practica de Memoria Dinámica
+
+Sem3
+Resolución de ejercicios de asignación dinámica de memoria https://www.youtube.com/watch?v=0LkGNdViMjA
+Introducción a POO. Clases, objetos, encapsulamiento https://www.youtube.com/watch?v=p1Pu7N3PqmY
+
+Encuentro 05- Jueves - 03/04URL POO - Constructores - Resolución de Actividad de POO https://www.youtube.com/watch?v=gRCarN-qrow
