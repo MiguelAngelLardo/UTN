@@ -106,9 +106,9 @@ void solucionPuntoC(){
 }
 
 int main(){
-    //solucionPuntoA();
+    solucionPuntoA();
     //solucionPuntoB();
-    solucionPuntoC();
+    //solucionPuntoC();
 
     //ArchivoCiudades arch;
     //arch.listarArchivo();
