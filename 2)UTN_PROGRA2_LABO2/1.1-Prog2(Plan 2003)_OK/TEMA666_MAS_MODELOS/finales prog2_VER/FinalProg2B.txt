@@ -1,0 +1,23 @@
+1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+
+Equipos.dat
+
+Código de equipo (entero)
+
+Nombre de equipo (char[30])
+
+Provincia a la que pertenece (1 a 24)
+
+Director técnico (char[30])
+
+División (‘A’,’B’,’C’) (categoría)
+
+Estado
+(6 puntos)
+
+2) Agregar un constructor para la clase que da formato a los registros del archivo con valores por omisión que deben usarse en caso que el constructor sea llamado sin valores. Si recibe valores debe usarlos ignorando los que tiene por omisión (2 puntos)
+
+3) Agregar una sobrecarga para alguna de las clases del programa (2 puntos)
+Nota 7
+Tomo   : 600
+                                                             Folio  : 4407

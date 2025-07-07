@@ -1,0 +1,8 @@
+3) Parques Nacionales tiene, entre otros, los siguientes archivos en su sistema:
+Animales.dat: Código de animal (int), nombre (char[30]), clasificación (char[5]), zona de habitat (entero
+entre 1 y 10), y estado (1= registro activo; 0: registro inactivado o borrado)
+Avistajes.dat: Código de animal (int), fecha (día, mes y año), zona de avistaje (entero entre 1 y 10) El archivo
+tiene registros con los animales vistos desde el año 2000 a la fecha.
+Se pide hacer una función para generar un archivo nuevo (peligro.dat) con aquellos animales que no se
+hayan avistado desde enero de 2016. Nota: se pueden desarrollar todas las funciones que se consideren
+necesarias.

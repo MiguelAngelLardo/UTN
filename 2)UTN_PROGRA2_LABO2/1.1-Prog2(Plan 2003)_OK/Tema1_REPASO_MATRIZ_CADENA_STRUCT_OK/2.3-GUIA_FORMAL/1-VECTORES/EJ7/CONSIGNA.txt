@@ -1,0 +1,2 @@
+7. Hacer una función que reciba como parámetros un vector de enteros de 10 elementos y un número entero, y 
+que devuelva la cantidad de veces que el número recibido como parámetro se repite dentro del vector.

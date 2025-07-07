@@ -1,0 +1,63 @@
+Un individuo acaba de obtener su álbum de figuritas de DragonCube. 
+Se trata de un libro cuyas páginas cuentan con espacios en blanco designados para pegar 50 figuritas. 
+
+Estos espacios en blanco están numerados y cada uno de ellos está reservado para una figurita en particular, 
+identificada con el mismo número. Luego de obtener el álbum, el coleccionista comienza a comprar paquetes de figuritas 
+que contienen, cada uno, 5 unidades. Los paquetes vienen identificados con un número natural como código.
+
+Las figuritas, además de estar numeradas, se clasifican por:
+
+Tipo de figurita:
+- Común (C)
+- Holograma (H)
+
+Se pide realizar un programa que permita registrar, por cada paquete, la información de las
+5 figuritas. Los registros tienen la siguiente estructura:
+-	Número de paquete (entero)
+-	Número de figurita (1 a 50)
+-	Tipo de figurita (C o H)
+-	¿Pegar en el álbum? (S/N)
+
+No hay límites en la cantidad de paquetes que el coleccionista pueda comprar. La carga de datos finaliza con un número de paquete igual a 0.
+ Calcular e informar:
+A)	La cantidad de figuritas comunes repetidas.
+B)	La cantidad de figuritas faltantes del álbum.
+C)	La cantidad de hologramas entre las figuritas compradas (sin contar las repetidas).
+D)	El estado del álbum pudiendo ser uno de los siguientes casos:
+-	"Incompleto" si no se llegaron a pegar las 50 figuritas.
+-	"Completo" si se llegaron a pegar las 50 figuritas entre comunes y hologramas.
+-	"Completo común" si está completo pero además tiene las 50 figuritas comunes pegadas.
+-	"Completo holográfico" si está completo pero además tiene las 50 figuritas hologramas pegadas.
+E)	Teniendo en cuenta que cada paquete cuesta $500 y que cada figurita común se puede vender a $20 y 
+cada holograma a $50. Calcular el costo total de la colección y el costo total de una potencial venta de figuritas no pegadas de la colección.
+
+
+Aclaraciones:
+-	Cuando se carga los datos de un paquete se debe solicitar la información de las cinco figuritas que incluye el paquete.
+-	El álbum tiene 50 figuritas en total pero los paquetes pueden traer de cada una la variante común y holograma. En total son 100 figuritas distintas.
+-	El coleccionista puede decidir si pega en el álbum figuritas comunes y hologramas, sólo comunes o sólo hologramas. Cada espacio del álbum sin figuritas es una figurita faltante.
+-	Las figuritas que el coleccionista no pega en el álbum son parte de su colección en una pila aparte. Si el coleccionista tiene la figurita #1 varias veces pero nunca la pegó en el álbum entonces el álbum no puede considerarse completo.
+-	Se considera una figurita repetida si tiene la misma figurita del mismo tipo más de una vez. Por ejemplo, si tengo la figurita #1 común y #1 holograma en mi colección, no la tengo repetida. Sin embargo, si tres veces tengo la figura #1 holograma en mi colección entonces la tengo repetida DOS veces.
+
+Número de paquete	Número de figurita	Tipo de figurita	¿Pegar en el álbum?  
+1	5	C	S  
+1	12	H	N  
+1	25	C	S  
+1	38	H	N  
+1	49	C	S  
+2	3	H	S  
+2	17	C	N  
+2	29	H	S  
+2	41	C	N  
+2	50	H	S  
+3	8	C	N  
+3	14	H	S  
+3	22	C	N  
+3	36	H	S  
+3	47	C	S  
+4	6	H	N  
+4	19	C	S  
+4	28	H	N  
+4	35	C	S  
+4	45	H	N 
+	

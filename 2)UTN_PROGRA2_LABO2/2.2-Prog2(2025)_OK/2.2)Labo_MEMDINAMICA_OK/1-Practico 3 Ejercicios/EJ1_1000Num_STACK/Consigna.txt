@@ -1,0 +1,5 @@
+1- 🧠 Actividad: 1.000 Números
+Se desea cargar 1.000 números aleatorios enteros entre 1 y 100.000 y determinar:
+● Cuál es el número más alto generado.
+● Cuántas veces se repitió ese número en el conjunto.
+💡 ¿Qué pasa si se quiere que se generen 1.000.000 de números?

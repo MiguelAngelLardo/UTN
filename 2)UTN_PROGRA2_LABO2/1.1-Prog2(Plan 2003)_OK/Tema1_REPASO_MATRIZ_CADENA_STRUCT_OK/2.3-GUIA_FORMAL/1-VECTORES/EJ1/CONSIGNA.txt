@@ -1,0 +1,2 @@
+1. Hacer una función que reciba como parámetros un vector de enteros y 
+un número entero que indica la cantidad de componentes del vector, y que devuelva el valor mínimo contenido en ese vector.

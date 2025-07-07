@@ -1,2 +1,0 @@
-1. Hacer una función que reciba como parámetros una matriz de enteros de 10x10 y un número entero (entre 0 y 9), y 
-devuelva el máximo de la fila indicada por el segundo parámetro.

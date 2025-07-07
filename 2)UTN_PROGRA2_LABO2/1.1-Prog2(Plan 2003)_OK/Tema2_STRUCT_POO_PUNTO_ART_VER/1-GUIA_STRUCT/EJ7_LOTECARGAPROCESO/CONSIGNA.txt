@@ -1,0 +1,26 @@
+7) Una empresa que comercializa un total de 200 artículos, dispone de un lote de registros, ordenados
+secuencialmente por nro. de artículo, donde cada registro contiene:
+- Nro. de Artículo (8 cifras y no correlativo)
+- Unidades en Stock (entero)
+- Precio Unitario (real)
+
+Se dispone de un segundo lote con las ventas realizadas en el año, con la siguiente información por registro:
+- Nro. de Artículo (8 cifras)
+- Nro. de Cliente (1 a 300)
+- Mes de Venta (1 a 12)
+- Cantidad de Unidades Vendidas (entero)
+
+Estos registros están totalmente desordenados y puede haber más de un registro para el mismo artículo, cliente
+y mes. El último registro se indica con nro. de artículo igual a cero.
+Se pide determinar e informar:
+
+a) Un listado con los importes adquiridos por los clientes que compraron durante el año en 8 o más meses,
+ordenado por nro. de cliente con el siguiente formato:
+
+Cliente   Ene   Feb     Mar    Abr     May .....
+xxx      xxx    xxx    xxx     xxx     xxx......
+
+
+b) Un listado, ordenado por nro. de artículo, con aquellos artículos que han quedado con stock cero luego de
+procesar todas las ventas. Para calcular el nuevo stock se debe tomar el stock inicial e ir descontando según se
+vayan ingresando las ventas.

@@ -1,2 +1,0 @@
-Hacer una función que reciba como parámetros un vector de enteros de 10 elementos y 
-un número entero, y que devuelva la posición si el número recibido existe en el vector, o -1 si no existe

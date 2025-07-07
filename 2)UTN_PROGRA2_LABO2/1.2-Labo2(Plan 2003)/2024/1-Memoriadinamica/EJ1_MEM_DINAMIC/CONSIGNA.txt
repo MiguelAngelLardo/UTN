@@ -1,3 +1,0 @@
-Problema 1
-Hacer un programa que le pida al usuario un número N y que genere dinámicamente un vector de N elementos y 
-los complete con números al azar entre 1 y N. Mostrar el vector resultante.

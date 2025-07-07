@@ -1,0 +1,2 @@
+Hacer una función que reciba un vector de enteros y su tamaño y devuelva la
+cantidad de números distintos que se repiten en el vector.

@@ -1,9 +1,0 @@
-3) Diseñar una función que reciba como parámetros una cadena de caracteres, un valor 
-entero que representa una posición de ella y 1 carácter, e inserte en la cadena el carácter dado en la posición pedida.
-Ejemplo:
-
-CADENA FUENTE: “Hola”
-CARÁCTER: ’a’
-POSICION: 1
-CADENA RESULTADO: “Hala”
-NOTA: la función no debe hacer nada si el valor de posición es mayor que la cantidad de caracteres de la cadena

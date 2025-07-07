@@ -1,2 +1,0 @@
-Problema 2
-Igual al anterior, pero el programa debe informar qué número/s se repiten más veces dentro del vector.

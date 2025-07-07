@@ -1,0 +1,2 @@
+5. Hacer una función que reciba como parámetros un vector de enteros de 10 elementos y un número entero, 
+y que devuelva verdadero si el número recibido existe en el vector, o falso si no existe.

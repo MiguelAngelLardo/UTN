@@ -1,4 +1,0 @@
-El constructor lo utilizamos para  inicializar el tamaño de la pila y el puntero al área de memoria dinámica donde se almacenarán los elementos de la pila, como así también el tope de la pila.
-  Acá es donde utilizamos vectores dinámicos ya que no sabemos el tamaño que va a tener la pila.
-
-El destructor lo utilizamos para liberar la memoria asignada para los elementos de la pila cuando el objeto se destruye .

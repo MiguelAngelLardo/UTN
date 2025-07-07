@@ -1,8 +1,0 @@
-	
-Actividad con Archivos - Agregar los siguientes listados al proyecto de Archivos con Productos y Categorías:
-
-Hacer un menú Reportes y una clase ReportesManager para resolver los siguientes listados:
-- Listar todas los productos que pertenezcan a un categoria a partir de su ID
-- Listar todas los productos a partir de un nombre
-- Listar cantidad de productos por categoría
-- Listar producto más caro por categoría

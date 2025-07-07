@@ -1,0 +1,1 @@
+Hacer un programa con un menu para cargar 1 registro de archivos de alimno y mostrar 1 registro de archivo de alumnos

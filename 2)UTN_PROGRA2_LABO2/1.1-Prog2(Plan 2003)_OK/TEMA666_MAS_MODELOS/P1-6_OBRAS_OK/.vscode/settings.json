@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "iomanip": "cpp",
+        "cstring": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "utility": "cpp",
+        "xutility": "cpp"
+    }
+}

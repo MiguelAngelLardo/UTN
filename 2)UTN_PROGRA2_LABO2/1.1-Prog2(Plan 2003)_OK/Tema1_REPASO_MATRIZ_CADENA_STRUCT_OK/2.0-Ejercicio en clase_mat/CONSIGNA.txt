@@ -1,0 +1,9 @@
+Un negocio tiene el registro de las ventas de este año. Por cada venta registró lo siguiente:
+- día
+- mes
+- importe de la venta
+- número de empleado que atendió (1 a 5).
+
+Hacer un programa para ingresar los datos de las ventas, e informar el importe recaudado por cada mes y empleado.
+
+El fin del ingreso de datos se establece ingresando un valor de mes igual a 0

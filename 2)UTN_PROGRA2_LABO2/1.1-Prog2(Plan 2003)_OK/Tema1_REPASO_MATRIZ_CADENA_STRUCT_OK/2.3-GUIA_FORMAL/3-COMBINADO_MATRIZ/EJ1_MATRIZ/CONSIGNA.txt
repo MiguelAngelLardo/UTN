@@ -1,0 +1,20 @@
+1) Una empresa vende 5 diferentes tipos de artículos en 3 sucursales. Por cada venta que
+realiza, se anotaron los siguientes datos:
+
+- Nro. de artículo (1 a 5)
+- Nro. de sucursal (1 a 3)
+- Cantidad vendida
+
+Este lote finaliza con un registro con nro. de artículo igual a cero. Puede haber más de
+un registro para el mismo artículo en la misma sucursal. Se desea determinar e
+informar:
+
+a) Un listado con la cantidad de artículos vendidos en cada sucursal, con el siguiente
+formato:
+             Sucursal 1 Sucursal 2  Sucursal 3
+Artículo 1     X x x    xxxxx       xxxx
+Artículo 2     X x x    xxxxx       xxxx
+
+
+b) Informar cual fue el nro. de artículo más vendido en total en cada una de las tres
+sucursales.

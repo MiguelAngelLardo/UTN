@@ -1,2 +1,0 @@
-
-Encuentro 02 - Jueves - 20/03URL https://www.youtube.com/watch?v=N2vykbAR4c0 Repaso Punteros, Referencias, parámetros por omisión, sobrecarga de funciones, vectores y matrices

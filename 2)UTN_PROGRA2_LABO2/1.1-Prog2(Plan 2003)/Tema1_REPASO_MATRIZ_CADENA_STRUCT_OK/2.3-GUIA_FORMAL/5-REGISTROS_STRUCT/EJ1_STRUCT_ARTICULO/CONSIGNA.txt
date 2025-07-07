@@ -1,6 +1,0 @@
-1) Un negocio representa los artículos con los que trabaja de la siguiente manera:
-• Código de artículo (char[5])
-• Descripción (char[30])
-• Precio unitario (float)
-• Unidades en stock (int)
-Diseñar el struct correspondiente, y hacer un programa con funciones para cargar y mostrar un registro de artículo.

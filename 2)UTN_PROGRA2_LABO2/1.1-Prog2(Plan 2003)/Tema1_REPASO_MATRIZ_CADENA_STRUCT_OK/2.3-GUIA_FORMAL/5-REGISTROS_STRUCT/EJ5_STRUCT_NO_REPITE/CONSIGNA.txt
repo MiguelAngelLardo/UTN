@@ -1,2 +1,0 @@
-5) Modificar el ejercicio 2, 
-de tal manera de no permitir que se repita el código de artículo en diferentes registros. Usar para eso la función del ejercicio 3.

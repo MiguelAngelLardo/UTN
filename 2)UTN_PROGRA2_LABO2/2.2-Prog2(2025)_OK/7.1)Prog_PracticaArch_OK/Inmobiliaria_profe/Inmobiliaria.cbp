@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Inmobiliaria" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Inmobiliaria" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Inmobiliaria" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ArchivoPropiedades.cpp" />
+		<Unit filename="ArchivoPropiedades.h" />
+		<Unit filename="ArchivoPropietarios.cpp" />
+		<Unit filename="ArchivoPropietarios.h" />
+		<Unit filename="FuncionesMenuPropiedades.cpp" />
+		<Unit filename="FuncionesMenuPropiedades.h" />
+		<Unit filename="FuncionesMenuPropietarios.cpp" />
+		<Unit filename="FuncionesMenuPropietarios.h" />
+		<Unit filename="Inmobiliaria.cbp" />
+		<Unit filename="Inmobiliaria.depend" />
+		<Unit filename="Inmueble.cpp" />
+		<Unit filename="MenuInmuebles.h" />
+		<Unit filename="MenuPropietarios.h" />
+		<Unit filename="Propietario.h" />
+		<Unit filename="inmueble.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="propietario.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

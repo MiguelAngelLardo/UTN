@@ -1,0 +1,1 @@
+4) Resolver el ejercicio 1) usando notación de punteros.

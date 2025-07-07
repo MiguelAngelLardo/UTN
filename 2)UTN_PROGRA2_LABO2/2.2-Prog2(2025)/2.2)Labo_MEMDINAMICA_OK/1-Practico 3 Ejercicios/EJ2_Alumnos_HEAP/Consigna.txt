@@ -1,3 +1,0 @@
-2- 📚 Actividad: Alumnos por Encima del Promedio
-Un profesor desea cargar las notas de los alumnos de su curso y quiere saber cuántos de sus estudiantes obtuvieron una califi cación mayor que el promedio general.
-El programa debe solicitar al usuario la cantidad de alumnos y debe permitir cargar una califi cación por cada uno de ellos.

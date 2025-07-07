@@ -1,6 +1,0 @@
-1) Hacer funciones que reciban los mismos parámetros y realicen las mismas acciones que las siguientes
- funciones de la librería string.h:
-- int strcmp(char *, char *)
-- void strcpy(char*, char *)
-- int strlen(char *)
-- char * strcat(char *, char *)

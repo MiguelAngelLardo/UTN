@@ -1,0 +1,3 @@
+Sem3
+Resolución de ejercicios de asignación dinámica de memoria https://www.youtube.com/watch?v=0LkGNdViMjA
+Introducción a POO. Clases, objetos, encapsulamiento https://www.youtube.com/watch?v=p1Pu7N3PqmY

@@ -1,3 +1,0 @@
-6) Agregar la opción Venta, al menú del ejercicio 2. En la venta se debe pedir el código de artículo y la cantidad de unidades a comprar, 
-e informar el importe de la venta. Se debe verificar que exista el código, y que la cantidad pedida no exceda el stock disponible.
- Con cada venta debe disminuir el stock del artículo vendido

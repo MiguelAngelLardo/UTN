@@ -1,8 +1,0 @@
-3- 🧾 Actividad: Registro de Asistencia con Memoria Dinámica
-Se está llevando a cabo un evento donde es necesario registrar la asistencia de los participantes. Para ello, se te pide desarrollar un programa para almacenar la información de asistencia.
-El sistema debe ofrecer el siguiente menú:
-1. Crear asistentes: Solicita al usuario la cantidad total de asistentes esperados.
-2. Marcar asistencia: permite ingresar el número de asistente (del 1 al N) y lo marca como asistió.
-3. Mostrar estado de asistencia: muestra la lista de asistentes, indicando por cada uno si asistió o no. El número de asistente debe mostrarse junto al estado:
-○ Ejemplo: Asistente 1: Asistió Asistente 2: No asistió
-4. Salir: fi naliza el programa.

@@ -1,2 +1,0 @@
-5. Hacer una función que reciba como parámetros una matriz de enteros de 10x10,
-y devuelva la suma de todos los componentes de la matriz.

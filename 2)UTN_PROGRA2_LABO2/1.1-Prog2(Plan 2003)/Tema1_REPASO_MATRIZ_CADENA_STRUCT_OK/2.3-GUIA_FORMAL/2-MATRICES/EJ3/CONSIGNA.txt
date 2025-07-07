@@ -1,2 +1,0 @@
-3. Hacer una función que reciba como parámetros una matriz de enteros de 10x10 y un número entero (entre 0 y 9), y 
-devuelva la suma de todos los componentes de la columna indicada por el segundo parámetro.

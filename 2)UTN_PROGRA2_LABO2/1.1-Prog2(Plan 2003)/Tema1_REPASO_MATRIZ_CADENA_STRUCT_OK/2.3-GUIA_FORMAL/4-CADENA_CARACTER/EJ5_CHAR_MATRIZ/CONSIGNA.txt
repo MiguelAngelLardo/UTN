@@ -1,4 +1,0 @@
-5) Hacer un programa para cargar y mostrar una matriz de char de 5x10 de la siguiente manera:
-- Con palabras de hasta 9 caracteres.
-- Con palabras de 10 o más caracteres.
-Analizar y explicar las diferencias que se producen al mostrar palabra por palabra el contenido de la matriz.

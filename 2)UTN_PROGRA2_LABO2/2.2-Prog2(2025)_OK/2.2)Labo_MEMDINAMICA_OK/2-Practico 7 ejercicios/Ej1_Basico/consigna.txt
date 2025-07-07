@@ -1,0 +1,3 @@
+Escribe un programa que solicite al usuario el tamaño de un array de enteros, lo
+cree dinámicamente utilizando new, el usuario debe poder cargar el array y
+mostrarlo, y luego libere la memoria con delete

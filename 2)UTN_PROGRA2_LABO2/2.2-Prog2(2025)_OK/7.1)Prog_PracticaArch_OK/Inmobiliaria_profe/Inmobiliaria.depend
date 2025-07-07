@@ -1,0 +1,240 @@
+# depslib dependency file v1.0
+1745846869 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\main.cpp
+	<iostream>
+	<cstring>
+	"ArchivoPropietarios.h"
+	"MenuInmuebles.h"
+	"MenuPropietarios.h"
+
+1745845956 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\propietario.cpp
+	"Propietario.h"
+	<iostream>
+	<cstring>
+
+1745785649 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\inmuebles.cpp
+	<iostream>
+	<cstring>
+	"inmuebles.h"
+
+1745785600 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\inmuebles.h
+
+1745844977 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\casa.cpp
+	"Casa.h"
+	<iostream>
+	<cstring>
+
+1745845422 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\inmueble.h
+
+1745845708 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\inmueble.cpp
+	"Inmueble.h"
+	"Propietario.h"
+	"ArchivoPropietarios.h"
+	<iostream>
+	<cstring>
+
+1745845870 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\menuinmuebles.cpp
+	<iostream>
+	<cstring>
+	"ArchivoInmuebles.h"
+
+1745845845 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\archivoinmuebles.h
+	"Inmueble.h"
+	"string.h"
+
+1745845726 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\archivopropietarios.cpp
+	"ArchivoPropietarios.h"
+	"Propietario.h"
+	<iostream>
+	<cstring>
+
+1745844589 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\archivopropietarios.h
+	"Propietario.h"
+	"string.h"
+
+1745845693 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\propietario.h
+
+1745847303 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\archivoinmuebles.cpp
+	"ArchivoInmuebles.h"
+	"Inmueble.h"
+	<iostream>
+	<cstring>
+
+1745844975 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\casa.h
+	"Inmueble.h"
+
+1745844998 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\departamento.cpp
+	"Departamento.h"
+	<iostream>
+	<cstring>
+
+1745841283 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\departamento.h
+	"Inmueble.h"
+
+1745846216 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\menuinmuebles.cpp
+	<iostream>
+	<cstring>
+	"ArchivoInmuebles.h"
+	"inmueble.h"
+
+1745846201 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\menupropietarios.cpp
+	<iostream>
+	<cstring>
+	"ArchivoPropietarios.h"
+	"Propietario.h"
+
+1745846201 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\menupropietarios.cpp
+	<iostream>
+	<cstring>
+	"ArchivoPropietarios.h"
+	"Propietario.h"
+
+1745847408 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\menuinmuebles.h
+	<iostream>
+	<cstring>
+	"ArchivoInmuebles.h"
+	"inmueble.h"
+
+1745846201 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4\inmobiliaria\menupropietarios.h
+	<iostream>
+	<cstring>
+	"ArchivoPropietarios.h"
+	"Propietario.h"
+
+1745863850 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\archivopropietarios.cpp
+	"ArchivoPropietarios.h"
+	"Propietario.h"
+	<iostream>
+	<cstring>
+
+1745863785 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\archivopropietarios.h
+	"Propietario.h"
+	"string.h"
+
+1745858316 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\propietario.h
+
+1745864499 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\inmueble.cpp
+	"Inmueble.h"
+	"Propietario.h"
+	"ArchivoPropietarios.h"
+	"ArchivoPropiedades.h"
+	<iostream>
+	<cstring>
+
+1745856118 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\inmueble.h
+
+1745848643 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\main.cpp
+	<iostream>
+	<cstring>
+	"ArchivoPropietarios.h"
+	"MenuInmuebles.h"
+	"MenuPropietarios.h"
+
+1745865378 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\menuinmuebles.h
+	<iostream>
+	<cstring>
+	"ArchivoPropiedades.h"
+	"Inmueble.h"
+
+1745865357 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\archivopropiedades.h
+	"Inmueble.h"
+	"string.h"
+
+1745865541 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\menupropietarios.h
+	<iostream>
+	<cstring>
+	"ArchivoPropietarios.h"
+	"Propietario.h"
+	"ArchivoPropiedades.h"
+
+1745858311 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\propietario.cpp
+	"Propietario.h"
+	<iostream>
+	<cstring>
+	"ArchivoPropietarios.h"
+
+1745865223 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - copia\inmobiliaria\archivopropiedades.cpp
+	"ArchivoPropiedades.h"
+	"Inmueble.h"
+	<iostream>
+	<cstring>
+
+1745881260 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\archivopropiedades.cpp
+	"ArchivoPropiedades.h"
+	"Inmueble.h"
+	<iostream>
+	<cstring>
+
+1745880408 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\archivopropiedades.h
+	"Inmueble.h"
+	"string.h"
+
+1745881020 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\inmueble.h
+
+1745876289 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\archivopropietarios.cpp
+	"ArchivoPropietarios.h"
+	"Propietario.h"
+	<iostream>
+	<cstring>
+
+1745863785 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\archivopropietarios.h
+	"Propietario.h"
+	"string.h"
+
+1745858316 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\propietario.h
+
+1745881044 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\inmueble.cpp
+	"Inmueble.h"
+	"Propietario.h"
+	"ArchivoPropietarios.h"
+	"ArchivoPropiedades.h"
+	<iostream>
+	<cstring>
+
+1745848643 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\main.cpp
+	<iostream>
+	<cstring>
+	"ArchivoPropietarios.h"
+	"MenuInmuebles.h"
+	"MenuPropietarios.h"
+
+1745874393 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\menuinmuebles.h
+	<iostream>
+	<cstring>
+	"ArchivoPropiedades.h"
+	"Inmueble.h"
+	"FuncionesMenuPropiedades.h"
+
+1745873437 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\funcionesmenupropiedades.cpp
+	<iostream>
+	<cstring>
+	"ArchivoPropiedades.h"
+
+1745875198 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\menupropietarios.h
+	<iostream>
+	<cstring>
+	"FuncionesMenuPropietarios.h"
+
+1745858311 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\propietario.cpp
+	"Propietario.h"
+	<iostream>
+	<cstring>
+	"ArchivoPropietarios.h"
+
+1745874483 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\funcionesmenupropiedades.cpp
+	<iostream>
+	<cstring>
+	"FuncionesMenuPropiedades.h"
+	"ArchivoPropiedades.h"
+
+1745874087 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\funcionesmenupropiedades.h
+
+1745874853 c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\funcionesmenupropietarios.h
+
+1745876905 source:c:\users\vero\onedrive\utn\jtp\2025-1c\prog 2 noche\clase especial 28-4 - con funciones\inmobiliaria\funcionesmenupropietarios.cpp
+	<iostream>
+	<cstring>
+	"FuncionesMenuPropietarios.h"
+	"ArchivoPropietarios.h"
+	"Propietario.h"
+	"ArchivoPropiedades.h"
+

@@ -1,0 +1,76 @@
+1) Desarrollar un programa con un menú para dar el alta, baja lógica y listado del siguiente archivo:
+
+restaurantes.dat
+
+Código de restaurante (entero)
+
+Nombre (char[30])
+
+Provincia a la que pertenece (1 a 24)
+
+Gerente (char[30])
+
+Categoría de restaurante (1 a 4)
+
+bool estado;
+
+
+(6 puntos)
+
+2) Agregar un constructor para la clase que da formato a los registros del archivo con valores por omisión que deben usarse
+en caso que el constructor sea llamado sin valores. Si recibe valores debe usarlos ignorando los que tiene por omisión (2 puntos)
+
+3) Agregar una sobrecarga para alguna de las clases del programa (2 puntos)
+********************************
+1) El área de desarrollo de una empresa de software tiene, entre otros, los siguientes archivos en su sistema:
+
+programadores.dat: DNI (int), nombre y apellido (char[50]), número de oficina (entero entre 1 y 30), categoría (1 a 5) y especialidad(1 a 10).
+
+Asignaciones.dat: DNI del programador (int), fecha (día, mes y año), tipo de tarea (1 a 5), número de proyecto.
+
+El archivo tiene las asignaciones de los investigadores a los proyectos desde el año 2018 a la fecha.
+
+Se pide:
+
+a) Generar un archivo nuevo con las asignaciones de los programadores de categoría 5. Cada registro del archivo debe tener el siguiente formato:
+
+- DNI, el nombre y apellido del programador, y la cantidad de asignaciones. (3 puntos)
+
+
+b)  Informar la especialidad con más programadores (3 puntos).
+
+Desarrollar la clase necesaria para el nuevo archivo. Suponer que el resto de las clases necesarias para la resolución del ejercicio exiten.
+
+
+2) Agregar una sobrecarga de un operador para alguna de las clases del ejercicio 1. La sobrecarga debe recibir como parámetro un objeto Fecha.
+
+
+3) Suponiendo que existe una clase de nombre Animal, crear una clase de nombre Reptil utilizando el mecanismo de la herencia. Reptil tiene que tener como propiedades, además de las definidas en Animal, las siguientes:
+
+Color (char[30]) y ambiente (‘t’: terrestre; ‘m’: marino).
+
+Cómo métodos agregar los sets() y gets() de las propiedades de la línea anterior.
+*********************************
+1) El área de estadística de la Secretaría de Políticas Universitarias tiene, entre otros, los siguientes archivos en su sistema:
+
+docentes.dat: DNI (int), nombre y apellido (char[50]), provincia (entero entre 1 y 24), categoría (1 a 7) especialidad(1 a 50), año de ingreso.
+
+concursos.dat: DNI del docente (int), fecha (día, mes y año), número de universidad (1 a 80), número de concurso, tipo de cargo a concursar (1: titular; 2: adjunto; 3: jefe de trabajos prácticos; 4: ayudante).
+
+El archivo tiene los concursos de los docentes desde el año 2000 a la fecha.
+
+Se pide:
+
+a) Generar un archivo nuevo con los concursos realizados hasta el año 2010 incluido. Cada registro del archivo debe tener el siguiente formato:
+
+- Número de concurso, DNI, el nombre y apellido del docente (3 puntos)
+
+
+b)  Informar cuál es el año con más concursos  (3 puntos).
+
+Desarrollar la clase para el archivo nuevo. Suponer que el resto de las clases existen.
+
+
+2) Agregar una sobrecarga de un operador para alguna de las clases del ejercicio 1 que sea útil para el desarrollo de alguno de los puntos que se piden (2 puntos)
+
+3) Hacer un constructor para la clase nueva del ejercicio 1  (2 puntos)
