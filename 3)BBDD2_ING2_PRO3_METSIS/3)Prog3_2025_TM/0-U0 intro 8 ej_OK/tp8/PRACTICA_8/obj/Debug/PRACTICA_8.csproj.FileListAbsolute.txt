@@ -1,0 +1,11 @@
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\bin\Debug\PRACTICA_8.exe.config
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\bin\Debug\PRACTICA_8.exe
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\bin\Debug\PRACTICA_8.pdb
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\obj\Debug\PRACTICA_8.csproj.AssemblyReference.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\obj\Debug\PRACTICA_8.frmListBoxCheckedListBox.resources
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\obj\Debug\PRACTICA_8.Properties.Resources.resources
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\obj\Debug\PRACTICA_8.csproj.GenerateResource.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\obj\Debug\PRACTICA_8.csproj.CoreCompileInputs.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\obj\Debug\PRACTICA_8.exe
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\obj\Debug\PRACTICA_8.pdb
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp8\PRACTICA_8\PRACTICA_8\obj\Debug\PRACTICA_8.exe.config

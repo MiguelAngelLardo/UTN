@@ -1,0 +1,11 @@
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\bin\Debug\MiPrimerAplicacion.exe.config
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\bin\Debug\MiPrimerAplicacion.exe
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\bin\Debug\MiPrimerAplicacion.pdb
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.csproj.AssemblyReference.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.Name.resources
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.Properties.Resources.resources
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.csproj.GenerateResource.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.csproj.CoreCompileInputs.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.exe
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.pdb
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\tp1\MiPrimerAplicacion\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.exe.config

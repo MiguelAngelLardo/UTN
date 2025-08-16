@@ -1,0 +1,11 @@
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\bin\Debug\9-TryCatch.exe.config
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\bin\Debug\9-TryCatch.exe
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\bin\Debug\9-TryCatch.pdb
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\obj\Debug\9-TryCatch.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\obj\Debug\_9_TryCatch.Form1.resources
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\obj\Debug\_9_TryCatch.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\obj\Debug\9-TryCatch.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\obj\Debug\9-TryCatch.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\obj\Debug\9-TryCatch.exe
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\obj\Debug\9-TryCatch.pdb
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\0-intro a form 8 ej_OK\9-TryCatch\9-TryCatch\obj\Debug\9-TryCatch.exe.config

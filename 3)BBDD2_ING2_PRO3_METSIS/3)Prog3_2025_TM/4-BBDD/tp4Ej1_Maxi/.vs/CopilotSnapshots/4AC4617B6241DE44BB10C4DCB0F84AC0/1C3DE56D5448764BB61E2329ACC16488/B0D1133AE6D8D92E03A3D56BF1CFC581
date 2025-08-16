@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace TP4
+{
+    public partial class Ejercicio1 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                cargar_ddlProvinciaInicio();
+            }
+        }
+
+        protected void ddlProvinciaInicio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selectedValue = int.Parse(ddlProvinciaInicio.SelectedValue);
+            Label1.Text = ddlProvinciaInicio.SelectedValue;
+            cargar_ddlLocalidadInicio(selectedValue);
+        }
+
+        // Método para cargar el DropDownList de provincias de inicio
+        public void cargar_ddlProvinciaInicio()
+        {
+            SqlConnection cn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=Viajes;Integrated Security=True");
+            cn.Open();
+
+            SqlCommand cmd = new SqlCommand("SELECT IdProvincia, NombreProvincia FROM Provincias", cn);
+            SqlDataReader dr = cmd.ExecuteReader();
+
+            ddlProvinciaInicio.DataSource = dr;
+            ddlProvinciaInicio.DataTextField = "NombreProvincia";
+            ddlProvinciaInicio.DataValueField = "IdProvincia";
+            ddlProvinciaInicio.DataBind();
+
+            cn.Close();
+            ddlProvinciaInicio.Items.Insert(0, new ListItem("--Seleccionar--", "0"));
+
+        }
+
+        public void cargar_ddlLocalidadInicio(int selectedValue)
+        {
+            SqlConnection cn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=Viajes;Integrated Security=True");
+            cn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT IdLocalidad, NombreLocalidad FROM Localidades WHERE IdProvincia = @IdProvincia", cn);
+            cmd.Parameters.AddWithValue("@IdProvincia", ddlProvinciaInicio.SelectedValue);
+            SqlDataReader dr = cmd.ExecuteReader();
+            ddlLocalidadInicio.DataSource = dr;
+            ddlLocalidadInicio.DataTextField = "NombreLocalidad";
+            ddlLocalidadInicio.DataValueField = "IdLocalidad";
+            ddlLocalidadInicio.DataBind();
+            cn.Close();
+            ddlLocalidadInicio.Items.Insert(0, new ListItem("--Seleccionar--", "0"));
+        }
+
+    }
+
+}

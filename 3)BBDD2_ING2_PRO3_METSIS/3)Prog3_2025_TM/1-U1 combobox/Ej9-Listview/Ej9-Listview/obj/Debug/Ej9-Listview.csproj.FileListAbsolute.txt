@@ -1,0 +1,11 @@
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\bin\Debug\Ej9-Listview.exe.config
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\bin\Debug\Ej9-Listview.exe
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\bin\Debug\Ej9-Listview.pdb
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\obj\Debug\Ej9-Listview.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\obj\Debug\Ej9_Listview.frmListView.resources
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\obj\Debug\Ej9_Listview.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\obj\Debug\Ej9-Listview.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\obj\Debug\Ej9-Listview.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\obj\Debug\Ej9-Listview.exe
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\obj\Debug\Ej9-Listview.pdb
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\1-unidad 1 combobox\Ej9-Listview\Ej9-Listview\obj\Debug\Ej9-Listview.exe.config

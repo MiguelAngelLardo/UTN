@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\tp4\\ej3b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|solutionrelative:tp4\\ej3b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\tp4\\ej3.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|solutionrelative:tp4\\ej3.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\tp4\\ej3b.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|solutionrelative:tp4\\ej3b.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\tp4\\ej2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|solutionrelative:tp4\\ej2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|c:\\users\\usuario\\desktop\\programacion\\5-utn\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\4-bbdd\\tp4\\tp4\\ej3.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63BC637-4553-4F3C-B036-F998F70634CE}|Tp4\\Tp4.csproj|solutionrelative:tp4\\ej3.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ej3b.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej3b.aspx",
+              "RelativeDocumentMoniker": "Tp4\\Ej3b.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej3b.aspx",
+              "RelativeToolTip": "Tp4\\Ej3b.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-15T01:07:55.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ej3b.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej3b.aspx.cs",
+              "RelativeDocumentMoniker": "Tp4\\Ej3b.aspx.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej3b.aspx.cs",
+              "RelativeToolTip": "Tp4\\Ej3b.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:41:18.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ej3.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej3.aspx.cs",
+              "RelativeDocumentMoniker": "Tp4\\Ej3.aspx.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej3.aspx.cs",
+              "RelativeToolTip": "Tp4\\Ej3.aspx.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvx8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T00:35:31.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ej3.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej3.aspx",
+              "RelativeDocumentMoniker": "Tp4\\Ej3.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej3.aspx",
+              "RelativeToolTip": "Tp4\\Ej3.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-15T00:33:38.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ej2.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej2.aspx.cs",
+              "RelativeDocumentMoniker": "Tp4\\Ej2.aspx.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\Tp4\\Tp4\\Ej2.aspx.cs",
+              "RelativeToolTip": "Tp4\\Ej2.aspx.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:00:49.245Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

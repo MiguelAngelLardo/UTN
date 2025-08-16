@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Escritorio2\\backup3\\backup3\\UTN\\miguel\\.NET\\INTRODUCCI\u00D3N A APLICACIONES\\tp4\\PRACTICA_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19B82723-1F40-4BD1-8302-B7932E6D9759}|PRACTICA_4\\PRACTICA_4.csproj|c:\\escritorio2\\backup3\\backup3\\utn\\miguel\\.net\\introducci\u00F3n a aplicaciones\\tp4\\practica_4\\practica_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B82723-1F40-4BD1-8302-B7932E6D9759}|PRACTICA_4\\PRACTICA_4.csproj|solutionrelative:practica_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B82723-1F40-4BD1-8302-B7932E6D9759}|PRACTICA_4\\PRACTICA_4.csproj|c:\\escritorio2\\backup3\\backup3\\utn\\miguel\\.net\\introducci\u00F3n a aplicaciones\\tp4\\practica_4\\practica_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19B82723-1F40-4BD1-8302-B7932E6D9759}|PRACTICA_4\\PRACTICA_4.csproj|solutionrelative:practica_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B82723-1F40-4BD1-8302-B7932E6D9759}|PRACTICA_4\\PRACTICA_4.csproj|c:\\escritorio2\\backup3\\backup3\\utn\\miguel\\.net\\introducci\u00F3n a aplicaciones\\tp4\\practica_4\\practica_4\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B82723-1F40-4BD1-8302-B7932E6D9759}|PRACTICA_4\\PRACTICA_4.csproj|solutionrelative:practica_4\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Escritorio2\\backup3\\backup3\\UTN\\miguel\\.NET\\INTRODUCCI\u00D3N A APLICACIONES\\tp4\\PRACTICA_4\\PRACTICA_4\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "PRACTICA_4\\Form1.Designer.cs",
+              "ToolTip": "C:\\Escritorio2\\backup3\\backup3\\UTN\\miguel\\.NET\\INTRODUCCI\u00D3N A APLICACIONES\\tp4\\PRACTICA_4\\PRACTICA_4\\Form1.Designer.cs",
+              "RelativeToolTip": "PRACTICA_4\\Form1.Designer.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T15:57:58.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Escritorio2\\backup3\\backup3\\UTN\\miguel\\.NET\\INTRODUCCI\u00D3N A APLICACIONES\\tp4\\PRACTICA_4\\PRACTICA_4\\Form1.cs",
+              "RelativeDocumentMoniker": "PRACTICA_4\\Form1.cs",
+              "ToolTip": "C:\\Escritorio2\\backup3\\backup3\\UTN\\miguel\\.NET\\INTRODUCCI\u00D3N A APLICACIONES\\tp4\\PRACTICA_4\\PRACTICA_4\\Form1.cs",
+              "RelativeToolTip": "PRACTICA_4\\Form1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAawCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T15:48:07.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Escritorio2\\backup3\\backup3\\UTN\\miguel\\.NET\\INTRODUCCI\u00D3N A APLICACIONES\\tp4\\PRACTICA_4\\PRACTICA_4\\Form1.cs",
+              "RelativeDocumentMoniker": "PRACTICA_4\\Form1.cs",
+              "ToolTip": "C:\\Escritorio2\\backup3\\backup3\\UTN\\miguel\\.NET\\INTRODUCCI\u00D3N A APLICACIONES\\tp4\\PRACTICA_4\\PRACTICA_4\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PRACTICA_4\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T15:43:39.752Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

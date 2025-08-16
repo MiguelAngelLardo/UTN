@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace TP4
+{
+    public partial class Ejercicio1 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {  
+
+                SqlConnection cn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=Viajes;Integrated Security=True");
+                cn.Open();
+
+                SqlCommand cmd = new SqlCommand("SELECT IdProvincia, NombreProvincia FROM Provincias", cn);
+                //cmd.CommandText = "SELECT * FROM Localidades"; -> trae todas las columnas de Localidades
+                //cmd.Connection = cn;
+
+                SqlDataReader dr = cmd.ExecuteReader();//lee los resultados uno por uno 
+
+                ddlProvinciaInicio.DataSource = dr;// Es como el "enchufe" que tiene el DropDownList para que le conectes una fuente de datos.
+
+
+                ddlProvinciaInicio.DataTextField = "NombreProvincia";       //que columna quiero que muestre
+                ddlProvinciaInicio.DataValueField = "IdProvincia";          //que columna quiero que guarde como valor
+
+                ddlProvinciaInicio.DataBind();//. Es como el "botón de encendido"
+
+                cn.Close();
+                ddlProvinciaInicio.Items.Insert(0, new ListItem("--Seleccionar--", "0"));//sin eso se inicializ con bs as pero sin localidada
+                ddlProvinciaFinal.Items.Insert(0, new ListItem("--Seleccionar--", "0"));//sin eso se inicializ con bs as pero sin localidada
+
+            }
+        }
+
+    }
+
+}

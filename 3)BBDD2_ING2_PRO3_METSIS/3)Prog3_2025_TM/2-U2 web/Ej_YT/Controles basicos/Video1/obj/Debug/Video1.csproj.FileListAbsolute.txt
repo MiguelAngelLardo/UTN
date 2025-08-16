@@ -1,0 +1,11 @@
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD1\Controles basicos\Video1\bin\Video1.dll.config
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD1\Controles basicos\Video1\bin\Video1.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD1\Controles basicos\Video1\bin\Video1.pdb
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD1\Controles basicos\Video1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD1\Controles basicos\Video1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD1\Controles basicos\Video1\obj\Debug\Video1.csprojResolveAssemblyReference.cache
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD1\Controles basicos\Video1\obj\Debug\Video1.csproj.CoreCompileInputs.cache
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD1\Controles basicos\Video1\obj\Debug\Video1.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD1\Controles basicos\Video1\obj\Debug\Video1.pdb
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\2-U2 web\Código unidad 2\CODIGO UNIDAD1\Controles basicos\Video1\obj\Debug\Video1.dll
+C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_INGLES2_PROG3\3)Prog3_2025_TM\2-U2 web\Código unidad 2\CODIGO UNIDAD1\Controles basicos\Video1\obj\Debug\Video1.pdb

@@ -1,0 +1,11 @@
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\bin\Debug\PRACTICA_6.exe.config
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\bin\Debug\PRACTICA_6.exe
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\bin\Debug\PRACTICA_6.pdb
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\obj\Debug\PRACTICA_6.csproj.AssemblyReference.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\obj\Debug\PRACTICA_6.Properties.Resources.resources
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\obj\Debug\PRACTICA_6.csproj.GenerateResource.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\obj\Debug\PRACTICA_6.csproj.CoreCompileInputs.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\obj\Debug\PRACTICA_6.exe
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\obj\Debug\PRACTICA_6.pdb
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\obj\Debug\PRACTICA_6.exe.config
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp6\PRACTICA_6\PRACTICA_6\obj\Debug\PRACTICA_6.fmrRbtnCb.resources

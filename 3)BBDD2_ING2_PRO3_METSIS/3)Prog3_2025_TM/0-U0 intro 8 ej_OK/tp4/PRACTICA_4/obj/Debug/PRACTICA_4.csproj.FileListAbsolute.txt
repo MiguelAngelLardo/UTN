@@ -1,0 +1,11 @@
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\bin\Debug\PRACTICA_4.exe.config
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\bin\Debug\PRACTICA_4.exe
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\bin\Debug\PRACTICA_4.pdb
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\obj\Debug\PRACTICA_4.csproj.AssemblyReference.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\obj\Debug\PRACTICA_4.Form1.resources
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\obj\Debug\PRACTICA_4.Properties.Resources.resources
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\obj\Debug\PRACTICA_4.csproj.GenerateResource.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\obj\Debug\PRACTICA_4.csproj.CoreCompileInputs.cache
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\obj\Debug\PRACTICA_4.exe
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\obj\Debug\PRACTICA_4.pdb
+C:\Escritorio2\backup3\backup3\UTN\miguel\.NET\INTRODUCCIÓN A APLICACIONES\tp4\PRACTICA_4\PRACTICA_4\obj\Debug\PRACTICA_4.exe.config

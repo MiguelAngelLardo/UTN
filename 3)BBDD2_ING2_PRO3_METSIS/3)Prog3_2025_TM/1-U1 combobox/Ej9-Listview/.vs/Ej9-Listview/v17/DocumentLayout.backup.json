@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\Ej9-Listview\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28EE388C-C858-43ED-97C0-0167DF630A08}|Ej9-Listview\\Ej9-Listview.csproj|c:\\users\\usuario\\desktop\\programacion\\5-utn\\utn\\3)bbdd2_ingles2_prog3\\3)prog3_2025_tm\\1-unidad 1 combobox\\ej9-listview\\ej9-listview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EE388C-C858-43ED-97C0-0167DF630A08}|Ej9-Listview\\Ej9-Listview.csproj|solutionrelative:ej9-listview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EE388C-C858-43ED-97C0-0167DF630A08}|Ej9-Listview\\Ej9-Listview.csproj|c:\\users\\usuario\\desktop\\programacion\\5-utn\\utn\\3)bbdd2_ingles2_prog3\\3)prog3_2025_tm\\1-unidad 1 combobox\\ej9-listview\\ej9-listview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28EE388C-C858-43ED-97C0-0167DF630A08}|Ej9-Listview\\Ej9-Listview.csproj|solutionrelative:ej9-listview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\Ej9-Listview\\Ej9-Listview\\Form1.cs",
+              "RelativeDocumentMoniker": "Ej9-Listview\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\Ej9-Listview\\Ej9-Listview\\Form1.cs",
+              "RelativeToolTip": "Ej9-Listview\\Form1.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAYwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T18:50:55.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\Ej9-Listview\\Ej9-Listview\\Form1.cs",
+              "RelativeDocumentMoniker": "Ej9-Listview\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\Ej9-Listview\\Ej9-Listview\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ej9-Listview\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T18:47:56.622Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
