@@ -1,0 +1,63 @@
+C:\Users\123ma\source\repos\AppEscrituraCapas\Dao\bin\Debug\Dao.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Dao\bin\Debug\Dao.pdb
+C:\Users\123ma\source\repos\AppEscrituraCapas\Dao\bin\Debug\Entidades.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Dao\bin\Debug\Entidades.pdb
+C:\Users\123ma\source\repos\AppEscrituraCapas\Dao\obj\Debug\Dao.csproj.AssemblyReference.cache
+C:\Users\123ma\source\repos\AppEscrituraCapas\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\123ma\source\repos\AppEscrituraCapas\Dao\obj\Debug\Dao.csproj.Up2Date
+C:\Users\123ma\source\repos\AppEscrituraCapas\Dao\obj\Debug\Dao.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Dao\obj\Debug\Dao.pdb
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.pdb
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.pdb
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.AssemblyReference.cache
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.Up2Date
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.pdb
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.pdb
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.pdb
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.AssemblyReference.cache
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.Up2Date
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.pdb
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.pdb
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.pdb
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.AssemblyReference.cache
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.Up2Date
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.pdb
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.pdb
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.pdb
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.AssemblyReference.cache
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.Up2Date
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.pdb
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.pdb
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.pdb
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.AssemblyReference.cache
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.Up2Date
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.pdb
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Dao.pdb
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\bin\Debug\Entidades.pdb
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.AssemblyReference.cache
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.csproj.Up2Date
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Dao\obj\Debug\Dao.pdb

@@ -1,0 +1,10 @@
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\obj\Debug\AppValidaciones.csprojAssemblyReference.cache
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\obj\Debug\AppValidaciones.csproj.CoreCompileInputs.cache
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\obj\Debug\AppValidaciones.csproj.CopyComplete
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\bin\AppValidaciones.dll.config
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\bin\AppValidaciones.dll
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\bin\AppValidaciones.pdb
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\obj\Debug\AppValidaciones.dll
+C:\Users\TAMAR\OneDrive\Desktop\CODIGO UNIDAD5\Controles validacion\Video9\obj\Debug\AppValidaciones.pdb

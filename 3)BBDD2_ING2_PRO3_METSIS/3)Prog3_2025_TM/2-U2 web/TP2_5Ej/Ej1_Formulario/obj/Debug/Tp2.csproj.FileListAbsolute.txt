@@ -12,3 +12,10 @@ C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3
 C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\bin\Ej1_Formulario.pdb
 C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\obj\Debug\Ej1_Formulario.dll
 C:\Users\Usuario\Desktop\Programacion\5-UTN\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\obj\Debug\Ej1_Formulario.pdb
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\bin\Ej1_Formulario.dll.config
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\bin\Ej1_Formulario.dll
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\bin\Ej1_Formulario.pdb
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\obj\Debug\Tp2.csproj.AssemblyReference.cache
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\obj\Debug\Tp2.csproj.CoreCompileInputs.cache
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\obj\Debug\Ej1_Formulario.dll
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\2-U2 web\TP2_5Ej\Ej1_Formulario\obj\Debug\Ej1_Formulario.pdb

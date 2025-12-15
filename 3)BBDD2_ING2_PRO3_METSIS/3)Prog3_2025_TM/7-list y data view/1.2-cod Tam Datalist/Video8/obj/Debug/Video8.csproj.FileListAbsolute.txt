@@ -1,0 +1,9 @@
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD5\Datalist\Video8\bin\Video8.dll.config
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD5\Datalist\Video8\bin\Video8.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD5\Datalist\Video8\bin\Video8.pdb
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD5\Datalist\Video8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD5\Datalist\Video8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD5\Datalist\Video8\obj\Debug\Video8.csprojResolveAssemblyReference.cache
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD5\Datalist\Video8\obj\Debug\Video8.csproj.CoreCompileInputs.cache
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD5\Datalist\Video8\obj\Debug\Video8.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD5\Datalist\Video8\obj\Debug\Video8.pdb

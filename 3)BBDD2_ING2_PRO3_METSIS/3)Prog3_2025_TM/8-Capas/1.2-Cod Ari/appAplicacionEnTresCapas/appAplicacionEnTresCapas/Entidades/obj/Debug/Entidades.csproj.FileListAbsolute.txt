@@ -1,0 +1,6 @@
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Entidades\bin\Debug\Entidades.dll
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Entidades\obj\Debug\Entidades.dll
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Entidades\obj\Debug\Entidades.pdb

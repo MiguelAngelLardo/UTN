@@ -14,15 +14,15 @@
       height: 22px;
     }
     .auto-style3 {
-      width: 145px;
-    }
+          width: 141px;
+      }
     .auto-style4 {
       height: 22px;
-      width: 145px;
+      width: 141px;
     }
     .auto-style5 {
-      width: 384px;
-    }
+          width: 384px;
+      }
     .auto-style6 {
       height: 22px;
       width: 384px;
@@ -35,13 +35,13 @@
           <table class="auto-style1">
             <tr>
               <td class="auto-style3">
-                <asp:HyperLink ID="hlAgregarSucu" runat="server" BorderStyle="None" ForeColor="Blue" style="text-decoration: underline">Agregar Sucursal</asp:HyperLink>
+                <asp:HyperLink ID="hlAgregarSucu" runat="server" BorderStyle="None" ForeColor="Blue" style="text-decoration: underline" NavigateUrl="~/AgregarSucursal.aspx">Agregar Sucursal</asp:HyperLink>
               </td>
               <td class="auto-style5">
-                <asp:HyperLink ID="hlListarSucu" runat="server" BorderStyle="None" ForeColor="Blue" style="text-decoration: underline">Listar Sucursales</asp:HyperLink>
+                <asp:HyperLink ID="hlListarSucu" runat="server" BorderStyle="None" ForeColor="Blue" style="text-decoration: underline" NavigateUrl="~/ListarSucursal.aspx">Listar Sucursales</asp:HyperLink>
               </td>
               <td>
-                <asp:HyperLink ID="hlEliminarSucu" runat="server" BorderStyle="None" ForeColor="Blue" style="text-decoration: underline">Eliminar Sucursales</asp:HyperLink>
+                <asp:HyperLink ID="hlEliminarSucu" runat="server" BorderStyle="None" ForeColor="Blue" style="text-decoration: underline" NavigateUrl="~/EliminarSucursal.aspx">Eliminar Sucursales</asp:HyperLink>
               </td>
             </tr>
             <tr>
@@ -94,7 +94,9 @@
               <td class="auto-style3">&nbsp;</td>
               <td class="auto-style5">
                 <br />
-                <asp:Button ID="btnAceptar" runat="server" Text="Aceptar" />
+                <asp:Button ID="btnAceptar" runat="server" Text="Aceptar" OnClick="btnAceptar_Click" />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <asp:Label ID="lblConfirmacion" runat="server"></asp:Label>
               </td>
               <td>&nbsp;</td>
             </tr>

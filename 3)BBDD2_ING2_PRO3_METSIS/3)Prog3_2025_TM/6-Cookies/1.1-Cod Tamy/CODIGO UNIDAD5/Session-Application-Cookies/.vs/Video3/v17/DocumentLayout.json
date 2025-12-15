@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.1-\\CODIGO UNIDAD5\\Session-Application-Cookies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94789A96-ABF3-4E68-A0ED-6C599844FAEE}|Video3\\Video3.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\6-cookies\\1.1-\\codigo unidad5\\session-application-cookies\\video3\\aplicacion4a.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{94789A96-ABF3-4E68-A0ED-6C599844FAEE}|Video3\\Video3.csproj|solutionrelative:video3\\aplicacion4a.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Aplicacion4a.aspx",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.1-\\CODIGO UNIDAD5\\Session-Application-Cookies\\Video3\\Aplicacion4a.aspx",
+              "RelativeDocumentMoniker": "Video3\\Aplicacion4a.aspx",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.1-\\CODIGO UNIDAD5\\Session-Application-Cookies\\Video3\\Aplicacion4a.aspx",
+              "RelativeToolTip": "Video3\\Aplicacion4a.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-27T20:06:01.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

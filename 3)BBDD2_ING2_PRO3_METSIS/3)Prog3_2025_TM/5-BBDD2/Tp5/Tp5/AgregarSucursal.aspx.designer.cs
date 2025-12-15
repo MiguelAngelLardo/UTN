@@ -105,7 +105,7 @@ namespace Tp5
     protected global::System.Web.UI.WebControls.TextBox txtDireccion;
 
     /// <summary>
-    /// Control rfvDescripcion0.
+    /// Control rfvDireccion.
     /// </summary>
     /// <remarks>
     /// Campo generado automáticamente.
@@ -121,5 +121,14 @@ namespace Tp5
     /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button btnAceptar;
+
+    /// <summary>
+    /// Control lblConfirmacion.
+    /// </summary>
+    /// <remarks>
+    /// Campo generado automáticamente.
+    /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label lblConfirmacion;
   }
 }

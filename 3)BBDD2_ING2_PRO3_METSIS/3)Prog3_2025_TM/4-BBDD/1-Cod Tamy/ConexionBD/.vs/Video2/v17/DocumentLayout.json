@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\1.-codigo Tamara\\ConexionBD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8FD09C-55AB-4D52-8855-FD41496D6AE4}|Video2\\Video2.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\4-bbdd\\1.-codigo tamara\\conexionbd\\video2\\aplicacion1a.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F8FD09C-55AB-4D52-8855-FD41496D6AE4}|Video2\\Video2.csproj|solutionrelative:video2\\aplicacion1a.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8FD09C-55AB-4D52-8855-FD41496D6AE4}|Video2\\Video2.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\4-bbdd\\1.-codigo tamara\\conexionbd\\video2\\aplicacion1a.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2F8FD09C-55AB-4D52-8855-FD41496D6AE4}|Video2\\Video2.csproj|solutionrelative:video2\\aplicacion1a.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Aplicacion1a.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\1.-codigo Tamara\\ConexionBD\\Video2\\Aplicacion1a.aspx.cs",
+              "RelativeDocumentMoniker": "Video2\\Aplicacion1a.aspx.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\1.-codigo Tamara\\ConexionBD\\Video2\\Aplicacion1a.aspx.cs",
+              "RelativeToolTip": "Video2\\Aplicacion1a.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T11:51:45.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Aplicacion1a.aspx",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\1.-codigo Tamara\\ConexionBD\\Video2\\Aplicacion1a.aspx",
+              "RelativeDocumentMoniker": "Video2\\Aplicacion1a.aspx",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\4-BBDD\\1.-codigo Tamara\\ConexionBD\\Video2\\Aplicacion1a.aspx",
+              "RelativeToolTip": "Video2\\Aplicacion1a.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-08T11:51:35.969Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

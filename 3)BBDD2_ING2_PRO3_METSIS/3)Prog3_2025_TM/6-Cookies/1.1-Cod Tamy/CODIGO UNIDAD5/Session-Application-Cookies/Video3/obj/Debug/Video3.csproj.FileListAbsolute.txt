@@ -1,0 +1,9 @@
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Session-Application-Cookies\Video3\bin\Video3.dll.config
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Session-Application-Cookies\Video3\bin\Video3.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Session-Application-Cookies\Video3\bin\Video3.pdb
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Session-Application-Cookies\Video3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Session-Application-Cookies\Video3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Session-Application-Cookies\Video3\obj\Debug\Video3.csprojResolveAssemblyReference.cache
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Session-Application-Cookies\Video3\obj\Debug\Video3.csproj.CoreCompileInputs.cache
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Session-Application-Cookies\Video3\obj\Debug\Video3.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Session-Application-Cookies\Video3\obj\Debug\Video3.pdb

@@ -1,0 +1,9 @@
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Dao\bin\Debug\Dao.dll
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Dao\bin\Debug\Dao.pdb
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Dao\bin\Debug\Entidades.dll
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Dao\bin\Debug\Entidades.pdb
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Dao\obj\Debug\Dao.csprojAssemblyReference.cache
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Dao\obj\Debug\Dao.csproj.CopyComplete
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Dao\obj\Debug\Dao.dll
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Dao\obj\Debug\Dao.pdb

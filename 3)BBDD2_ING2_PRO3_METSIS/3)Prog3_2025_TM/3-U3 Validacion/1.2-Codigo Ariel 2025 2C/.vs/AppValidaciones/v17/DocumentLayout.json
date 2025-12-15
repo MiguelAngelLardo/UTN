@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion6.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion6.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion7.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion7.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion7.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion7.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion5.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion5.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion5.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion5.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion4.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion4.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion4.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion4.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion2a.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion2a.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion3.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion3.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion2b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion2b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|c:\\users\\ariel\\desktop\\controles validacion\\appvalidaciones\\aplicacion1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{25794174-CA8D-4D3B-A809-DEF6008D9F8A}|AppValidaciones\\AppValidaciones.csproj|solutionrelative:appvalidaciones\\aplicacion1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Aplicacion7.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion7.aspx.cs",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion7.aspx.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion7.aspx.cs",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion7.aspx.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T16:07:08.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Aplicacion7.aspx",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion7.aspx",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion7.aspx",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion7.aspx",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion7.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T16:06:49.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Aplicacion6.aspx",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion6.aspx",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion6.aspx",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion6.aspx",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion6.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T15:38:12.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Aplicacion5.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion5.aspx.cs",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion5.aspx.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion5.aspx.cs",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion5.aspx.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:23:45.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Aplicacion5.aspx",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion5.aspx",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion5.aspx",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion5.aspx",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion5.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T15:20:54.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Aplicacion4.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion4.aspx.cs",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion4.aspx.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion4.aspx.cs",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion4.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T14:28:58.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Aplicacion4.aspx",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion4.aspx",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion4.aspx",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion4.aspx",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion4.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T14:27:33.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Aplicacion3.aspx",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion3.aspx",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion3.aspx",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion3.aspx",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion3.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T14:23:37.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Aplicacion2b.aspx",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion2b.aspx",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion2b.aspx",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion2b.aspx",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion2b.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T13:56:42.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Aplicacion2a.aspx",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion2a.aspx",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion2a.aspx",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion2a.aspx",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion2a.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T13:46:42.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Aplicacion1.aspx",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion1.aspx",
+              "RelativeDocumentMoniker": "AppValidaciones\\Aplicacion1.aspx",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Controles validacion\\AppValidaciones\\Aplicacion1.aspx",
+              "RelativeToolTip": "AppValidaciones\\Aplicacion1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T12:29:24.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

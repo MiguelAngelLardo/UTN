@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\",
+  "WorkspaceRootPath": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|c:\\users\\usuario\\desktop\\programacion\\5-utn\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\5-bbdd2\\tp5\\tp5\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\tp5\\eliminarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\eliminarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|c:\\users\\usuario\\desktop\\programacion\\5-utn\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\5-bbdd2\\tp5\\tp5\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|c:\\users\\usuario\\desktop\\programacion\\5-utn\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\5-bbdd2\\tp5\\tp5\\eliminarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\tp5\\eliminarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\eliminarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|c:\\users\\usuario\\desktop\\programacion\\5-utn\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\5-bbdd2\\tp5\\tp5\\listarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\5-bbdd2\\tp5\\tp5\\listarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\listarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\tp5\\listarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\listarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\tp5\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\tp5\\agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\tp5\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\tp5\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E04430F2-CE6C-4048-B795-862D1181639E}|Tp5\\Tp5.csproj|solutionrelative:tp5\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +42,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\Web.config",
-              "RelativeDocumentMoniker": "Tp5\\Web.config",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\Web.config",
-              "RelativeToolTip": "Tp5\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-08-15T21:02:12.408Z",
+              "Title": "EliminarSucursal.aspx",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\EliminarSucursal.aspx",
+              "RelativeDocumentMoniker": "Tp5\\EliminarSucursal.aspx",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\EliminarSucursal.aspx",
+              "RelativeToolTip": "Tp5\\EliminarSucursal.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-21T23:12:47.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EliminarSucursal.aspx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\EliminarSucursal.aspx",
-              "RelativeDocumentMoniker": "Tp5\\EliminarSucursal.aspx",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\EliminarSucursal.aspx",
-              "RelativeToolTip": "Tp5\\EliminarSucursal.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "DocumentIndex": 6,
+              "Title": "AgregarSucursal.aspx",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\AgregarSucursal.aspx",
+              "RelativeDocumentMoniker": "Tp5\\AgregarSucursal.aspx",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\AgregarSucursal.aspx",
+              "RelativeToolTip": "Tp5\\AgregarSucursal.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-15T20:13:52.372Z",
+              "WhenOpened": "2025-08-21T23:11:28.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgregarSucursal.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\AgregarSucursal.aspx.cs",
+              "RelativeDocumentMoniker": "Tp5\\AgregarSucursal.aspx.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\AgregarSucursal.aspx.cs",
+              "RelativeToolTip": "Tp5\\AgregarSucursal.aspx.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwD4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T21:09:42.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ListarSucursal.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\ListarSucursal.aspx.cs",
+              "RelativeDocumentMoniker": "Tp5\\ListarSucursal.aspx.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\ListarSucursal.aspx.cs",
+              "RelativeToolTip": "Tp5\\ListarSucursal.aspx.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAtwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:49:22.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ListarSucursal.aspx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\ListarSucursal.aspx",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\ListarSucursal.aspx",
               "RelativeDocumentMoniker": "Tp5\\ListarSucursal.aspx",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\ListarSucursal.aspx",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\ListarSucursal.aspx",
               "RelativeToolTip": "Tp5\\ListarSucursal.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-15T20:12:46.207Z",
+              "WhenOpened": "2025-08-20T00:28:27.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AgregarSucursal.aspx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\AgregarSucursal.aspx",
-              "RelativeDocumentMoniker": "Tp5\\AgregarSucursal.aspx",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\AgregarSucursal.aspx",
-              "RelativeToolTip": "Tp5\\AgregarSucursal.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-15T20:11:12.331Z",
+              "Title": "EliminarSucursal.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\EliminarSucursal.aspx.cs",
+              "RelativeDocumentMoniker": "Tp5\\EliminarSucursal.aspx.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\EliminarSucursal.aspx.cs",
+              "RelativeToolTip": "Tp5\\EliminarSucursal.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:43:59.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\Conexion.cs",
+              "RelativeDocumentMoniker": "Tp5\\Conexion.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\Conexion.cs",
+              "RelativeToolTip": "Tp5\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T22:46:22.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\Web.config",
+              "RelativeDocumentMoniker": "Tp5\\Web.config",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\5-BBDD2\\Tp5\\Tp5\\Web.config",
+              "RelativeToolTip": "Tp5\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-23T22:39:55.238Z",
               "EditorCaption": ""
             }
           ]

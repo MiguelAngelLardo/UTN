@@ -1,0 +1,43 @@
+CREATE DATABASE [Empresa]
+GO
+USE [Empresa]
+GO
+/****** Object:  Table [dbo].[Personas]    Script Date: 09/14/2016 12:04:57 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Personas](
+	[Dni] [varchar](15) NOT NULL,
+	[Nombre] [varchar](50) NULL,
+	[Apellido] [varchar](50) NULL,
+	[Edad] [int] NULL,
+	[Sexo] [char](1) NULL,
+	[ImagenURL] [varchar](50) NULL,
+	[Direccion] [varchar](50) NULL,
+	[Telefono] [varchar](20) NULL,
+ CONSTRAINT [PK_Personas] PRIMARY KEY CLUSTERED 
+(
+	[Dni] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'12323211', N'Marcelo', N'Pizza', 28, N'M', N'~/Imagenes/8.jpg', N'San Juan 222', N'3434-3242')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'23344443', N'Juana', N'Rodriguez', 33, N'F', N'~/Imagenes/15.jpg', N'Av. Nordelta 656', N'2342-6536')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'32323557', N'Tomas', N'Fernandez', 58, N'M', N'~/Imagenes/9.jpg', N'Cordero 432', N'5455-4555')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'34534543', N'Matias', N'Pe�a', 35, N'M', N'~/Imagenes/14.jpg', N'Teniente 778', N'4324-6565')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'35222448', N'Jose', N'Hernandez', 30, N'M', N'~/Imagenes/1.jpg', N'Av. Sta Fe 888', N'6665-8841')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'3536652', N'Marcelo', N'Labadie', 45, N'M', N'~/Imagenes/2.jpg', N'Fernandez 255', N'6568-5555')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'36222688', N'Juan Carlos', N'Perez', 35, N'M', N'~/Imagenes/3.jpg', N'Positos 856', N'4444-5555')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'36695522', N'Fernanda', N'Iglesias', 36, N'F', N'~/Imagenes/4.jpg', N'Higuera 588', N'4578-5556')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'40582693', N'Maria', N'Gallo', 22, N'F', N'~/Imagenes/5.jpg', N'Saavedra 336', N'6565-4778')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'4377887', N'Florencia', N'Mirassou', 38, N'F', N'~/Imagenes/13.jpg', N'Av. Libertador 24', N'8763-7676')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'56423434', N'Analia', N'Burbridge', 35, N'F', N'~/Imagenes/12.jpg', N'Av. Mayo 7889', N'8987-6666')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'6575676', N'Juan', N'Cazzola', 27, N'M', N'~/Imagenes/11.jpg', N'Francisco 1444', N'9898-8777')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'75888556', N'Pedro', N'Juarez', 26, N'M', N'~/Imagenes/6.jpg', N'Hipolito Yrigoyen 680', N'5555-9999')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'80904562', N'Laura', N'Morales', 25, N'F', N'~/Imagenes/7.jpg', N'Av. Marquez 489', N'4448-5555')
+INSERT [dbo].[Personas] ([Dni], [Nombre], [Apellido], [Edad], [Sexo], [ImagenURL], [Direccion], [Telefono]) VALUES (N'85878897', N'Gustavo', N'Fructuoso', 52, N'M', N'~/Imagenes/10.jpg', N'Altamitano 342', N'3234-5454')

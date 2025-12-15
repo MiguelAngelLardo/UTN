@@ -1,0 +1,9 @@
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Gridview III\Video6\bin\Video6.dll.config
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Gridview III\Video6\bin\Video6.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Gridview III\Video6\bin\Video6.pdb
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Gridview III\Video6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Gridview III\Video6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Gridview III\Video6\obj\Debug\Video6.csprojResolveAssemblyReference.cache
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Gridview III\Video6\obj\Debug\Video6.csproj.CoreCompileInputs.cache
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Gridview III\Video6\obj\Debug\Video6.dll
+C:\Users\Tamara\Desktop\PROGRAMACION_WEB\UNIDAD3\Gridview III\Video6\obj\Debug\Video6.pdb

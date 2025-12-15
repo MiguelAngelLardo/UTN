@@ -1,0 +1,9 @@
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Datos\bin\Debug\Datos.dll
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Datos\bin\Debug\Datos.pdb
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Datos\bin\Debug\Entidades.dll
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Datos\bin\Debug\Entidades.pdb
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Datos\obj\Debug\Datos.dll
+C:\Users\Ariel\Desktop\appAplicacionEnTresCapas\Datos\obj\Debug\Datos.pdb

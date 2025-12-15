@@ -1,0 +1,143 @@
+﻿/* ================================================ */
+/* ESTILOS PARA HEADER Y FOOTER
+/* ================================================ */
+
+/* --- Reseteo global --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, form {
+  height: 100%; /* Hacemos que la página ocupe el 100% */
+}
+
+/* --- Contenedor principal del sitio (¡La clave de Flex!) --- */
+.site-container {
+  display: flex;
+  flex-direction: column; /* Apila los elementos (header, main, footer) verticalmente */
+  min-height: 100%; /* Ocupa al menos el 100% de la pantalla */
+}
+
+/* --- Header y Logo --- */
+.site-header {
+  width: 100%;
+  background-color: #007bff; /* Un azul médico */
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;/*centra vertical*/
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.logo {
+  flex: 1; /* espacio izquierdo IDEM al espacio derecho */
+  display: flex;
+  justify-content: flex-start; /* Pega el logo al borde izquierdo */
+}
+
+.main-nav {
+  flex: 0 0 auto; /* No crece (0), no se encoge (0), tamaño automático (auto) */
+  /* Al tener los laterales con flex: 1, el menú queda  atrapado en el centro geométrico exacto de la pantalla */
+}
+
+.user-info {
+  flex: 1; /* espacio derecha IDEM espacio izquierdo */
+  display: flex;
+  justify-content: flex-end; /* Pega la info al borde derecho */
+  align-items: center;
+  gap: 15px;
+}
+
+
+
+.logo-imagen {
+  height: 45px; 
+  border-radius: 45%;
+  transition: transform 0.5s ease; /*para el hover*/
+}
+
+.logo-imagen:hover {
+  transform: scale(1.30);/*agranda 130%*/
+  cursor: pointer; /* Cambia el cursor a una "manito" */
+}
+
+/* --- Menú de Navegación --- */
+
+.main-nav{
+  max-width: 1200px;
+}
+
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio entre links */
+    margin: 0;
+    padding: 0;
+  }
+
+.main-nav li {
+  margin-left: 20px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+  .main-nav a:hover {
+    background-color: #0056b3; /* Un azul más oscuro al pasar el mouse */
+  }
+
+
+
+.username {
+  font-weight: bold;
+}
+
+.btnCerrarSesion {
+  padding: 5px 10px; /* Un poco más pequeño */
+  font-size: 14px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white; /* Borde blanco */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+  .btnCerrarSesion:hover {
+    background-color: white; /* fondo blanco */
+    color: #007bff; /* texto azul como header*/
+    cursor: pointer;
+  }
+
+
+/* --- Contenido Principal --- */
+.main-content {
+  width: 100%;
+  max-width: 1200px; /* Ancho máximo para el contenido */
+  margin: 20px auto; /* Centra el contenido */
+  padding: 20px;
+  flex-grow: 1;
+}
+
+/* --- Footer (Pie de Página) --- */
+.site-footer {
+  width: 100%;
+  background-color: #343a40; /* Un gris oscuro */
+  color: #f8f9fa; /* Texto casi blanco */
+  text-align: center;
+  padding: 20px;
+}
+
+/* ================================================ */
+/* FIN ESTILOS PARA HEADER Y FOOTER
+/* ================================================ */
+

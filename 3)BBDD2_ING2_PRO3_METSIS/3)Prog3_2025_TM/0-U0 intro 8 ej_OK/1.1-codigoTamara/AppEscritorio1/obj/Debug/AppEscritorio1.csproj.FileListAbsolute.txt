@@ -1,0 +1,11 @@
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\bin\Debug\AppEscritorio1.exe.config
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\bin\Debug\AppEscritorio1.exe
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\bin\Debug\AppEscritorio1.pdb
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\obj\Debug\AppEscritorio1.csprojAssemblyReference.cache
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\obj\Debug\AppEscritorio1.Form1.resources
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\obj\Debug\AppEscritorio1.Properties.Resources.resources
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\obj\Debug\AppEscritorio1.csproj.GenerateResource.cache
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\obj\Debug\AppEscritorio1.csproj.CoreCompileInputs.cache
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\obj\Debug\AppEscritorio1.exe
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\obj\Debug\AppEscritorio1.pdb
+C:\Users\TAMAR\OneDrive\Desktop\AppEscritorio1\AppEscritorio1\obj\Debug\AppEscritorio1.Form2.resources

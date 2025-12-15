@@ -1,0 +1,14 @@
+ if (!IsPostBack)
+        {
+            string consulta = "Select * from personas";
+            string ruta = "Data Source=localhost\\sqlexpress;Initial Catalog=Empresa;Integrated Security=True";
+            SqlConnection cn = new SqlConnection(ruta);
+            cn.Open();
+            SqlDataAdapter adaptador = new SqlDataAdapter(consulta, cn);
+            DataSet ds = new DataSet();
+            adaptador.Fill(ds, "Personas");
+            DataList1.DataSource = ds.Tables[0];
+            DataList1.DataBind();
+            cn.Close();
+
+        }

@@ -1,0 +1,9 @@
+c:\users\mecanica-utn\documents\visual studio 2010\ProjectsSilverlight\CargarSugerencias\CargarSugerencias\bin\Debug\CargarSugerencias.exe
+c:\users\mecanica-utn\documents\visual studio 2010\ProjectsSilverlight\CargarSugerencias\CargarSugerencias\bin\Debug\CargarSugerencias.pdb
+c:\users\mecanica-utn\documents\visual studio 2010\ProjectsSilverlight\CargarSugerencias\CargarSugerencias\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mecanica-utn\documents\visual studio 2010\ProjectsSilverlight\CargarSugerencias\CargarSugerencias\obj\x86\Debug\CargarSugerencias.Form1.resources
+c:\users\mecanica-utn\documents\visual studio 2010\ProjectsSilverlight\CargarSugerencias\CargarSugerencias\obj\x86\Debug\CargarSugerencias.Properties.Resources.resources
+c:\users\mecanica-utn\documents\visual studio 2010\ProjectsSilverlight\CargarSugerencias\CargarSugerencias\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\mecanica-utn\documents\visual studio 2010\ProjectsSilverlight\CargarSugerencias\CargarSugerencias\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\mecanica-utn\documents\visual studio 2010\ProjectsSilverlight\CargarSugerencias\CargarSugerencias\obj\x86\Debug\CargarSugerencias.exe
+c:\users\mecanica-utn\documents\visual studio 2010\ProjectsSilverlight\CargarSugerencias\CargarSugerencias\obj\x86\Debug\CargarSugerencias.pdb

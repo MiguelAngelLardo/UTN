@@ -1,0 +1,6 @@
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Entidades\bin\Debug\Entidades.dll
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Entidades\bin\Debug\Entidades.pdb
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Entidades\obj\Debug\Entidades.dll
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Entidades\obj\Debug\Entidades.pdb

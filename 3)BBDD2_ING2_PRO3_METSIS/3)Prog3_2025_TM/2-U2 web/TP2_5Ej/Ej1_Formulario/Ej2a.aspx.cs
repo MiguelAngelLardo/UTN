@@ -23,11 +23,6 @@ namespace Ej1_Formulario
         cblTemas.Items.Add("Historia");
 
       }
-
-     
-
-
-
     }
          
         // Para separar los distintos parámetros en una URL, tenés que usar el símbolo &.

@@ -1,26 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\",
+  "WorkspaceRootPath": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|c:\\users\\usuario\\desktop\\programacion\\5-utn\\utn\\3)bbdd2_ingles2_prog3\\3)prog3_2025_tm\\1-unidad 1 combobox\\tp_1_grupal\\tp_1_grupal\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\1-u1 combobox\\tp_1_grupal\\tp_1_grupal\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\ejercicio1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\ejercicio1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|c:\\users\\usuario\\desktop\\programacion\\5-utn\\utn\\3)bbdd2_ingles2_prog3\\3)prog3_2025_tm\\1-unidad 1 combobox\\tp_1_grupal\\tp_1_grupal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\tp_1_grupal\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B5BCF0-4C4B-4819-89E6-63A5704C2F45}|TP_1_GRUPAL\\TP_1_GRUPAL.csproj|solutionrelative:tp_1_grupal\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +50,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ejercicio3.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio3.cs",
-              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio3.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio3.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio3.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "Ejercicio2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio2.cs",
+              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio2.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T21:41:52.589Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-08-18T16:00:36.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ejercicio1.resx",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio1.resx",
+              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio1.resx",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio1.resx",
+              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-08-18T15:49:47.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ejercicio1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio1.Designer.cs",
+              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio1.Designer.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio1.Designer.cs",
+              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:49:33.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ejercicio1.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio1.cs",
+              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio1.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio1.cs",
+              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T13:32:19.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Form1.cs",
+              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Form1.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Form1.cs",
+              "RelativeToolTip": "TP_1_GRUPAL\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T13:22:52.237Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Form1.cs",
-              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Form1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Form1.cs",
-              "RelativeToolTip": "TP_1_GRUPAL\\Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAlwC0AAAAMAAAAAAAAAA==",
+              "Title": "Ejercicio2.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio2.cs",
+              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio2.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio2.cs",
+              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T21:01:53.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T21:38:33.269Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ejercicio3.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio3.cs",
+              "Title": "Ejercicio3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio3.cs",
               "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio3.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio3.cs",
-              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio3.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwCEAAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio3.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T17:36:55.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Form1.cs",
-              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Form1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TP_1_GRUPAL\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T17:34:34.256Z",
+              "WhenOpened": "2025-08-18T16:09:56.948Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ejercicio2.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio2.cs",
-              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio2.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programacion\\5-UTN\\UTN\\3)BBDD2_INGLES2_PROG3\\3)Prog3_2025_TM\\1-unidad 1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio2.cs",
-              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio2.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAhwC8AAAAZAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Ejercicio3.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio3.cs",
+              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio3.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio3.cs",
+              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T21:38:33.269Z"
+              "WhenOpened": "2025-08-18T16:12:53.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Form1.cs",
+              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Form1.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP_1_GRUPAL\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T13:22:48.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ejercicio1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio1.cs",
+              "RelativeDocumentMoniker": "TP_1_GRUPAL\\Ejercicio1.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\1-U1 combobox\\TP_1_GRUPAL\\TP_1_GRUPAL\\Ejercicio1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP_1_GRUPAL\\Ejercicio1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T13:22:25.478Z"
             }
           ]
         }

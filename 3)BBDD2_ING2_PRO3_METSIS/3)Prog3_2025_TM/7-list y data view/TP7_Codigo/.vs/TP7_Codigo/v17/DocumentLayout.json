@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8F9FB1-20D4-4B34-B888-EF12A2C1BE94}|TP7_Codigo\\TP7_Codigo.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\7-list y data view\\tp7_codigo\\tp7_codigo\\seleccionarsucursales2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8F9FB1-20D4-4B34-B888-EF12A2C1BE94}|TP7_Codigo\\TP7_Codigo.csproj|solutionrelative:tp7_codigo\\seleccionarsucursales2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8F9FB1-20D4-4B34-B888-EF12A2C1BE94}|TP7_Codigo\\TP7_Codigo.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\7-list y data view\\tp7_codigo\\tp7_codigo\\seleccionarsucursales2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1D8F9FB1-20D4-4B34-B888-EF12A2C1BE94}|TP7_Codigo\\TP7_Codigo.csproj|solutionrelative:tp7_codigo\\seleccionarsucursales2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8F9FB1-20D4-4B34-B888-EF12A2C1BE94}|TP7_Codigo\\TP7_Codigo.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\tp7_codigo\\datos(dal)\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8F9FB1-20D4-4B34-B888-EF12A2C1BE94}|TP7_Codigo\\TP7_Codigo.csproj|solutionrelative:tp7_codigo\\datos(dal)\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8F9FB1-20D4-4B34-B888-EF12A2C1BE94}|TP7_Codigo\\TP7_Codigo.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\tp7_codigo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1D8F9FB1-20D4-4B34-B888-EF12A2C1BE94}|TP7_Codigo\\TP7_Codigo.csproj|solutionrelative:tp7_codigo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeleccionarSucursales2.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\TP7_Codigo\\SeleccionarSucursales2.aspx.cs",
+              "RelativeDocumentMoniker": "TP7_Codigo\\SeleccionarSucursales2.aspx.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\TP7_Codigo\\SeleccionarSucursales2.aspx.cs",
+              "RelativeToolTip": "TP7_Codigo\\SeleccionarSucursales2.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:43:38.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeleccionarSucursales2.aspx",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\TP7_Codigo\\SeleccionarSucursales2.aspx",
+              "RelativeDocumentMoniker": "TP7_Codigo\\SeleccionarSucursales2.aspx",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\TP7_Codigo\\SeleccionarSucursales2.aspx",
+              "RelativeToolTip": "TP7_Codigo\\SeleccionarSucursales2.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-15T12:43:00.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\TP7_Codigo\\Web.config",
+              "RelativeDocumentMoniker": "TP7_Codigo\\Web.config",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\TP7_Codigo\\Web.config",
+              "RelativeToolTip": "TP7_Codigo\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-11T19:33:07.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\TP7_Codigo\\Datos(DAL)\\ConexionDB.cs",
+              "RelativeDocumentMoniker": "TP7_Codigo\\Datos(DAL)\\ConexionDB.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\7-list y data view\\TP7_Codigo\\TP7_Codigo\\Datos(DAL)\\ConexionDB.cs",
+              "RelativeToolTip": "TP7_Codigo\\Datos(DAL)\\ConexionDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T11:47:55.263Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

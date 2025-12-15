@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+              <h1>Maquetación con Tablas HTML</h1>
+            <br />
+            <br />
+            <table border="1">
+                <tr>
+                    <td>Ingrese nombre:</td>
+                    <td>
+                        <input type="text" name="txtNombre">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ingrese apellido:</td>
+                    <td>
+                          <input type="text" name="txtApellido">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                      <input type="submit" value="Aceptar" name="btnAceptar">
+                    </td>
+                </tr>
+            </table>
+            <br />
+    </form>
+</body>
+</html>

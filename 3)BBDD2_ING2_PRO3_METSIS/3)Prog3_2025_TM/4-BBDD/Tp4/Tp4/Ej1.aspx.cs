@@ -13,14 +13,17 @@ SqlDataReader: La herramienta para leer los resultados.
  */
 namespace Tp4
 {
+
   public partial class WebForm1 : System.Web.UI.Page
   {
+    private const string cadenaConexion = "Data Source=localhost;Initial Catalog=Viajes;User ID=sa;Password=Miguel-1234;Encrypt=False";
+
     protected void Page_Load(object sender, EventArgs e)
     {
       if (!IsPostBack)//es la primera vez que se carga la pagina
       {  //llamo al edificio Data Source, en la seccion especifica Initial Catalog
 
-        SqlConnection cn = new SqlConnection("Data Source=-SAI\\SQLEXPRESS;Initial Catalog=Viajes;Integrated Security=True");
+        SqlConnection cn = new SqlConnection(cadenaConexion);
         //cn.ConnectionString = "Data Source=-SAI\\SQLEXPRESS;Initial Catalog=Viajes;Integrated Security=True;Trust Server Certificate=True"
         cn.Open();
 
@@ -66,7 +69,7 @@ namespace Tp4
     {
       string idProvinciaSeleccionada = ddlProvInicio.SelectedValue;
 
-      SqlConnection cn = new SqlConnection("Data Source=-SAI\\SQLEXPRESS;Initial Catalog=Viajes;Integrated Security=True");
+      SqlConnection cn = new SqlConnection(cadenaConexion);
       cn.Open();
 
       string consultaLocalidad = "SELECT IdLocalidad, NombreLocalidad FROM Localidades WHERE IdProvincia = " + idProvinciaSeleccionada;
@@ -104,7 +107,7 @@ namespace Tp4
      {
       
        string idProvFinalSelec = ddlProvFinal.SelectedValue;
-       SqlConnection cn = new SqlConnection("Data Source=-SAI\\SQLEXPRESS;Initial Catalog=Viajes;Integrated Security=True");
+       SqlConnection cn = new SqlConnection(cadenaConexion);
        cn.Open();
        
        string consultaLocFinal = "SELECT IdLocalidad, NombreLocalidad FROM Localidades WHERE IdProvincia = " + idProvFinalSelec;

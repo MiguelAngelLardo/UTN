@@ -1,0 +1,6 @@
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Entidades\bin\Debug\Entidades.dll
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Entidades\bin\Debug\Entidades.pdb
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Entidades\obj\Debug\Entidades.dll
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Entidades\obj\Debug\Entidades.pdb

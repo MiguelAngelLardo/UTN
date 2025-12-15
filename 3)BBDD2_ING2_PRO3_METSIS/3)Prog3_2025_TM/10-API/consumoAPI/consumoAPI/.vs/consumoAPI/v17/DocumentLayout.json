@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C40D332C-4FE1-448B-A2B2-043656FC92C8}|Datos\\Datos.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\datos\\apifruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C40D332C-4FE1-448B-A2B2-043656FC92C8}|Datos\\Datos.csproj|solutionrelative:datos\\apifruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCEB4E77-D4EF-45BB-B245-A5C18813463B}|Entidades\\Entidades.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\entidades\\fruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB4E77-D4EF-45BB-B245-A5C18813463B}|Entidades\\Entidades.csproj|solutionrelative:entidades\\fruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCEB4E77-D4EF-45BB-B245-A5C18813463B}|Entidades\\Entidades.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\entidades\\frutasplanas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB4E77-D4EF-45BB-B245-A5C18813463B}|Entidades\\Entidades.csproj|solutionrelative:entidades\\frutasplanas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCEB4E77-D4EF-45BB-B245-A5C18813463B}|Entidades\\Entidades.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\entidades\\nutricion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB4E77-D4EF-45BB-B245-A5C18813463B}|Entidades\\Entidades.csproj|solutionrelative:entidades\\nutricion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5B5908-534E-49C0-8ED0-D71F430C73D7}|Vistas.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\formulariofrutas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FC5B5908-534E-49C0-8ED0-D71F430C73D7}|Vistas.csproj|solutionrelative:formulariofrutas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5B5908-534E-49C0-8ED0-D71F430C73D7}|Vistas.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\10-api\\consumoapi\\consumoapi\\formulariofrutas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5B5908-534E-49C0-8ED0-D71F430C73D7}|Vistas.csproj|solutionrelative:formulariofrutas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB46AEA5-5708-4717-8406-0E8B43BEDD8D}|Negocio\\Negocio.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\negocio\\negociofrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB46AEA5-5708-4717-8406-0E8B43BEDD8D}|Negocio\\Negocio.csproj|solutionrelative:negocio\\negociofrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5B5908-534E-49C0-8ED0-D71F430C73D7}|Vistas.csproj|C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\formulariofrutas.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5B5908-534E-49C0-8ED0-D71F430C73D7}|Vistas.csproj|solutionrelative:formulariofrutas.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NegocioFrutas.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Negocio\\NegocioFrutas.cs",
+              "RelativeDocumentMoniker": "Negocio\\NegocioFrutas.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Negocio\\NegocioFrutas.cs",
+              "RelativeToolTip": "Negocio\\NegocioFrutas.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:31:55.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormularioFrutas.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\FormularioFrutas.aspx.designer.cs",
+              "RelativeDocumentMoniker": "FormularioFrutas.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\FormularioFrutas.aspx.designer.cs",
+              "RelativeToolTip": "FormularioFrutas.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:21:43.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormularioFrutas.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\FormularioFrutas.aspx.cs",
+              "RelativeDocumentMoniker": "FormularioFrutas.aspx.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\FormularioFrutas.aspx.cs",
+              "RelativeToolTip": "FormularioFrutas.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:06:19.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrutasPlanas.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Entidades\\FrutasPlanas.cs",
+              "RelativeDocumentMoniker": "Entidades\\FrutasPlanas.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Entidades\\FrutasPlanas.cs",
+              "RelativeToolTip": "Entidades\\FrutasPlanas.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:58:44.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormularioFrutas.aspx",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\FormularioFrutas.aspx",
+              "RelativeDocumentMoniker": "FormularioFrutas.aspx",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\FormularioFrutas.aspx",
+              "RelativeToolTip": "FormularioFrutas.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-12T08:02:17.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiFruta.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Datos\\ApiFruta.cs",
+              "RelativeDocumentMoniker": "Datos\\ApiFruta.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Datos\\ApiFruta.cs",
+              "RelativeToolTip": "Datos\\ApiFruta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:38:50.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fruta.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Entidades\\Fruta.cs",
+              "RelativeDocumentMoniker": "Entidades\\Fruta.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Entidades\\Fruta.cs",
+              "RelativeToolTip": "Entidades\\Fruta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:58:13.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nutricion.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Entidades\\Nutricion.cs",
+              "RelativeDocumentMoniker": "Entidades\\Nutricion.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\10-API\\consumoAPI\\consumoAPI\\Entidades\\Nutricion.cs",
+              "RelativeToolTip": "Entidades\\Nutricion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:54:36.577Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

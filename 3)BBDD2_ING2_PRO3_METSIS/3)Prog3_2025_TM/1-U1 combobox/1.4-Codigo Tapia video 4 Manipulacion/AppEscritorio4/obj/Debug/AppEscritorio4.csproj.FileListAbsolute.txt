@@ -1,0 +1,11 @@
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\bin\Debug\AppEscritorio4.exe.config
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\bin\Debug\AppEscritorio4.exe
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\bin\Debug\AppEscritorio4.pdb
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\obj\Debug\AppEscritorio4.csproj.AssemblyReference.cache
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\obj\Debug\AppEscritorio4.Properties.Resources.resources
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\obj\Debug\AppEscritorio4.csproj.GenerateResource.cache
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\obj\Debug\AppEscritorio4.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\obj\Debug\AppEscritorio4.exe
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\obj\Debug\AppEscritorio4.pdb
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\obj\Debug\AppEscritorio4.Formulario1.resources
+C:\Users\Ariel\Desktop\AppEscritorio4\AppEscritorio4\obj\Debug\AppEscritorio4.Formulario2.resources

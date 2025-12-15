@@ -1,0 +1,585 @@
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Vistas.dll.config
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Vistas.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Vistas.pdb
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\csc.exe
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\csc.exe.config
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\csc.rsp
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\csi.exe
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\csi.exe.config
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\csi.rsp
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.AppContext.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Console.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.IO.Compression.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Net.Http.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Net.Sockets.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.ValueTuple.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Xml.XPath.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\vbc.exe
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\vbc.exe.config
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\vbc.rsp
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\VBCSCompiler.exe
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\obj\Debug\Vistas.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\obj\Debug\Vistas.pdb
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Entidades.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Negocio.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Entidades.pdb
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Negocio.pdb
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Dao.dll
+C:\Users\123ma\source\repos\AppEscrituraCapas\Vistas\bin\Dao.pdb
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll.config
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Vistas.pdb
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe.config
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.rsp
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe.config
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.rsp
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.AppContext.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Console.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Http.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Sockets.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.ValueTuple.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe.config
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.rsp
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Entidades.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Negocio.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Dao.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Entidades.pdb
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Negocio.pdb
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\bin\Dao.pdb
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.dll
+C:\Users\123ma\source\repos\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.pdb
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll.config
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.pdb
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe.config
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.rsp
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe.config
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.rsp
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.AppContext.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Collections.Immutable.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Console.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Globalization.Calendars.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Http.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Sockets.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Reflection.Metadata.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.ValueTuple.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe.config
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.rsp
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe.config
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.pdb
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.pdb
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.pdb
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.Up2Date
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.dll
+F:\Descargas\prog 3\version 2 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.pdb
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll.config
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.pdb
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe.config
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.rsp
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe.config
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.rsp
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.AppContext.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Collections.Immutable.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Console.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Globalization.Calendars.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Http.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Sockets.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Reflection.Metadata.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.ValueTuple.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe.config
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.rsp
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe.config
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.pdb
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.pdb
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.pdb
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.Up2Date
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.dll
+D:\Docs UTN\Prog 3\version 4 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.pdb
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll.config
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.pdb
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe.config
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.rsp
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe.config
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.rsp
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.AppContext.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Console.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Http.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Sockets.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.ValueTuple.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe.config
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.rsp
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.pdb
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.pdb
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.pdb
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.dll
+C:\Users\marce\Downloads\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.pdb
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll.config
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.pdb
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe.config
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.rsp
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe.config
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.rsp
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.AppContext.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Console.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Http.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.ValueTuple.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe.config
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.rsp
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.pdb
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.pdb
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.pdb
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.dll
+C:\Users\Javier PC\Desktop\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.pdb
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll.config
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.pdb
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe.config
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.rsp
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe.config
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.rsp
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.AppContext.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Collections.Immutable.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Console.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Globalization.Calendars.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Http.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Sockets.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Reflection.Metadata.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.ValueTuple.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe.config
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.rsp
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe.config
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.pdb
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.pdb
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.pdb
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.Up2Date
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.dll
+F:\Descargas\prog 3\version 7 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.pdb
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll.config
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.pdb
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe.config
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.rsp
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe.config
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.rsp
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.AppContext.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Console.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Http.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.ValueTuple.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe.config
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.rsp
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.pdb
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.pdb
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.pdb
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.dll
+C:\Users\Javier PC\Desktop\version 8 - TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.pdb
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll.config
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Vistas.pdb
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.exe.config
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csc.rsp
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.exe.config
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\csi.rsp
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.AppContext.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Console.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Http.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.ValueTuple.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.exe.config
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\vbc.rsp
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Entidades.pdb
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Negocio.pdb
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\bin\Dao.pdb
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.dll
+C:\Users\Javier PC\Desktop\TP8_Grupo_Nro_11\TP8_Grupo_Nro_11\Vistas\obj\Debug\Vistas.pdb

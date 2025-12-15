@@ -1,0 +1,9 @@
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Dao\obj\Debug\Dao.csproj.AssemblyReference.cache
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Dao\bin\Debug\Dao.dll
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Dao\bin\Debug\Dao.pdb
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Dao\bin\Debug\Entidades.dll
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Dao\bin\Debug\Entidades.pdb
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Dao\obj\Debug\Dao.csproj.Up2Date
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Dao\obj\Debug\Dao.dll
+C:\Users\miguel\Desktop\Programacion\UTN\3)BBDD2_ING2_PRO3_METSIS\3)Prog3_2025_TM\8-Capas\TP8\Dao\obj\Debug\Dao.pdb

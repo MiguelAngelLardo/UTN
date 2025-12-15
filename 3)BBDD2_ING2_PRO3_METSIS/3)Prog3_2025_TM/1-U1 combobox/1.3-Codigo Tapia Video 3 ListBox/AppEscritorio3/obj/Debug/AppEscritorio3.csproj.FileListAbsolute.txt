@@ -1,0 +1,10 @@
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\obj\Debug\AppEscritorio3.csproj.AssemblyReference.cache
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\obj\Debug\AppEscritorio3.Form1.resources
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\obj\Debug\AppEscritorio3.Properties.Resources.resources
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\obj\Debug\AppEscritorio3.csproj.GenerateResource.cache
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\obj\Debug\AppEscritorio3.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\bin\Debug\AppEscritorio3.exe.config
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\bin\Debug\AppEscritorio3.exe
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\bin\Debug\AppEscritorio3.pdb
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\obj\Debug\AppEscritorio3.exe
+C:\Users\Ariel\Desktop\AppEscritorio3\AppEscritorio3\obj\Debug\AppEscritorio3.pdb

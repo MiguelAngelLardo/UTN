@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.2-Cod Ari\\ejemploGridView\\ejemploGridView\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF7544D-4C7B-4735-9079-CAF90572296D}|ejemploGridView\\ejemploGridView.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\6-cookies\\1.2-cod ari\\ejemplogridview\\ejemplogridview\\ejemplogridview\\conexion\\gestionlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF7544D-4C7B-4735-9079-CAF90572296D}|ejemploGridView\\ejemploGridView.csproj|solutionrelative:ejemplogridview\\conexion\\gestionlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF7544D-4C7B-4735-9079-CAF90572296D}|ejemploGridView\\ejemploGridView.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\6-cookies\\1.2-cod ari\\ejemplogridview\\ejemplogridview\\ejemplogridview\\conexion\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF7544D-4C7B-4735-9079-CAF90572296D}|ejemploGridView\\ejemploGridView.csproj|solutionrelative:ejemplogridview\\conexion\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF7544D-4C7B-4735-9079-CAF90572296D}|ejemploGridView\\ejemploGridView.csproj|c:\\users\\miguel\\desktop\\programacion\\utn\\3)bbdd2_ing2_pro3_metsis\\3)prog3_2025_tm\\6-cookies\\1.2-cod ari\\ejemplogridview\\ejemplogridview\\ejemplogridview\\conexion\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF7544D-4C7B-4735-9079-CAF90572296D}|ejemploGridView\\ejemploGridView.csproj|solutionrelative:ejemplogridview\\conexion\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.2-Cod Ari\\ejemploGridView\\ejemploGridView\\ejemploGridView\\Conexion\\Libro.cs",
+              "RelativeDocumentMoniker": "ejemploGridView\\Conexion\\Libro.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.2-Cod Ari\\ejemploGridView\\ejemploGridView\\ejemploGridView\\Conexion\\Libro.cs",
+              "RelativeToolTip": "ejemploGridView\\Conexion\\Libro.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T21:07:43.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestionLibros.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.2-Cod Ari\\ejemploGridView\\ejemploGridView\\ejemploGridView\\Conexion\\GestionLibros.cs",
+              "RelativeDocumentMoniker": "ejemploGridView\\Conexion\\GestionLibros.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.2-Cod Ari\\ejemploGridView\\ejemploGridView\\ejemploGridView\\Conexion\\GestionLibros.cs",
+              "RelativeToolTip": "ejemploGridView\\Conexion\\GestionLibros.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwE4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T21:08:39.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.2-Cod Ari\\ejemploGridView\\ejemploGridView\\ejemploGridView\\Conexion\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "ejemploGridView\\Conexion\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\miguel\\Desktop\\Programacion\\UTN\\3)BBDD2_ING2_PRO3_METSIS\\3)Prog3_2025_TM\\6-Cookies\\1.2-Cod Ari\\ejemploGridView\\ejemploGridView\\ejemploGridView\\Conexion\\AccesoDatos.cs",
+              "RelativeToolTip": "ejemploGridView\\Conexion\\AccesoDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T21:03:57.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

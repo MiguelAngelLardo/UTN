@@ -1,0 +1,633 @@
+﻿
+/*titulo h2*/
+.titulo-pagina {
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+/* Estilos para botones */
+.btnAgregar {
+  background-color: #007bff;
+  color: white;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 150px;
+}
+
+.btnAgregar:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.btnEliminarUsuario {
+    background-color: #dc3545;
+    color: white;
+    border: 2px solid #dc3545;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    min-width: 150px;
+}
+    .btnEliminarUsuario:hover {
+        background-color: #a71d2a;
+        border-color: #a71d2a;
+    }
+    .btnBuscar {
+        background-color: white;
+        color: #007bff;
+        border: 2px solid #007bff;
+        border-radius: 8px;
+        padding: 6px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        min-width: 150px;
+    }
+
+.btnBuscar:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+
+
+
+/*listar medicos*/
+.contenedor-busqueda,
+.contenedor-filtros {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+
+.input-txtbox-busqueda {
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 14px;
+  padding: 8px 12px;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.input-txtbox-busqueda:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+  outline: none;
+}
+
+.columna-Btn-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px;
+}
+
+.columna-Btn-Grid .btnAccion {
+  width: 90%;
+  margin: 0;
+}
+
+.ddl {
+  width: 220px;
+  height: 35px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #333;
+  padding: 5px 10px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.ddl:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+/* 🔹 CheckBoxList */
+.checkbox-dias {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.checkbox-dias input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.checkbox-dias label {
+  margin-right: 25px;
+}
+/* RadioButtonList */
+
+.radio-opciones {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 16px;
+}
+
+/*DENTRO de la tabla .radio-opciones.*/
+
+.radio-opciones td { /*Quitamos flex y gap. Dejamos que sea una tabla. */
+  padding-right: 25px;
+}
+
+/* Esto es para que el radio y el texto queden alineados */
+.radio-opciones input[type="radio"] {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.radio-opciones label {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.radio-opciones input[type="radio"] {
+    margin-right: 6px;
+    accent-color: #007bff; 
+    cursor: pointer;
+}
+
+.radio-opciones label {
+    cursor: pointer;
+}
+
+/* Estilos para tablas de MEDICOS, ver si se reutiliza y podemos ponerle un nombre mas generico  */
+.tabla-medicos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+  .tabla-medicos th, .tabla-medicos td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+.tabla-medicos th {
+  background-color: #f2f2f2;
+}
+
+.btnAccion {
+  padding: 6px 10px;
+  margin: 2px;
+  border-radius: 8px;
+  border: 1px solid #007bff;
+  cursor: pointer;
+}
+
+.btnVer {
+  background-color: white;
+  color: #007bff;
+}
+
+.btnEditar {
+  background-color: #ffc107;
+  color: white;
+  border-color: #ffc107;
+}
+
+.btnEliminar {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+}
+
+.btnCrear {
+  background-color: #28a745;
+  color: white;
+  border-color: #28a745;
+}
+
+/*Detalles*/
+.contenedor-detalle {
+  display: flex;
+
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+/*
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px 30px;
+}*/
+
+
+.titulo-detalle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subtitulo-legajo {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.label-dato {
+  font-weight: bold;
+  color: #333;
+}
+
+.valor-dato {
+  color: #555;
+}
+
+/*termina detalle*/
+.contenedor-botones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+
+
+
+/*agregar medico*/
+.contenedor-columnas {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 60px;/*solo espacio lateral entre columnas*/
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap; /*Permite que el botón caiga a la línea de abajo por el max-width: 1200px del main del master*/
+}
+
+.columna {
+  /*distribuye los 300 px en el ancho que le falta a las col*/
+  /*min-width: 420px;*/ /*420+420+60 = 900*/
+  /*width: auto;
+  box-sizing: border-box;*/
+  /* Forzamos el ancho al 50% del contenedor menos la mitad de la separación (60px / 2 = 30px) */
+  width: calc(50% - 30px);
+  /* Mantenemos el min-width para el responsive, pero ya no es la regla principal de ancho */
+  min-width: 420px;
+  /* Mantenemos flex-grow: 1 para que crezcan si el ancho total es mayor que 900px */
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+/* Cada grupo de campo */
+.columna > * {
+  display: block;
+  width: 100%;/*con esto todos los txt y ddl tendran mismo ancho*/
+  margin-bottom: 10px;
+}
+/* --- Estilos específicos para una sola columna --- */
+.contenedor-unacolumna {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.columna-centrada {
+  width: 50%; 
+  min-width: 400px; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* txtBox y ddl*/
+.input-txtbox-form, .ddl-form {
+  width: 100%;/*el ancho perfecto*/
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 6px 10px;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* --- ESTILOS PARA LA FILA DE DIAS (cblDias) --- */
+.cblPadre {
+  display: flex;
+  width: 100%;
+  /* Estilos base */
+  background-color: #f8f9fa;
+  padding: 16px 20px;
+  border-radius: 20px;
+}
+
+.cblPadre__lbl {
+  display: flex;
+  flex: 1; /* <-- FUERZA 1: Ocupa 1/3 del espacio flexible */
+  justify-content: flex-end;
+}
+
+.cblPadre__checks {
+  flex: 0 0 auto; /* <-- FUERZA AUTO: No crece ni se encoge, sólo usa el espacio que necesita para sus checks */
+}
+
+.cblPadre__validator {
+  display: flex;
+  flex: 1; /* <-- FUERZA 1: Ocupa lo mismo que el bloque de la izquierda, creando simetría */
+  justify-content: center;
+}
+
+.cblPadre__checks > table {
+  flex-grow: 1; /* ¡Esto hace que ocupe el resto del ancho! */
+  justify-content: flex-start;
+  border-collapse: separate;
+  border-spacing: 20px 0;
+}
+
+/* El <input> (cuadradito) */
+.cblPadre__checks > table input[type="checkbox"] {
+  margin-right: 6px; /* Espacio entre el cuadradito y el texto (Lunes, Martes...) */
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+}
+
+/* El <label> (texto) de cada checkbox */
+.cblPadre__checks > table label {
+  vertical-align: middle;
+  font-size: 14px;
+}
+/* --- FIN DE ESTILOS PARA DIAS --- */
+
+.fila-boton-guardar {
+  display: flex;
+  width: 100%; /*le digo que valga 1200 y como ya ocupe 900 lo pone abajo*/
+  justify-content: center;
+}
+
+.input-txtbox-form:focus, .ddl-form:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+  outline: none;
+}
+
+.error-validacion {/*validacion migue para agregar medico*/
+  /*display: block;*/
+  font-size: 13px;
+  color: red;
+  margin-top: 2px;
+}
+
+/* --- ESTILOS PARA MENSAJES DE ÉXITO/ERROR Agregar Medico, Turno--- */
+/* Esta fila NO necesita flex, porque solo muestra un mensaje a la vez */
+.fila-mensajes {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.mensaje-exito {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #155724; /* Verde oscuro */
+  background-color: #d4edda; /* Verde claro */
+  border: 1px solid #c3e6cb;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.mensaje-error {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #721c24; /* Rojo oscuro */
+  background-color: #f8d7da; /* Rojo claro */
+  border: 1px solid #f5c6cb;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+/* Estilo para el botón/link de "Volver" */
+.btnVolver {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #6c757d; /* Color gris */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  line-height: 1.5; /* Para que tenga la misma altura del botón Guardar */
+}
+
+.btnVolver:hover {
+  background-color: #5a6268;
+}
+
+/* --- FIN DE ESTILOS PARA MENSAJES --- */
+
+
+/*estilos para cargar turno*/
+.P_diasAtencion {
+  display: flex;
+  width: 100%;
+  /* Estilos base */
+  background-color: #f8f9fa;
+  padding: 16px 20px;
+  border-radius: 20px;
+  justify-content: center;
+  color: rgba(0,0,0,1);
+}
+
+.P_diasAtencion__titulo {
+  margin-right: 10px;
+}
+
+
+/* Validaciones */
+asp\:RequiredFieldValidator {
+  display: block;
+  min-height: 18px;
+  font-size: 13px;
+  color: red;
+  margin-top: 2px;
+}
+
+
+/*no los uso en agregar medico 
+.fila-horarios {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: nowrap;
+}
+
+.ddl-horarios {
+  width: 100px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 4px 6px;
+  font-size: 14px;
+}
+  
+ */
+
+/* Estilos param informes */
+/* 1. El Contenedor Padre (Fuerza la fila horizontal) */
+.contenedor-kpi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* 2. Estilo Base de las Tarjetas */
+.card-kpi {
+    flex: 1; /* Ocupan ancho equitativo */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid transparent; /* Base para el borde */
+}
+
+/* 3. Colores Específicos (Modificadores) */
+.card-presentes {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+.card-ausentes {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+.card-total {
+    background-color: #cce5ff;
+    color: #004085;
+    border-color: #b8daff;
+}
+
+/* 4. Títulos y Números */
+.kpi-titulo {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.kpi-numero {
+    font-size: 32px;
+    font-weight: bold;
+    display: block;
+}
+
+.pass-container {
+    position: relative;
+    width: 100%;
+}
+
+    /* Ícono dentro del input */
+    .pass-container i {
+        position: absolute;
+        right: 10px; /* distancia del borde derecho */
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 18px;
+        cursor: pointer;
+        color: #666;
+    }
+
+.usuario-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.usuario-acciones {
+    display: flex;
+    gap: 2px;
+}
+
+    .usuario-acciones .btnAccion {
+        width: auto;
+    }
+
+.usuario-estado {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+    cursor: pointer;
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+        cursor: pointer;
+    }
+
+.slider {
+    position: absolute;
+    inset: 0;
+    background-color: #ccc;
+    border-radius: 22px;
+    transition: .3s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 18px;
+        width: 18px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        border-radius: 50%;
+        transition: .3s;
+    }
+.switch input:checked + .slider {
+    background-color: #4CAF50;
+}
+
+    .switch input:checked + .slider:before {
+        transform: translateX(20px);
+    }

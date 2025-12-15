@@ -1,0 +1,11 @@
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\bin\Debug\Negocio.dll
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\bin\Debug\Negocio.pdb
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\bin\Debug\Dao.dll
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\bin\Debug\Entidades.dll
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\bin\Debug\Dao.pdb
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\bin\Debug\Entidades.pdb
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\obj\Debug\Negocio.dll
+C:\Users\TAMAR\OneDrive\Desktop\ProyectosVisualStudio\AppEstructuraCapas\Negocio\obj\Debug\Negocio.pdb
