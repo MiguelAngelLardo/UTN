@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\dani_\Desktop\Materias 2025\Laoboratorio IV\Tps\Tp1\TP1_GRUPO_12\.metadata\.plugins\org.eclipse.jdt.core
+1067094681.index
+1865797976.index
+2828201619.index
