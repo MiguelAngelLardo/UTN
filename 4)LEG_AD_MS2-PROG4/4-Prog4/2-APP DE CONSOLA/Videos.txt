@@ -1,0 +1,12 @@
+Video 8 - Interfaces https://www.youtube.com/watch?v=9pw_dxNRuI4
+Video 9 - Interfaces II https://www.youtube.com/watch?v=CYvmc2CUwnc
+Video 10 - Equals https://www.youtube.com/watch?v=tlr4bgoxUbg
+Video 10 - Collections - List  youtube.com/watch?v=7524ndcwWto&feature=youtu.be
+Video 11 - HashCode https://www.youtube.com/watch?v=MzlEIAzA5QA
+Video 12 - Collections - Set https://www.youtube.com/watch?v=a-II5lZ7fhw
+Video 13 - Iterator https://www.youtube.com/watch?v=ZU4p8l7FTRw
+Video 14 - Errores https://www.youtube.com/watch?v=S9bPhQeGHSI
+Video 15 - Tipos de excepciones youtube.com/watch?v=r1BJzfxUFSA&feature=youtu.be
+Video 16 - IOException https://www.youtube.com/watch?v=4uiumGnZF4I
+Video 17 - RuntimeException https://www.youtube.com/watch?v=wVgQk0R9nFA
+Video 18 - Creando Exceptions  https://www.youtube.com/watch?v=wayqLtD3W1k

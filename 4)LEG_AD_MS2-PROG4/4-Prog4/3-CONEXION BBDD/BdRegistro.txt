@@ -1,0 +1,32 @@
+-- -----------------------------------------------------
+-- Schema bdregistro
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `bdregistro` DEFAULT CHARACTER SET latin1 ;
+USE `bdregistro` ;
+
+-- -----------------------------------------------------
+-- Table `bdregistro`.`usuario`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bdregistro`.`usuario` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(45) NULL DEFAULT NULL,
+  `apellido` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 16
+DEFAULT CHARACTER SET = utf8;
+
+USE `bdregistro` ;
+
+-- -----------------------------------------------------
+-- procedure crearUsuario
+-- -----------------------------------------------------
+
+DELIMITER $$
+USE `bdregistro`$$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `crearUsuario`(IN Unombre varchar(45), IN Uapellido varchar(45))
+BEGIN
+	 INSERT INTO usuario(nombre,apellido) VALUES (Unombre,Uapellido);
+	 END$$
+
+DELIMITER ;
