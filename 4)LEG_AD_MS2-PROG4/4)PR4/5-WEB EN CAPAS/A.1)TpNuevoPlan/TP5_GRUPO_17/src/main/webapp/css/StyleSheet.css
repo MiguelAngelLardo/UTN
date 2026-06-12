@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/*LOGIN*/
+.body-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0; /* Limpiamos márgenes por defecto */
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 3rem;         
+    width: 450px;          
+    border-radius: 20px;   
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    gap: 15px;
+}
+
+.btn-login {
+    background-color: #2563eb; 
+    margin-top: 20px;
+    color: white;             
+    padding: 12px;           
+    border: none;             
+    border-radius: 6px;      
+    font-size: 16px;        
+    font-weight: bold;       
+    cursor: pointer;         
+    transition: background-color 0.3s; 
+}
+
+.btn-login:hover  {
+    background-color: #1d4ed8; 
+}
+
+.error-message {
+  color: #ff0000;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ff0000;
+  background-color: #ffe6e6; 
+}
+
+/*hasta aca es login*/
+
+/*comienza alta*/
+.caja-ppal {
+  display: flex; /* Alinea aside y main horizontalmente */
+  min-height: 100vh; /* Que ocupe toda la pantalla de alto */
+  width: 100%; /* Asegura que el contenedor padre use todo el ancho del navegador */
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #2563eb;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar__title {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.sidebar__link {
+	color: white;
+	text-decoration: none;
+	padding: 12px 15px;
+	border-radius: 8px;
+	transition: background 0.3s;
+}
+
+.sidebar__link:hover {
+  background-color: #1d4ed8; 
+}
+
+.sidebar__link--active {
+  background-color: #1e40af; 
+  font-weight: bold;
+}
+
+.caja-contenido {
+  flex: 1;
+  padding: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+}
+
+.form {
+  background-color: #f3f4f6; /* El recuadro gris */
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 1200px; /* lo limito en anchura */
+  width: 100%; /* con esto el label ocupa el 100% y el cin se va abajo */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.form__fila {
+	display: flex;
+	gap: 2.5rem;
+	margin-bottom: 20px;
+}
+
+.form__columna {
+  flex: 1; /* Reparte 50/50 */
+  /*label e input son elementos inline-block por defecto. => como tengo width 100% => no uso aca flex*/
+}
+
+.form__cin {
+  width: 100%; /* Ahora sí, el input se estira al ancho de su columna */
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 5px; /* Un poquito de aire respecto al label */
+}
+
+.form__validar {
+  font-size: 0.75rem;
+  color: #9ca3af; /* Gris ayuda*/
+  margin-top: 4px;
+  display: block;
+}
+
+/* Esta clase se activa solo si el Servlet manda error */
+.form__validar--error {
+   color: #b91c1c; /* Rojo */
+   font-weight: bold;
+}
+
+.btn-guardar {
+  background-color: #2563eb; 
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Margen superior para separarlo de los campos */
+}
+
+.btn-guardar:hover {
+  background-color: #1d4ed8;
+}
+
+

@@ -1,0 +1,5 @@
+Curso Android - Video 1 - Estructura de un proyecto android  https://www.youtube.com/watch?v=Vj02gGut2hA
+
+Curso Android - Video 2 - Mi primer app android - Constraint Layout https://www.youtube.com/watch?v=rYN_7ftWACM
+
+Curso Android - Video 3 - Mi primer app android - Linear Layout https://www.youtube.com/watch?v=jRq45e8MdTE

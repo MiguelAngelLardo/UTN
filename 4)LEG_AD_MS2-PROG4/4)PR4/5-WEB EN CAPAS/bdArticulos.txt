@@ -1,0 +1,39 @@
+CREATE SCHEMA `bdArticulos` ;
+
+USE `bdArticulos` ;
+
+CREATE TABLE `bdarticulos`.`articulos` (
+  `idArticulo` INT AUTO_INCREMENT NOT NULL,
+  `nombre` VARCHAR(45) NULL,
+  `precio` DECIMAL(10,2) NULL,
+  `idCategoria` INT NULL,
+  `estado` INT NULL,
+  PRIMARY KEY (`idArticulo`)) ENGINE=InnoDB AUTO_INCREMENT=1;
+;
+
+CREATE TABLE `bdarticulos`.`categorias` (
+  `idCategoria` INT AUTO_INCREMENT NOT NULL,
+  `nombre` VARCHAR(45) NULL,
+  `estado` INT NULL,
+  PRIMARY KEY (`idCategoria`)) ENGINE=InnoDB AUTO_INCREMENT=1;
+
+INSERT INTO `bdarticulos`.`articulos` (`nombre`, `precio`, `idCategoria`, `estado`) VALUES ('Coca Cola',76,1,1);
+INSERT INTO `bdarticulos`.`articulos` (`nombre`, `precio`, `idCategoria`, `estado`) VALUES ('Pepsi',45,1,1);
+INSERT INTO `bdarticulos`.`articulos` (`nombre`, `precio`, `idCategoria`, `estado`) VALUES ('Manaos',30,1,1);
+INSERT INTO `bdarticulos`.`articulos` (`nombre`, `precio`, `idCategoria`, `estado`) VALUES ('Yogur',25,2,1);
+INSERT INTO `bdarticulos`.`articulos` (`nombre`, `precio`, `idCategoria`, `estado`) VALUES ('Leche',30,2,1);
+INSERT INTO `bdarticulos`.`articulos` (`nombre`, `precio`, `idCategoria`, `estado`) VALUES ('Peras',41,3,1);
+INSERT INTO `bdarticulos`.`articulos` (`nombre`, `precio`, `idCategoria`, `estado`) VALUES ('Bananas',36,3,1);
+INSERT INTO `bdarticulos`.`articulos` (`nombre`, `precio`, `idCategoria`, `estado`) VALUES ('Lechuga',57,3,1);
+INSERT INTO `bdarticulos`.`articulos` (`nombre`, `precio`, `idCategoria`, `estado`) VALUES ('Tarta de Ricota',125,5,1);
+
+
+
+INSERT INTO `bdarticulos`.`categorias` (`nombre`, `estado`) VALUES ('Bebidas',1);
+INSERT INTO `bdarticulos`.`categorias` (`nombre`, `estado`) VALUES ('Lacteos',1);
+INSERT INTO `bdarticulos`.`categorias` (`nombre`, `estado`) VALUES ('Frutas/Verduras',1);
+INSERT INTO `bdarticulos`.`categorias` (`nombre`, `estado`) VALUES ('Condimentos',1);
+INSERT INTO `bdarticulos`.`categorias` (`nombre`, `estado`) VALUES ('Reposteria',1);
+INSERT INTO `bdarticulos`.`categorias` (`nombre`, `estado`) VALUES ('Granos/Cereales',1);
+INSERT INTO `bdarticulos`.`categorias` (`nombre`, `estado`) VALUES ('Carnes',1);
+INSERT INTO `bdarticulos`.`categorias` (`nombre`, `estado`) VALUES ('Pescados/Mariscos',1);

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AppMobile_MiPrimerApp_ConstraintLayout</string>
+    <string name="txtNombre">Ingrese su nombre:</string>
+</resources>
