@@ -1,0 +1,137 @@
+﻿/* --- Reseteo global --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;/*Llega hasta el borde */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex; /* La clave para centrar */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  min-height: 100vh; /* Alto de 100% de la pantalla */
+
+  background: url('../img/fondo.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*Caja Grande*/
+.log-in {
+  width: 420px;
+  /*background: transparent;*/
+  border: 2px solid rgba(255, 255, 255, .9);/*un borde con poco color*/
+  backdrop-filter: blur(20px);
+  box-shadow: 5px 10px 15px rgba(0,0,0,0.4);
+  border-radius: 20px;
+  padding: 30px 40px;/*que no sea salchichita*/
+}
+
+  .log-in h1 {
+    font-size: 36px;
+    text-align: center;
+    color: black; /* Título en blanco */
+  }
+
+  /* --- Contenedor de los TextBox --- */
+  .log-in .input-txtbox {
+    position: relative; /* <-- Se convierte en el "ancla" para que los hijos lo vean como punto de gravedad*/
+    margin: 30px 0;
+  }
+
+/* --- Estilo de los TextBox (<asp:TextBox class="txt">) --- */
+.input-txtbox .txt {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .5); /* Borde blanco semitransparente */
+  border-radius: 40px;
+  font-size: 20px;
+  padding: 15px 20px; /* Padding para dejar espacio al ícono */
+  color: black /* Texto del input en blanco */
+}
+
+/* --- Íconos (los <i> de boxicons) --- */
+.input-txtbox i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #fff;
+}
+
+/* --- Placeholder (texto de ayuda) en blanco --- */
+.input-txtbox .txt::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+/* --- Contenedor del DropDownList --- */
+.input-ddl {
+  width: 100%;
+  margin: 20px 0;
+}
+
+  /* --- Estilo del DropDownList (<asp:DropDownList class="ddl">) --- */
+  .input-ddl .ddl {
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 40px;
+    font-size: 20px;
+    color: black; /* Texto en blanco */
+    padding: 0 15px; /* Espaciado interno */
+    outline: none;
+    /* Quita la flecha fea de Windows */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  /* Estilo de las opciones del DropDown */
+  .input-ddl .ddl option {
+    background-color: #333; /* Fondo oscuro para las opciones */
+    color: #fff;/*letras blancas*/
+  }
+
+
+/* --- Botón (<asp:Button class="button-control">) --- */
+.log-in .button-control {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 5px 10px 15px rgba(0,0,0,0.4);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  transition-duration: 0.4s;
+  margin-top: 10px;
+}
+
+.log-in .button-control:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+/* --- Contenedor del Mensaje de Error --- */
+.error-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  min-height: 20px; /* Le da un espacio fijo para que no "salte" */
+}
+
+  /* El <asp:Label> se convierte en <span> */
+  .error-container span {
+    font-weight: bold;
+    font-size: 1.1em;
+    /* El color rojo se lo da el ForeColor="Red" del .aspx */
+  }
+  

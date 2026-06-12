@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="Vista.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Pagina Maestra TPFINAL</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <link href="Estilos/EstilosMaster.css" rel="stylesheet" type="text/css" /><%--Estilos ESTRUCTURALES (header, footer, nav) --%>
+  <link href="Estilos/EstilosReutilizables.css" rel="stylesheet" type="text/css" /><%-- Estilos GENERICOS (botones, formularios, tablas) --%>
+  <%--Estilos ESPECIFICOS POTENCIALES --%>
+
+<%--  <script src="JS/Validaciones.js" type="text/javascript"></script> con esto no andaba JS  <--%>
+  <script src='<%= ResolveUrl("~/JS/validaciones.js") %>' type="text/javascript"></script> <%--para que las rutas anidadas lo encuentren--%>
+
+  <asp:ContentPlaceHolder ID="head" runat="server">
+    <%--esto se rellena con los style especificos --%>
+  </asp:ContentPlaceHolder>
+</head>
+
+<body>
+<form id="form1" runat="server">
+  <script src="JS/Validaciones.js"></script>
+<div class="site-container"> <%-- 'flex'--%>
+                                      
+  <header class="site-header"> <%-- HEADER - NAV BAR --%>
+    <div class="logo">
+      <asp:HyperLink ID="hlLogo" runat="server">
+        <asp:Image ID="imgLogo" runat="server" ImageUrl="~/img/logo.jpeg" AlternateText="Logo de la Clínica" CssClass="logo-imagen" />
+      </asp:HyperLink>
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><asp:HyperLink ID="lnkPacientes" runat="server" NavigateUrl="~/Administrador/AdministrarPacientes/ListadoPacientes.aspx" Text="Pacientes"></asp:HyperLink></li>
+        <li><asp:HyperLink ID="lnkMedicos" runat="server" NavigateUrl="~/Administrador/AdministrarMedicos/ListadoMedicos.aspx" Text="Médicos"></asp:HyperLink></li>
+        <li><asp:HyperLink ID="lnkTurnos" runat="server" NavigateUrl="~/Administrador/AdministrarTurnos/ListadoTurnos.aspx" Text="Turnos"></asp:HyperLink></li>
+        <li><asp:HyperLink ID="lnkReportes" runat="server" NavigateUrl="~/Administrador/Informes/Reportes.aspx"  Text="Reportes"></asp:HyperLink></li>
+      </ul>
+    </nav>
+
+    <div class="user-info"> 
+      <span>Bienvenido, </span>
+      <asp:Label ID="lblUsuarioLogueado" runat="server" CssClass="username" />
+      <asp:LinkButton ID="btnCerrarSesion" runat="server" OnClick="btnCerrarSesion_Click"  CssClass="btnCerrarSesion" ValidationGroup="G2">Cerrar Sesión</asp:LinkButton>
+    </div>
+  </header>
+                                    
+  <main class="main-content"> <%-- CONTENIDO PRINCIPAL --%>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    <%-- esto se rellena con las paginas hijas --%>
+    </asp:ContentPlaceHolder>
+  </main>
+                                       
+  <footer class="site-footer"> <%--FOOTER --%>
+    <p>&copy; <%= DateTime.Now.Year %> - Clínica Médica - Todos los derechos reservados.</p>
+  </footer>
+
+</div> 
+</form>
+</body>
+</html>

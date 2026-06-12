@@ -1,0 +1,1838 @@
+// Si la lista de parámetros no es nula, los agregamos
+
+/*
+------SCRIPT DE CREACIÓN Y CARGA DE BASE DE DATOS CLÍNICA MÉDICA - PROGRAMACIÓN III------
+
+---------------------------------------------------------------
+--Ir a Query => Click en SQLCMD MODE
+---------------------------------------------------------------
+DROP DATABASE "$(NOMBRE_BBDD)" 
+
+:setvar NOMBRE_BBDD "Clinica"  --Declaro variables de script con modo SQLCMD 
+
+USE master;
+GO
+
+IF DB_ID('$(NOMBRE_BBDD)') IS NOT NULL
+BEGIN
+  PRINT 'Poniendo la BBDD $(NOMBRE_BBDD) en modo un solo usuario.';    
+  ALTER DATABASE [$(NOMBRE_BBDD)] SET SINGLE_USER WITH ROLLBACK IMMEDIATE; --me permite ejecutar el script sacando a otros usuarios si los hubiera    
+  PRINT 'Borrando la BBDD $(NOMBRE_BBDD)...';
+	DROP DATABASE [$(NOMBRE_BBDD)];
+  PRINT '¡BBDD $(NOMBRE_BBDD) eliminada!';
+END
+ELSE
+BEGIN
+  PRINT 'La BBDD $(NOMBRE_BBDD) no existe. No se hizo nada.';
+END
+GO
+
+PRINT 'Creando la BBDD $(NOMBRE_BBDD)...';
+CREATE DATABASE [$(NOMBRE_BBDD)];
+GO
+
+USE [$(NOMBRE_BBDD)];
+GO
+
+------CREACIÓN DE TABLAS (ESTRUCTURA) -- (En orden de dependencia de Claves Foráneas)------
+
+PRINT 'Creando tablas maestras(Referencia)...';
+CREATE TABLE Provincias (
+  IdProvincia_Pr INT IDENTITY(1,1) NOT NULL,
+  Nombre_Pr NVARCHAR(50) NOT NULL,
+  Estado_Pr BIT NOT NULL,
+  CONSTRAINT PK_Provincias PRIMARY KEY (IdProvincia_Pr)
+);
+
+	CREATE TABLE Localidades (
+	IdLocalidad_L INT IDENTITY(1,1) NOT NULL,
+	Nombre_L NVARCHAR(100) NOT NULL,
+	IdProvincia_Pr_L INT NOT NULL,
+	Estado_L BIT NOT NULL,
+	CONSTRAINT PK_Localidades PRIMARY KEY (IdLocalidad_L),
+	CONSTRAINT FK_Localidades_Provincias FOREIGN KEY (IdProvincia_Pr_L)
+	REFERENCES Provincias(IdProvincia_Pr)
+);
+
+CREATE TABLE Especialidades (
+  IdEspecialidad_E INT IDENTITY(1,1) NOT NULL,
+  Descripcion_E NVARCHAR(100) NOT NULL,
+  Estado_E BIT NOT NULL,
+  CONSTRAINT PK_Especialidades PRIMARY KEY (IdEspecialidad_E)
+);
+
+CREATE TABLE DiasSemana (
+  IdDia_D INT PRIMARY KEY,
+  NombreDia_D NVARCHAR(15) NOT NULL
+);
+
+PRINT 'Creando tablas de herencia (TPT)...';
+CREATE TABLE Personas (
+    Dni_P NVARCHAR(8) NOT NULL,
+    IdLocalidad_L_P INT,
+    Nombre_P NVARCHAR(50) NOT NULL,
+    Apellido_P NVARCHAR(50) NOT NULL,
+    Sexo_P CHAR(1) NOT NULL,
+    Nacionalidad_P NVARCHAR(50),
+    FechaNacimiento_P DATE NOT NULL,
+    Direccion_P NVARCHAR(100),
+    CorreoElectronico_P NVARCHAR(100),
+    Telefono_P NVARCHAR(50),
+    Estado_P BIT NOT NULL,
+    CONSTRAINT PK_Personas PRIMARY KEY (Dni_P),
+    CONSTRAINT FK_Personas_Localidades FOREIGN KEY (IdLocalidad_L_P) REFERENCES Localidades(IdLocalidad_L)
+);
+
+CREATE TABLE Pacientes (
+    Dni_P_Pa NVARCHAR(8) NOT NULL,
+    Diagnostico_Pa NVARCHAR(100),
+    CONSTRAINT PK_Pacientes PRIMARY KEY (Dni_P_Pa),
+    CONSTRAINT FK_Pacientes_Personas FOREIGN KEY (Dni_P_Pa) REFERENCES Personas(Dni_P)
+);
+
+CREATE TABLE Medicos (
+  Dni_P_M NVARCHAR(8) NOT NULL,
+  Legajo_M NVARCHAR(4) NOT NULL,
+  IdEspecialidad_E_M INT NOT NULL,    
+  HorarioAtencion_M NVARCHAR(20),-- "08:00-12:00", etc.
+  Usuario_M NVARCHAR(30), --en la carga lo traigo como null
+  Contrasena_M NVARCHAR(50),--en la carga lo traigo como null
+  UsuarioHabilitado_M BIT, --en la carga lo traigo como null
+  CONSTRAINT PK_Medicos PRIMARY KEY (Dni_P_M),
+  CONSTRAINT UQ_Medicos_Legajo UNIQUE (Legajo_M),
+  CONSTRAINT FK_Medicos_Personas FOREIGN KEY (Dni_P_M) REFERENCES Personas(Dni_P),
+  CONSTRAINT FK_Medicos_Especialidades FOREIGN KEY (IdEspecialidad_E_M) REFERENCES Especialidades(IdEspecialidad_E)
+);
+
+CREATE TABLE Administradores (
+    Dni_P_A NVARCHAR(8) NOT NULL,
+    Usuario_A NVARCHAR(30),
+    Contrasena_A NVARCHAR(50),
+    UsuarioHabilitado_A BIT,
+    CONSTRAINT PK_Administradores PRIMARY KEY (Dni_P_A),
+    CONSTRAINT FK_Administradores_Personas FOREIGN KEY (Dni_P_A)
+    REFERENCES Personas(Dni_P)
+);
+PRINT 'Creando tablas auxiliares (Muchos a Muchos)...';
+
+CREATE TABLE MEDICOSxDIAS ( --tabla aux
+  Dni_P_M_MxD NVARCHAR(8) NOT NULL, -- FK Medicos
+  IdDia_D_MxD INT NOT NULL,         -- FK DiasSemana  
+  CONSTRAINT PK_Medico_x_Dia PRIMARY KEY (Dni_P_M_MxD, IdDia_D_MxD),--pk concatenada
+  CONSTRAINT FK_MedicoDia_Medico FOREIGN KEY (Dni_P_M_MxD) REFERENCES Medicos(Dni_P_M),
+  CONSTRAINT FK_MedicoDia_Dia FOREIGN KEY (IdDia_D_MxD) REFERENCES DiasSemana(IdDia_D)
+);
+
+PRINT 'Creando tabla de movimiento(Transacciones)...';
+CREATE TABLE Turnos (
+    IdTurno_T INT IDENTITY(1,1) NOT NULL,
+    Fecha_T DATE NOT NULL,
+    Hora_T TIME(0) NOT NULL,
+    IdEspecialidad_E_T INT NOT NULL,
+    Dni_P_M_T NVARCHAR(8) NOT NULL,
+    Dni_P_Pa_T NVARCHAR(8) NOT NULL,
+    Observacion_T NVARCHAR(200),
+    Atendido_T BIT NULL,
+    CONSTRAINT PK_Turnos PRIMARY KEY (IdTurno_T),
+    CONSTRAINT FK_Turnos_Especialidades FOREIGN KEY (IdEspecialidad_E_T) REFERENCES Especialidades(IdEspecialidad_E),
+    CONSTRAINT FK_Turnos_Medicos FOREIGN KEY (Dni_P_M_T) REFERENCES Medicos(Dni_P_M),
+    CONSTRAINT FK_Turnos_Pacientes FOREIGN KEY (Dni_P_Pa_T) REFERENCES Pacientes(Dni_P_Pa)
+);
+GO
+
+------CARGA DE DATOS (INSERTS)------
+PRINT 'Insertando datos maestros...';
+INSERT INTO Provincias (Nombre_Pr, Estado_Pr) VALUES
+('Buenos Aires', 1), ('Córdoba', 1), ('Santa Fe', 1), ('Mendoza', 1), ('San Luis', 1), ('Neuquén', 1), ('Río Negro', 1);
+
+INSERT INTO Localidades (Nombre_L, IdProvincia_Pr_L, Estado_L) VALUES
+('Lanús', 1, 1), ('Banfield', 1, 1), ('Tigre', 1, 1),-- 3 de Buenos Aires
+('Villa Carlos Paz', 2, 1), ('Córdoba Capital', 2, 1), ('Río Cuarto', 2, 1),-- 3 de Córdoba
+('Rosario', 3, 1), ('Santa Fe Capital', 3, 1), ('Rafaela', 3, 1),-- 3 de Santa Fe
+('Godoy Cruz', 4, 1), ('Mendoza Capital', 4, 1),-- 2 de Mendoza
+('La Punta', 5, 1),-- 1 de San Luis
+('Cutral Có', 6, 1), ('Neuquén Capital', 6, 1),-- 2 de Neuquén
+('General Roca', 7, 1);-- 1 de Río Negro
+
+INSERT INTO Especialidades (Descripcion_E, Estado_E) VALUES
+('Clínica Médica', 1), ('Cardiología', 1), ('Pediatría', 1), ('Dermatología', 1), ('Gastroenterología', 1), 
+('Traumatología', 1), ('Neurología', 1), ('Endocrinología', 1), ('Reumatología', 1),
+('Oftalmología', 1), ('Otorrinolaringología', 1), ('Urología', 1), ('Oncología', 1), 
+('Psiquiatría', 1), ('Infectología', 1);
+
+INSERT INTO DiasSemana (IdDia_D, NombreDia_D) VALUES
+(1, 'Lunes'), (2, 'Martes'), (3, 'Miércoles'), (4, 'Jueves'), (5, 'Viernes'), (6, 'Sábado');
+
+PRINT 'Insertando Personas, Pacientes, Médicos y Admins...';
+-- 5 personas para ADMINISTRADORES (DNI 1xxxx)
+INSERT INTO Personas (Dni_P, IdLocalidad_L_P, Nombre_P, Apellido_P, Sexo_P, Nacionalidad_P, FechaNacimiento_P, Direccion_P, CorreoElectronico_P, Telefono_P, Estado_P) VALUES
+('10000001', 1, 'Miguel', 'Perez', 'M', 'Argentina', '1990-01-01', 'Av. Siempre Viva 742', 'miguel.perez@clinica.com', '1110001', 1),
+('10000002', 2, 'Ana', 'Garcia', 'F', 'Argentina', '1990-01-02', 'Calle Falsa 123', 'ana.garcia@clinica.com', '1110002', 1),
+('10000003', 3, 'Luis', 'Fernandez', 'M', 'Argentina', '1990-01-03', 'Rivadavia 5000', 'luis.fernandez@clinica.com', '1110003', 1),
+('10000004', 4, 'Elena', 'Diaz', 'F', 'Argentina', '1990-01-04', 'Corrientes 3000', 'elena.diaz@clinica.com', '1110004', 1),
+('10000005', 5, 'David', 'Ruiz', 'M', 'Argentina', '1990-01-05', 'Belgrano 1500', 'david.ruiz@clinica.com', '1110005', 1);
+
+--5 personas para MEDICOS (DNI 2xxxx)
+INSERT INTO Personas (Dni_P, IdLocalidad_L_P, Nombre_P, Apellido_P, Sexo_P, Nacionalidad_P, FechaNacimiento_P, Direccion_P, CorreoElectronico_P, Telefono_P, Estado_P) VALUES
+('20000001', 1, 'Laura', 'Gonzalez', 'F', 'Argentina', '1990-04-15', 'Calle 1 123', 'laura@gmail.com', '1111111111', 1),
+('20000002', 2, 'Pedro', 'Martinez', 'M', 'Argentina', '1985-03-12', 'Calle 2 456', 'pedro@gmail.com', '2222222222', 1),
+('20000003', 3, 'Mariana', 'Sosa', 'F', 'Argentina', '1992-08-22', 'Calle 3 789', 'mariana@gmail.com', '3333333333', 1),
+('20000004', 4, 'Jorge', 'Lopez', 'M', 'Argentina', '1980-02-10', 'Calle 4 321', 'jorge@gmail.com', '4444444444', 1),
+('20000005', 5, 'Ana', 'Rojas', 'F', 'Argentina', '1997-07-19', 'Calle 5 654', 'ana@gmail.com', '5555555555', 1);
+
+--5 personas para PACIENTES (DNI 3xxxx)
+INSERT INTO Personas (Dni_P, IdLocalidad_L_P, Nombre_P, Apellido_P, Sexo_P, Nacionalidad_P, FechaNacimiento_P, Direccion_P, CorreoElectronico_P, Telefono_P, Estado_P) VALUES
+('30000001', 1, 'Carlos', 'Aguirre', 'M', 'Argentina', '1988-01-10', 'Av. Mitre 4500', 'carlos.aguirre@email.com', '1122334455', 1),
+('30000002', 2, 'Maria', 'Soto', 'F', 'Uruguaya', '1995-07-20', 'Belgrano 321', 'maria.soto@email.com', '1133445566', 1),
+('30000003', 3, 'Lucia', 'Gomez', 'F', 'Argentina', '2001-11-05', 'San Martin 100', 'lucia.gomez@email.com', '1144556677', 1),
+('30000004', 4, 'David', 'Ruiz', 'M', 'Argentino', '1975-02-18', 'Sarmiento 750', 'david.ruiz@email.com', '1155667788', 1),
+('30000005', 5, 'Elena', 'Torres', 'F', 'Argentina', '1983-09-30', 'Rivadavia 1234', 'elena.torres@email.com', '1166778899', 1);
+
+--5 Administradores (DNI 1xxxx)
+INSERT INTO Administradores (Dni_P_A, Usuario_A, Contrasena_A, UsuarioHabilitado_A) VALUES
+('10000001', 'admin1', '1', 1), 
+('10000002', 'admin2', 'adminpass2', 1), ('10000003', 'admin3', 'adminpass3', 1), 
+('10000004', 'admin4', 'adminpass4', 1), ('10000005', 'admin5', 'adminpass5', 1);
+
+--5 Médicos (DNI 2xxxx)
+INSERT INTO Medicos (Dni_P_M, Legajo_M, IdEspecialidad_E_M, HorarioAtencion_M, Usuario_M, Contrasena_M, UsuarioHabilitado_M) VALUES
+('20000001', 'L001', 1, '08:00-12:00', 'adminM1Laura', '1', 1),
+('20000002', 'L002', 2, '08:00-12:00', 'adminM2Pedro', 'pass2', 1), ('20000003', 'L003', 3, '12:00-16:00', 'adminM3Mariana', 'pass3', 1),
+('20000004', 'L004', 4, '12:00-16:00', 'adminM4Jorge', 'pass4', 1), ('20000005', 'L005', 5, '16:00-20:00', 'adminM5Ana', 'pass5', 1);
+
+INSERT INTO Pacientes (Dni_P_Pa, Diagnostico_Pa) VALUES
+('30000001', 'Hipertensión leve'), ('30000002', 'Alergia estacional'), ('30000003', 'Dolor lumbar crónico'),
+('30000004', 'Cefalea recurrente'), ('30000005', 'Asma leve');
+
+PRINT 'Insertando días de atención (Tabla Auxiliar)...';
+-- Días para 5 Médicos (DNI 2xxxx)
+INSERT INTO MEDICOSxDIAS(Dni_P_M_MxD, IdDia_D_MxD) VALUES
+('20000001', 1), ('20000001', 3), -- Lunes y Miércoles
+('20000002', 2), ('20000002', 4), -- Martes y Jueves
+('20000003', 1), ('20000003', 2), ('20000003', 3), -- Lunes, Martes, Miércoles
+('20000004', 4), ('20000004', 5), -- Jueves y Viernes
+('20000005', 1), ('20000005', 5); -- Lunes y Viernes
+
+PRINT 'Insertando Turnos...';
+-- 5 Turnos (usando 5 Médicos y 5 Pacientes)
+INSERT INTO Turnos (Fecha_T, Hora_T, IdEspecialidad_E_T, Dni_P_M_T, Dni_P_Pa_T, Observacion_T, Atendido_T) VALUES
+('2025-11-01', '09:00', 1, '20000001', '30000001', 'Consulta general', NULL), -- Pendiente
+('2025-11-02', '10:00', 2, '20000002', '30000002', 'Electrocardiograma', 1), -- Presente
+('2025-11-03', '11:00', 3, '20000003', '30000003', 'Dolor lumbar', NULL), -- Pendiente
+('2025-11-04', '12:00', 4, '20000004', '30000004', 'Migraña', 0), -- Ausente
+('2025-11-05', '13:00', 5, '20000005', '30000005', 'Gastritis', NULL); -- Pendiente
+
+PRINT '¡Base de datos creada y cargada exitosamente!';
+
+
+-- Verificamos los datos
+SELECT * FROM Provincias;
+SELECT * FROM Localidades;
+SELECT * FROM Especialidades;
+SELECT * FROM DiasSemana;
+
+SELECT * FROM Personas;
+SELECT * FROM Administradores;
+SELECT * FROM Medicos;
+SELECT * FROM Pacientes;
+
+SELECT * FROM MEDICOSxDIAS;
+SELECT * FROM Turnos;
+GO
+ */
+
+
+/*sp listar prov
+USE Clinica
+GO
+
+CREATE PROCEDURE [dbo].[sp_ListarProvincias]
+AS
+BEGIN
+	SET NOCOUNT ON; --asi desactivo los msj de error y no se "Stope"
+	SELECT
+		IdProvincia_Pr AS IdProvincia,
+		Nombre_Pr AS NombreProvincia
+	FROM
+		Provincias
+	WHERE
+		Estado_Pr = 1 --activas
+	ORDER BY
+		Nombre_Pr ASC
+END 
+GO
+
+EXEC sp_ListarProvincias
+*/
+
+/*sp listar localidades por provincia
+USE Clinica
+GO
+
+select * from Localidades
+
+CREATE PROCEDURE [dbo].[sp_ListarLocalidadesPorProvincia]
+	@IdProvincia INT
+AS
+BEGIN
+	SET NOCOUNT ON; 
+	SELECT
+		IdLocalidad_L AS IdLocalidad,
+		Nombre_L AS NombreLocalidad
+	FROM
+		Localidades
+	WHERE
+		Estado_L = 1 
+		AND IdProvincia_Pr_L = @IdProvincia
+	ORDER BY
+		Nombre_L ASC
+END 
+GO
+
+
+SELECT *  FROM Provincias
+SELECT * FROM Localidades
+EXEC sp_ListarLocalidadesPorProvincia @IdProvincia = 1
+*/
+
+/*sp listar especialidades
+  
+USE Clinica
+GO
+
+CREATE PROCEDURE [dbo].[sp_ListarEspecialidades]
+AS
+BEGIN
+	SET NOCOUNT ON; --asi desactivo los msj de error y no se "Stope"
+	SELECT
+		IdEspecialidad_E AS IdEspecialidad,
+		Descripcion_E AS DescripcionEspecialidad
+	FROM
+		Especialidades
+	WHERE
+		Estado_E = 1 --activas
+	ORDER BY
+		Descripcion_E ASC
+END 
+GO
+
+EXEC sp_ListarEspecialidades
+ */
+
+/*sp listar dias de la semana
+USE Clinica 
+GO
+
+CREATE PROCEDURE [dbo].[sp_ListarDiasSemana]
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT
+        IdDia_D AS IdDia ,       -- El 'Value' (ej: 1)
+        NombreDia_D AS NombreDia -- El 'Text' (ej: "Lunes")
+    FROM 
+        DiasSemana
+    ORDER BY
+        IdDia ASC --ordena 1, 2, 3... (Lunes, Martes, Miér)
+END
+GO
+EXEC sp_ListarDiasSemana
+ */
+
+
+/*SP AGREGAR MEDICO MIGUE
+USE Clinica
+GO
+
+------CREAR EL TIPO DE DATO (para la lista de días) Esto permite a C# enviar una 'Tabla' como parámetro------
+------Lo veo en -> Programmability -> types -> (User-Defined Table Types)
+PRINT 'Creando el tipo de tabla dbo.TipoTablaDia...';
+
+CREATE TYPE dbo.TipoTablaDia AS TABLE -- mi SP AGREGAR MEDICO necesita si o si el TYPE este.
+(
+  IdDia INT NOT NULL
+);
+GO
+
+-----CREAR EL STORED PROCEDURE Agregar Medico-----
+PRINT 'Creando el Stored Procedure sp_AgregarMedico...';
+USE Clinica
+GO
+
+CREATE PROCEDURE [dbo].[sp_AgregarMedico]
+  -- Parámetros de Persona
+  @Dni_P NVARCHAR(8),
+  @IdLocalidad_L_P INT,
+  @Nombre_P NVARCHAR(50),
+  @Apellido_P NVARCHAR(50),
+  @Sexo_P CHAR(1),
+  @Nacionalidad_P NVARCHAR(50),
+  @FechaNacimiento_P DATE,
+  @Direccion_P NVARCHAR(100),
+  @CorreoElectronico_P NVARCHAR(100),
+  @Telefono_P NVARCHAR(50),
+	@Estado_P BIT,
+    
+  -- Parámetros de Medico -> Usuario_M NVARCHAR(30) + Contrasena_M NVARCHAR(50) + UsuarioHabilitado_M BIT lo carga como NULL
+  @Legajo_M NVARCHAR(4),
+  @IdEspecialidad_E_M INT,
+  @HorarioAtencion_M NVARCHAR(20),
+
+	-- Parámetro de Medico_x_Dia (la "mini-tabla")
+  @Dias dbo.TipoTablaDia READONLY --'READONLY' es obligatorio para este tipo de parámetro
+AS
+BEGIN
+  SET NOCOUNT ON;
+
+  BEGIN TRANSACTION;--"la promesa" => "voy a intentar las operaciones, dejalas en borrador... no las guardes aún"    
+  BEGIN TRY--INTENTO   
+		INSERT INTO Personas (Dni_P, IdLocalidad_L_P, Nombre_P, Apellido_P, Sexo_P, Nacionalidad_P, FechaNacimiento_P, Direccion_P, CorreoElectronico_P, Telefono_P, Estado_P) --1. Insertamos en la tabla 'Padre' (Personas)
+		VALUES (@Dni_P, @IdLocalidad_L_P, @Nombre_P, @Apellido_P, @Sexo_P, @Nacionalidad_P, @FechaNacimiento_P, @Direccion_P,	@CorreoElectronico_P, @Telefono_P, @Estado_P);
+
+    INSERT INTO Medicos (Dni_P_M, Legajo_M, IdEspecialidad_E_M, HorarioAtencion_M)--2. Insertamos en la tabla 'Hija' (Medicos)
+    VALUES (@Dni_P, @Legajo_M, @IdEspecialidad_E_M, @HorarioAtencion_M);
+    
+		INSERT INTO MEDICOSxDIAS(Dni_P_M_MxD, IdDia_D_MxD) -- 3. Insertamos en la tabla 'Auxiliar' (Medico_x_Dia) -> Tomamos los datos de la "mini-tabla" (@Dias) que viene del C# List
+    SELECT @Dni_P, IdDia FROM @Dias; --@Dias es la "mini-tabla" temporal que trae 1, 3 y 5 => el SELECT recorre las 3 filas y me hace 3 INSERT => DNI 123 y los 3 IdDia diferentes
+
+    COMMIT TRANSACTION;--camino feliz se ejecuta todo    
+    RETURN 1; -- (Devolvemos 1 para 'filasAfectadas', aunque fueron más)
+   END TRY
+   
+	 BEGIN CATCH --si algo no se puede agregar entra aca
+		ROLLBACK TRANSACTION;--(revertir) se Cancela la promesa ->se Tira el 'borrador' a la basura".    
+    RETURN 0;--retorno cero si salio mal
+   END CATCH
+END
+GO
+
+PRINT '¡Stored Procedure sp_AgregarMedico creado con éxito!';
+
+
+--ejemplo 1 => Dr. Alan Turing (2 días de atención)
+DECLARE @DiasDrTuring dbo.TipoTablaDia;
+INSERT INTO @DiasDrTuring (IdDia) 
+VALUES (1), (2);
+
+EXEC sp_AgregarMedico
+  @Dni_P = '20000006',
+  @IdLocalidad_L_P = 1, -- Lanús
+  @Nombre_P = 'Alan',
+  @Apellido_P = 'Turing',
+  @Sexo_P = 'M',
+  @Nacionalidad_P = 'Británico',
+  @FechaNacimiento_P = '1912-06-23',
+  @Direccion_P = 'Bletchley Park 1',
+  @CorreoElectronico_P = 'alan@enigma.com',
+  @Telefono_P = '11223344',
+  @Estado_P = 1,
+  @Legajo_M = 'L006',
+  @IdEspecialidad_E_M = 1, -- Clínica Médica
+  @HorarioAtencion_M = '08:00-12:00',
+  @Dias = @DiasDrTuring;
+GO
+
+--Ejemplo 2 => Dra. Ada Lovelace (3 días de atención)
+DECLARE @DiasDraLovelace dbo.TipoTablaDia;
+INSERT INTO @DiasDraLovelace (IdDia) 
+VALUES (3), (4), (5); -- Miércoles, Jueves, Viernes
+
+EXEC sp_AgregarMedico
+  @Dni_P = '20000007',
+  @IdLocalidad_L_P = 4, -- Villa Carlos Paz
+  @Nombre_P = 'Ada',
+  @Apellido_P = 'Lovelace',
+  @Sexo_P = 'F',
+  @Nacionalidad_P = 'Británica',
+  @FechaNacimiento_P = '1815-12-10',
+  @Direccion_P = 'Byron St 101',
+  @CorreoElectronico_P = 'ada@analytics.com',
+  @Telefono_P = '55667788',
+  @Estado_P = 1,
+  @Legajo_M = 'L007',
+  @IdEspecialidad_E_M = 7, -- Neurología
+  @HorarioAtencion_M = '12:00-16:00',
+  @Dias = @DiasDraLovelace;
+GO
+
+SELECT * FROM Personas
+SELECT * FROM Medicos
+SELECT * FROM MEDICOSxDIAS
+
+ */
+
+/*SP Listar Buscar Todo Medicos
+ USE Clinica
+GO
+
+CREATE PROCEDURE [dbo].[sp_ListarBuscarTodoMedicos]
+    @NombreApellido NVARCHAR(100) = NULL, --inicializo en null y cero para que si no busca por esos parametros traiga solo lo que busca
+    @Legajo NVARCHAR(10) = NULL,
+    @IdEspecialidad INT = 0,
+    @TablaDias dbo.TipoTablaDia READONLY -- <-- Usamos el Tipo Tabla que genere en SP_AGREGARMEDICO
+AS
+BEGIN
+  SET NOCOUNT ON;
+	DECLARE @CONST_NUM_DIAS INT = (SELECT COUNT(*) FROM @TablaDias); -- Si la tabla @DTablaDias está vacía, este valor será 0.
+  --NumDiasFiltro
+	WITH cteMedicoDias AS ( -- 1. CTE (Common Table Expression) para agrupar los días => MedicoDias es mi CTE => es una tabla temporal que tiene DNI del medico y dias concatenados como "Lunes, Miércoles, Viernes"
+		SELECT 
+			mxd.Dni_P_M_MxD, 
+			STRING_AGG(ds.NombreDia_D, ', ') WITHIN GROUP (ORDER BY ds.IdDia_D) AS cteDiasConcatenados
+		 FROM 
+			 MEDICOSxDIAS mxd 
+		 JOIN -- es igual que inner join pero para variar pongo esto
+			 DiasSemana ds ON mxd.IdDia_D_MxD = ds.IdDia_D 
+			GROUP BY 
+			 mxd.Dni_P_M_MxD 
+    )
+    
+    --Consulta principal
+  SELECT 
+    p.Dni_P,  -- Lo dejamos para usar en 'Detalle' o 'Editar'
+    m.Legajo_M AS Legajo, -- Alias para GridView
+    p.Nombre_P AS Nombre, -- Alias para GridView
+    p.Apellido_P AS Apellido, -- Alias para GridView
+    e.Descripcion_E AS Especialidad, -- Alias para GridView
+    ISNULL(cteMD.cteDiasConcatenados, 'N/A') AS Dias, --esto no va a pasar por el JS del aspx.cs del fromAgregar... pero por las dudas.... muestra N/A si no hay dias
+    m.HorarioAtencion_M AS Horas, -- Alias para GridView
+
+		-- Columnas "invisibles" que usa la lógica de RowDataBound
+    m.Usuario_M,  -- Alias para GridView
+    m.UsuarioHabilitado_M -- Alias para GridView
+    FROM 
+      Personas p
+    INNER JOIN 
+      Medicos m ON p.Dni_P = m.Dni_P_M 
+    LEFT JOIN 
+      Especialidades e ON m.IdEspecialidad_E_M = e.IdEspecialidad_E --uso LEFT JOIN para que estrictamente traiga TODOS LOS MEDICOS (INNER) pero si no tienen Especialidad asignaada lo muestre pero con null
+		LEFT JOIN 
+      cteMedicoDias cteMD ON p.Dni_P = cteMD.Dni_P_M_MxD 
+
+    WHERE
+			p.Estado_P = 1
+    -- Filtros de Búsqueda txtBox
+      AND (@Legajo IS NULL OR m.Legajo_M LIKE @Legajo) 
+      AND (@NombreApellido IS NULL OR (p.Nombre_P + ' ' + p.Apellido_P) LIKE @NombreApellido)
+    
+		-- Filtro de DropDown
+      AND (@IdEspecialidad = 0 OR m.IdEspecialidad_E_M = @IdEspecialidad)
+   
+	 -- Filtro de Días con SUBCONSULTA => asegura que el medico trabaje TODOS los dias de la tabla @TablaDias
+      AND (
+				@CONST_NUM_DIAS = 0 
+				OR -- Si @NumDiasFiltro es 0, no se aplica el filtro
+			  (	
+					SELECT COUNT(DISTINCT mxd.IdDia_D_MxD)
+					FROM MEDICOSxDIAS mxd
+					-- Unimos la tabla de médicos CON la tabla de filtros
+					JOIN @TablaDias tabDias  ON mxd.IdDia_D_MxD = tabDias.IdDia
+					WHERE mxd.Dni_P_M_MxD = p.Dni_P
+				) 
+				= @CONST_NUM_DIAS -- El total de días coincidentes debe ser igual al total de días del filtro
+			)
+      ORDER BY -- sin esto ordena bien pero por dni y en el listar se ve mal
+        m.Legajo_M ASC
+END
+GO
+
+--prueba de la CTE
+USE Clinica
+GO
+
+SELECT 
+    MEDICOSxDIAS.Dni_P_M_MxD,     
+    STRING_AGG(DiasSemana.NombreDia_D, ', ') WITHIN GROUP (ORDER BY DiasSemana.IdDia_D) AS DiasConcatenados --ates del add lo ordeno por IdDia_D asi siempre esta 1, 2, 3, etc
+FROM 
+    MEDICOSxDIAS
+JOIN 
+	DiasSemana 
+ON MEDICOSxDIAS.IdDia_D_MxD = DiasSemana.IdDia_D 
+GROUP BY 
+    MEDICOSxDIAS.Dni_P_M_MxD  -- Agrupar todos los días por el DNI del medico
+
+USE Clinica;
+GO
+--TEST 1 => Los filtros opcionales (IS NULL o = 0) ) 
+EXEC [dbo].[sp_ListarBuscarTodoMedicos];
+
+USE Clinica;
+GO
+--TEST 2 => @NombreApellido sigue siendo NULL y @TablaDias sigue vacía => Trae Legajo L001 + IdESpecialidad 1 si o si ambos
+EXEC [dbo].[sp_ListarBuscarTodoMedicos] 
+    @Legajo = 'L001',
+    @IdEspecialidad = 1;
+
+USE Clinica;
+GO
+--TEST 3 => pasando tabla de DIAS como parámetro
+DECLARE @DiasParaFiltrar AS dbo.TipoTablaDia; --Variabla tipo TipoTablaDia
+
+INSERT INTO @DiasParaFiltrar (IdDia) -- la cargo
+VALUES (1), (3);
+
+EXEC [dbo].[sp_ListarBuscarTodoMedicos] 
+    @TablaDias = @DiasParaFiltrar;
+ */
+
+
+/*
+USE Clinica
+GO
+
+CREATE PROCEDURE sp_BuscarPacientes
+    @NombreApellido NVARCHAR(50) = NULL,
+    @Dni NVARCHAR(8) = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT
+        -- Alias para BoundFields y C#
+        P.Dni_P AS DNI,
+        P.Nombre_P AS Nombre,
+        P.Apellido_P AS Apellido,
+        P.FechaNacimiento_P AS FechaNacimiento,
+        P.Telefono_P AS Telefono,
+        P.CorreoElectronico_P AS CorreoElectronico,
+        P.Direccion_P AS Direccion,
+        P.Nacionalidad_P AS Nacionalidad,
+        P.Sexo_P AS Sexo,
+        P.IdLocalidad_L_P AS IdLocalidad,
+        PA.Diagnostico_Pa AS Diagnostico,
+        P.Estado_P AS Estado,
+
+        -- Campos de los JOIN (para la mejora de C#)
+        PR.IdProvincia_Pr AS IdProvincia,
+        L.Nombre_L AS NombreLocalidad,
+        PR.Nombre_Pr AS NombreProvincia
+
+    FROM 
+        Pacientes PA
+    INNER JOIN 
+        Personas P ON P.Dni_P = PA.Dni_P_Pa
+    INNER JOIN 
+        Localidades L ON P.IdLocalidad_L_P = L.IdLocalidad_L
+    INNER JOIN 
+        Provincias PR ON L.IdProvincia_Pr_L = PR.IdProvincia_Pr
+    WHERE 
+        P.Estado_P = 1
+        AND L.Estado_L = 1
+        AND PR.Estado_Pr = 1 -- Asumiendo que Provincias tiene estado
+        AND (@Dni IS NULL OR P.Dni_P LIKE '%' + @Dni + '%')
+        AND (@NombreApellido IS NULL OR (P.Nombre_P + ' ' + P.Apellido_P) LIKE '%' + @NombreApellido + '%');
+END
+GO
+
+*/
+/* USUARIOS: 3 SP
+ CREATE PROCEDURE sp_CrearUsuario
+    @LEGAJO NVARCHAR(4),
+    @NOMBREUSUARIO NVARCHAR(30),
+    @CONTRASENIA NVARCHAR(50),
+    @HABILITADO BIT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Verificar que el médico exista
+    IF NOT EXISTS (SELECT 1 FROM Medicos WHERE Legajo_M = @LEGAJO)
+    BEGIN
+        RAISERROR('No se encontró ningún médico con el legajo especificado.', 16, 1);
+        RETURN -1;
+    END
+
+    -- Verificar que no tenga usuario asignado
+    IF EXISTS (SELECT 1 FROM Medicos WHERE Legajo_M = @LEGAJO AND Usuario_M IS NOT NULL)
+    BEGIN
+        RAISERROR('El médico ya tiene un usuario asignado.', 16, 1);
+        RETURN -2;
+    END
+
+    -- Verificar que el usuario no exista en otro médico
+    IF EXISTS (SELECT 1 FROM Medicos WHERE Usuario_M = @NOMBREUSUARIO)
+    BEGIN
+        RAISERROR('El nombre de usuario ya está en uso por otro médico.', 16, 1);
+        RETURN -3;
+    END
+
+    -- Crear usuario
+    UPDATE Medicos
+    SET Usuario_M = @NOMBREUSUARIO,
+        Contrasena_M = @CONTRASENIA,
+        UsuarioHabilitado_M = @HABILITADO
+    WHERE Legajo_M = @LEGAJO;
+
+    RETURN @@ROWCOUNT;
+END
+GO
+USE Clinica;
+GO
+
+CREATE PROCEDURE sp_ModificarUsuario
+    @LEGAJO NVARCHAR(4),
+    @NUEVOUSUARIO NVARCHAR(30)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Normalizar username
+    SET @NUEVOUSUARIO = LTRIM(RTRIM(@NUEVOUSUARIO));
+
+    -- Validar usuario vacío
+    IF (@NUEVOUSUARIO = '' OR @NUEVOUSUARIO IS NULL)
+    BEGIN
+        RAISERROR('El nombre de usuario no puede estar vacío.', 16, 1);
+        RETURN -4;
+    END
+
+    -- Verificar que el médico exista
+    IF NOT EXISTS (SELECT 1 FROM Medicos WHERE Legajo_M = @LEGAJO)
+    BEGIN
+        RAISERROR('No se encontró ningún médico con el legajo especificado.', 16, 1);
+        RETURN -1;
+    END
+
+    -- Verificar si tiene usuario asignado
+    IF NOT EXISTS (SELECT 1 FROM Medicos WHERE Legajo_M = @LEGAJO AND Usuario_M IS NOT NULL)
+    BEGIN
+        RAISERROR('El médico no tiene un usuario asignado para modificar.', 16, 1);
+        RETURN -2;
+    END
+
+    -- Verificar que el nuevo nombre de usuario no exista en ningún otro médico
+    IF EXISTS (SELECT 1 
+               FROM Medicos 
+               WHERE Usuario_M = @NUEVOUSUARIO
+                 AND Legajo_M <> @LEGAJO)
+    BEGIN
+        RAISERROR('El nombre de usuario ya está en uso por otro médico.', 16, 1);
+        RETURN -3;
+    END
+
+    -- Actualizar usuario
+    UPDATE Medicos
+    SET Usuario_M = @NUEVOUSUARIO
+    WHERE Legajo_M = @LEGAJO;
+
+    RETURN @@ROWCOUNT;
+END
+GO
+
+USE Clinica;
+GO
+
+CREATE PROCEDURE sp_ModificarContrasenia
+    @LEGAJO NVARCHAR(4),
+    @NUEVACONTRASENIA NVARCHAR(50)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Verificar que el médico exista
+    IF NOT EXISTS (SELECT 1 FROM Medicos WHERE Legajo_M = @LEGAJO)
+    BEGIN
+        RAISERROR('No se encontró ningún médico con el legajo especificado.', 16, 1);
+        RETURN -1;
+    END
+
+    -- Verificar que tenga usuario asignado
+    IF NOT EXISTS (SELECT 1 FROM Medicos WHERE Legajo_M = @LEGAJO AND Usuario_M IS NOT NULL)
+    BEGIN
+        RAISERROR('El médico no tiene un usuario asignado para cambiar contraseña.', 16, 1);
+        RETURN -2;
+    END
+
+    -- Actualizar contraseña
+    UPDATE Medicos
+    SET Contrasena_M = @NUEVACONTRASENIA
+    WHERE Legajo_M = @LEGAJO;
+
+    RETURN @@ROWCOUNT;
+END
+GO
+ */
+
+/*
+CREATE PROCEDURE sp_EliminarMedico
+    @Legajo NVARCHAR(10) -- Recibe el Legajo como parámetro
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Esta es la Baja Lógica:
+    -- Pone Estado_P = 0 en la tabla Personas...
+    UPDATE Personas
+    SET Estado_P = 0
+    -- ...buscando al médico por su Legajo en la tabla Medicos
+    WHERE Dni_P = (SELECT Dni_P_M FROM Medicos WHERE Legajo_M = @Legajo);
+END
+GO
+*/
+
+/*
+CREATE PROCEDURE sp_EliminarPaciente
+    @dni NVARCHAR(8)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    UPDATE Personas
+    SET Estado_P = 0
+    WHERE Dni_P = @dni;
+END
+GO
+*/
+
+/* SP AgregarPaciente
+USE Clinica
+GO
+
+CREATE PROCEDURE [dbo].[sp_AgregarPaciente]
+    -- Parámetros de Persona
+    @Dni_P NVARCHAR(8),
+    @IdLocalidad_L_P INT,
+    @Nombre_P NVARCHAR(50),
+    @Apellido_P NVARCHAR(50),
+    @Sexo_P CHAR(1),
+    @Nacionalidad_P NVARCHAR(50),
+    @FechaNacimiento_P DATE,
+    @Direccion_P NVARCHAR(100),
+    @CorreoElectronico_P NVARCHAR(100),
+    @Telefono_P NVARCHAR(50),
+    @Estado_P BIT,
+    
+    -- Parámetros de Paciente
+    @Diagnostico_Pa NVARCHAR(100)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    BEGIN TRANSACTION; 
+    
+    BEGIN TRY
+        INSERT INTO Personas (
+            Dni_P, IdLocalidad_L_P, Nombre_P, Apellido_P, Sexo_P, 
+            Nacionalidad_P, FechaNacimiento_P, Direccion_P, 
+            CorreoElectronico_P, Telefono_P, Estado_P
+        )
+        VALUES (
+            @Dni_P, @IdLocalidad_L_P, @Nombre_P, @Apellido_P, @Sexo_P,
+            @Nacionalidad_P, @FechaNacimiento_P, @Direccion_P, 
+            @CorreoElectronico_P, @Telefono_P, @Estado_P
+        );
+        INSERT INTO Pacientes (
+            Dni_P_Pa, Diagnostico_Pa
+        )
+        VALUES (
+            @Dni_P, @Diagnostico_Pa 
+        );
+        COMMIT TRANSACTION;
+        RETURN 1; 
+        
+    END TRY
+    BEGIN CATCH
+
+        ROLLBACK TRANSACTION;
+        RETURN 0;
+    END CATCH
+END
+GO
+*/
+
+
+/* Obtener Datos Medico x legajo (devuelve una sola fila con los datos del medico)
+ 
+USE Clinica
+GO
+
+CREATE PROCEDURE [dbo].[sp_GetMedicoDetallePorLegajo]
+    @Legajo NVARCHAR(4)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    SELECT 
+ 
+        p.Dni_P, p.Nombre_P, p.Apellido_P, p.Sexo_P, p.Nacionalidad_P, 
+        p.FechaNacimiento_P, p.Direccion_P, p.CorreoElectronico_P, 
+        p.Telefono_P, p.Estado_P,
+        
+        m.Legajo_M, m.IdEspecialidad_E_M, m.HorarioAtencion_M,
+  
+        p.IdLocalidad_L_P,
+        l.IdProvincia_Pr_L,
+        (
+            SELECT STRING_AGG(CAST(IdDia_D_MxD AS VARCHAR), ',') 
+            FROM MEDICOSxDIAS 
+            WHERE Dni_P_M_MxD = p.Dni_P
+        ) AS DiaIDs
+
+    FROM 
+        Personas p
+    INNER JOIN 
+        Medicos m ON p.Dni_P = m.Dni_P_M
+    INNER JOIN
+        Localidades l ON p.IdLocalidad_L_P = l.IdLocalidad_L
+    WHERE 
+        m.Legajo_M = @Legajo;
+END
+GO
+*/
+
+/*  sp_ActualizarMedico (Casi igual al agregar pero usa DELETE / INSERT) modificarmedico
+
+USE Clinica
+GO
+
+CREATE PROCEDURE [dbo].[sp_ActualizarMedico]
+    -- Parámetros de Persona
+    @Dni_P NVARCHAR(8), -- Clave para WHERE
+    @IdLocalidad_L_P INT,
+    @Nombre_P NVARCHAR(50),
+    @Apellido_P NVARCHAR(50),
+    @Sexo_P CHAR(1),
+    @Nacionalidad_P NVARCHAR(50),
+    @FechaNacimiento_P DATE,
+    @Direccion_P NVARCHAR(100),
+    @CorreoElectronico_P NVARCHAR(100),
+    @Telefono_P NVARCHAR(50),
+    
+    -- Parámetros de Medico
+    @Legajo_M NVARCHAR(4), -- Clave para WHERE
+    @IdEspecialidad_E_M INT,
+    @HorarioAtencion_M NVARCHAR(20),
+
+    @Dias dbo.TipoTablaDia READONLY
+AS
+BEGIN
+    SET NOCOUNT ON;
+    BEGIN TRANSACTION;
+    
+    BEGIN TRY
+
+        UPDATE Personas
+        SET 
+            IdLocalidad_L_P = @IdLocalidad_L_P,
+            Nombre_P = @Nombre_P,
+            Apellido_P = @Apellido_P,
+            Sexo_P = @Sexo_P,
+            Nacionalidad_P = @Nacionalidad_P,
+            FechaNacimiento_P = @FechaNacimiento_P,
+            Direccion_P = @Direccion_P,
+            CorreoElectronico_P = @CorreoElectronico_P,
+            Telefono_P = @Telefono_P
+        WHERE 
+            Dni_P = @Dni_P; -- DNI no se edita
+
+        UPDATE Medicos
+        SET 
+            IdEspecialidad_E_M = @IdEspecialidad_E_M,
+            HorarioAtencion_M = @HorarioAtencion_M
+        WHERE 
+            Legajo_M = @Legajo_M; -- Legajo no se edita
+
+        DELETE FROM MEDICOSxDIAS 
+        WHERE Dni_P_M_MxD = @Dni_P;
+        
+        INSERT INTO MEDICOSxDIAS(Dni_P_M_MxD, IdDia_D_MxD)
+        SELECT @Dni_P, IdDia FROM @Dias;
+        
+        COMMIT TRANSACTION;
+        RETURN 1; 
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION;
+        RETURN 0; 
+    END CATCH
+END
+GO
+
+*/
+
+/* PARA TEST: Crear medicos sin usuarios y crealos por la interfaz. Luego probar cambiarle el usuairo y contraseña y que se pueda loguear.
+ INSERT INTO Personas (Dni_P, IdLocalidad_L_P, Nombre_P, Apellido_P, Sexo_P, Nacionalidad_P, FechaNacimiento_P, Direccion_P, CorreoElectronico_P, Telefono_P, Estado_P) VALUES
+('20000006', 1, 'Lourdes', 'Garcia', 'F', 'Argentina', '1998-03-15', 'Calle 1 123', 'margarcia@gmail.com', '1111111111', 1)
+--5 Médicos (DNI 2xxxx)
+INSERT INTO Medicos (Dni_P_M, Legajo_M, IdEspecialidad_E_M, HorarioAtencion_M) VALUES
+('20000006', 'L006', 5, '16:00-20:00');
+INSERT INTO Personas (Dni_P, IdLocalidad_L_P, Nombre_P, Apellido_P, Sexo_P, Nacionalidad_P, FechaNacimiento_P, Direccion_P, CorreoElectronico_P, Telefono_P, Estado_P) VALUES
+('20000007', 1, 'Guadalupe', 'Garcia', 'F', 'Argentina', '2001-05-04', 'Calle 1 123', 'margarcia@gmail.com', '1111111111', 1)
+--5 Médicos (DNI 2xxxx)
+INSERT INTO Medicos (Dni_P_M, Legajo_M, IdEspecialidad_E_M, HorarioAtencion_M) VALUES
+('20000007', 'L007', 5, '16:00-20:00');
+INSERT INTO Personas (Dni_P, IdLocalidad_L_P, Nombre_P, Apellido_P, Sexo_P, Nacionalidad_P, FechaNacimiento_P, Direccion_P, CorreoElectronico_P, Telefono_P, Estado_P) VALUES
+('20000008', 1, 'Jorge', 'Garcia', 'F', 'Argentina', '2001-05-04', 'Calle 1 123', 'jgarcia@gmail.com', '1111111111', 1)
+--5 Médicos (DNI 2xxxx)
+INSERT INTO Medicos (Dni_P_M, Legajo_M, IdEspecialidad_E_M, HorarioAtencion_M) VALUES
+('20000008', 'L008', 5, '16:00-20:00');
+
+ */
+
+/*
+USE Clinica
+GO
+
+-- Verifica si el SP existe y lo elimina si es necesario
+IF OBJECT_ID('[dbo].[sp_EditarPaciente]', 'P') IS NOT NULL
+    DROP PROCEDURE [dbo].[sp_EditarPaciente]
+GO
+
+CREATE PROCEDURE [dbo].[sp_EditarPaciente]
+    -- Parámetros de Persona
+    @Dni NVARCHAR(8),
+    @IdLocalidad INT,
+    @Nombre NVARCHAR(50),
+    @Apellido NVARCHAR(50),
+    @Sexo CHAR(1),
+    @Nacionalidad NVARCHAR(50),
+    @FechaNacimiento DATE,
+    @Direccion NVARCHAR(100),
+    @Correo NVARCHAR(100),
+    @Telefono NVARCHAR(50),
+
+    -- Parámetro de Paciente
+    @Diagnostico NVARCHAR(255)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    DECLARE @TotalAfectadas INT = 0;
+
+    UPDATE Personas
+    SET 
+        IdLocalidad_L_P = @IdLocalidad,
+        Nombre_P = @Nombre,
+        Apellido_P = @Apellido,
+        Sexo_P = @Sexo,
+        Nacionalidad_P = @Nacionalidad,
+        FechaNacimiento_P = @FechaNacimiento,
+        Direccion_P = @Direccion,
+        CorreoElectronico_P = @Correo,
+        Telefono_P = @Telefono
+    WHERE 
+        Dni_P = @Dni; -- CLAVE: Si el DNI no existe aquí, falla el primer UPDATE
+
+    SET @TotalAfectadas = @TotalAfectadas + @@ROWCOUNT;
+
+    UPDATE Pacientes
+    SET 
+        Diagnostico_Pa = @Diagnostico
+    WHERE 
+        Dni_P_Pa = @Dni; -- CLAVE: Si el DNI no existe aquí, falla el segundo UPDATE
+
+    -- Sumamos las filas afectadas de Pacientes. 
+    -- Si el Diagnostico no cambió, este @@ROWCOUNT será 0.
+    SET @TotalAfectadas = @TotalAfectadas + @@ROWCOUNT;
+
+    -- Retornamos un 1 si se encontró el DNI y se actualizó algo, 0 si no se hizo nada.
+    -- Dado que tu DAO espera un entero, podemos devolver la suma de filas afectadas.
+    RETURN @TotalAfectadas;
+END
+GO
+USE Clinica
+GO
+
+CREATE PROCEDURE [dbo].[sp_GetPacienteDetallePorDni]
+    @Dni NVARCHAR(8)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 
+        -- Persona
+        p.Dni_P, p.Nombre_P, p.Apellido_P, p.Sexo_P, p.Nacionalidad_P, 
+        p.FechaNacimiento_P, p.Direccion_P, p.CorreoElectronico_P, 
+        p.Telefono_P, p.Estado_P,
+
+        -- Paciente
+        pa.Diagnostico_Pa,
+
+        -- Localidad y Provincia (para DropDownList)
+        p.IdLocalidad_L_P,
+        l.IdProvincia_Pr_L 
+
+    FROM 
+        Personas p
+    INNER JOIN 
+        Pacientes pa ON p.Dni_P = pa.Dni_P_Pa
+    INNER JOIN
+        Localidades l ON p.IdLocalidad_L_P = l.IdLocalidad_L
+    WHERE 
+        p.Dni_P = @Dni;
+END
+GO
+*/
+/*
+ CREATE PROCEDURE sp_EliminarUsuarioMedico
+    @LEGAJO NVARCHAR(4)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- 1) Verificar que el médico exista
+    IF NOT EXISTS (SELECT 1 FROM Medicos WHERE Legajo_M = @LEGAJO)
+    BEGIN
+        RAISERROR('No se encontró ningún médico con el legajo especificado.', 16, 1);
+        RETURN -1;
+    END
+
+    -- 2) Verificar que el médico tenga usuario asignado
+    IF NOT EXISTS (
+        SELECT 1 FROM Medicos 
+        WHERE Legajo_M = @LEGAJO
+          AND Usuario_M IS NOT NULL
+    )
+    BEGIN
+        RAISERROR('El médico no tiene usuario asignado para eliminar.', 16, 1);
+        RETURN -2;
+    END
+
+    -- 3) Eliminar usuario (volver a NULL los campos)
+    UPDATE Medicos
+    SET Usuario_M = NULL,
+        Contrasena_M = NULL,
+        UsuarioHabilitado_M = NULL
+    WHERE Legajo_M = @LEGAJO;
+
+    RETURN @@ROWCOUNT; -- devolverá 1 si se actualizó correctamente
+END
+GO
+CREATE PROCEDURE sp_ObtenerUsuarioPorLegajo
+    @LEGAJO NVARCHAR(4)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Verificar que el médico exista
+    IF NOT EXISTS (SELECT 1 FROM Medicos WHERE Legajo_M = @LEGAJO)
+    BEGIN
+        RAISERROR('No se encontró ningún médico con ese legajo.', 16, 1);
+        RETURN -1;
+    END
+
+    -- Devolver el usuario
+    SELECT Usuario_M
+    FROM Medicos
+    WHERE Legajo_M = @LEGAJO;
+
+    RETURN 1;
+END
+GO
+
+ */
+
+/*
+USE [Clinica]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[sp_ObtenerDetalleMedico]
+    @Legajo NVARCHAR(4)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    SELECT
+        Medicos.Legajo_M AS Legajo,
+        Personas.Dni_P AS DNI,
+        Personas.Nombre_P AS Nombre,
+        Personas.Apellido_P AS Apellido,
+        Personas.Sexo_P AS Sexo,
+        Personas.Nacionalidad_P AS Nacionalidad,
+        Personas.FechaNacimiento_P AS FechaNacimiento,
+        Personas.Direccion_P AS Direccion,
+        Localidades.Nombre_L AS Localidad,
+        Provincias.Nombre_Pr AS Provincia,
+        Personas.CorreoElectronico_P AS Correo,
+        Personas.Telefono_P AS Telefono,
+        Especialidades.Descripcion_E AS Especialidad,
+        Medicos.HorarioAtencion_M AS Horario,
+        
+        (
+            SELECT STRING_AGG(ds.NombreDia_D, ', ') 
+            WITHIN GROUP (ORDER BY ds.IdDia_D)
+            FROM MEDICOSxDIAS mxd
+            INNER JOIN DiasSemana ds ON mxd.IdDia_D_MxD = ds.IdDia_D
+            WHERE mxd.Dni_P_M_MxD = Personas.Dni_P
+        ) AS Dias
+        
+    FROM Medicos
+    INNER JOIN Personas ON Medicos.Dni_P_M = Personas.Dni_P
+    INNER JOIN Localidades ON Personas.IdLocalidad_L_P = Localidades.IdLocalidad_L
+    INNER JOIN Provincias ON Localidades.IdProvincia_Pr_L = Provincias.IdProvincia_Pr
+    INNER JOIN Especialidades ON Medicos.IdEspecialidad_E_M = Especialidades.IdEspecialidad_E
+    WHERE Medicos.Legajo_M = @Legajo
+END
+ */
+/* SP DETALLE PACIENTE
+USE Clinica
+GO
+CREATE PROCEDURE sp_ObtenerDetallePaciente
+    @DNI NVARCHAR(8)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 
+        p.Dni_P AS DNI,                
+        P.Nombre_P AS Nombre,           
+        P.Apellido_P AS Apellido,       
+        P.Sexo_P AS Sexo,  
+        p.Nacionalidad_P AS Nacionalidad,
+        P.FechaNacimiento_P AS FechaNacimiento, 
+        P.Direccion_P AS Direccion,     
+        P.CorreoElectronico_P AS Correo,
+        P.Telefono_P AS Telefono,       
+        
+        Loc.Nombre_L AS Localidad,        
+        Prov.Nombre_Pr AS Provincia       
+    FROM 
+        Personas p
+    INNER JOIN 
+        Pacientes Pac ON P.Dni_P = Pac.Dni_P_Pa
+    INNER JOIN 
+        Localidades Loc ON P.IdLocalidad_L_P = Loc.IdLocalidad_L
+    INNER JOIN 
+        Provincias Prov ON Loc.IdProvincia_Pr_L = Prov.IdProvincia_Pr
+    WHERE 
+        P.Dni_P = @DNI
+END
+GO
+*/
+/*
+CREATE PROCEDURE SP_Turnos_ObtenerTodos
+AS
+BEGIN
+    SELECT 
+        T.IdTurno_T AS IdTurno,
+        E.Descripcion_E AS Especialidad,
+        (PM.Nombre_P + ' ' + PM.Apellido_P) AS Medico,
+        CONVERT(VARCHAR(10), T.Fecha_T, 103) AS Dia,  -- ← FORMATO DD/MM/YYYY
+        LEFT(T.Hora_T, 5) AS Horario,
+        (PP.Nombre_P + ' ' + PP.Apellido_P) AS Paciente
+    FROM Turnos T
+    INNER JOIN Especialidades E
+        ON T.IdEspecialidad_E_T = E.IdEspecialidad_E
+    INNER JOIN Personas PM
+        ON T.Dni_P_M_T = PM.Dni_P
+    INNER JOIN Personas PP
+        ON T.Dni_P_Pa_T = PP.Dni_P
+    ORDER BY T.Fecha_T, T.Hora_T;
+END
+GO
+ */
+
+/*Medicos por especialidad OJO valida por UsusarioHabilitado => MIGUE
+ CREATE PROCEDURE [dbo].[sp_ListarMedicosPorEspecialidad]
+  @IdEspecialidad INT
+AS
+BEGIN
+  SET NOCOUNT ON;
+    
+  SELECT 
+      m.Legajo_M, -- Este es elDataValueField (el ID único)
+      p.Nombre_P + ' ' + p.Apellido_P AS NombreCompleto -- Este es el DataTextField
+  FROM 
+      Medicos m
+  INNER JOIN 
+      Personas p ON m.Dni_P_M = p.Dni_P 
+  WHERE 
+      p.Estado_P = 1 -- Solo activos
+      AND m.IdEspecialidad_E_M = @IdEspecialidad -- filtro especialidad
+      AND ISNULL(m.UsuarioHabilitado_M, 0) = 1 --Logica de negocio: El medico debe poder loguearse.
+			--ISNULL(ColumnaAAnalizar, ValorDeReemplazo) => si el dato es NULL le pone CERO para comaprar con = 1--
+  ORDER BY 
+      p.Apellido_P ASC
+END
+GO
+ 
+select *  from Turnos
+select * from Especialidades order by Descripcion_E ASC
+select * from Personas
+select * from Medicos
+
+select * from Personas
+inner join Medicos
+on Dni_P_M = Dni_P
+where IdEspecialidad_E_M = 3
+
+execute sp_ListarMedicosPorEspecialidad 5
+
+SELECT
+    P.*,         -- Todas las columnas de Personas
+    M.*,         -- Todas las columnas de Medicos (incluido M.IdEspecialidad_E_M)
+    E.Descripcion_E AS NombreEspecialidad -- ⭐️ Esta columna mostrará el TEXTO de la Especialidad
+FROM
+    Personas P
+INNER JOIN
+    Medicos M ON P.Dni_P = M.Dni_P_M       
+INNER JOIN
+    Especialidades E ON M.IdEspecialidad_E_M = E.IdEspecialidad_E -- Une M.IdEspecialidad_E_M (el ID 2) con la tabla Especialidades (E.IdEspecialidad_E)
+WHERE
+      M.UsuarioHabilitado_M = 0;
+
+execute sp_ListarMedicosPorEspecialidad 5
+*/
+
+/*listar pacientes activos MIGUE
+ CREATE PROCEDURE [dbo].[sp_ListarPacientesActivos]
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT
+        P.Dni_P AS DNI, -- Será el DataValueField 
+        P.Apellido_P + ', ' + P.Nombre_P AS NombreCompleto -- Será el DataTextField 
+    FROM
+        Personas P
+    INNER JOIN
+        Pacientes Pac ON P.Dni_P = Pac.Dni_P_Pa
+    WHERE
+        P.Estado_P = 1 -- Solo trae personas que estén activas
+    ORDER BY
+        P.Apellido_P ASC;
+END
+GO
+
+select * from Personas
+inner join Pacientes
+on Dni_P = Dni_P_Pa
+
+execute sp_ListarPacientesActivos
+ */
+
+
+/*horas ocupadas migue
+ 
+CREATE PROCEDURE [dbo].[sp_ObtenerHorasOcupadas]
+    @LegajoMedico NVARCHAR(4),
+    @Fecha DATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    SELECT  
+        T.Hora_T 
+    FROM    
+        Turnos T
+    -- Paso clave: Unimos Turnos con Medicos usando el DNI (la clave FK existente)
+    INNER JOIN 
+        dbo.Medicos M ON T.Dni_P_M_T = M.Dni_P_M 
+    WHERE   
+        -- Y AHORA SÍ comparamos el Legajo del parámetro contra la columna Legajo_M
+        M.Legajo_M = @LegajoMedico 
+        AND T.Fecha_T = @Fecha
+END
+GO
+
+-- Declaración de variables:
+DECLARE @LegajoMedico NVARCHAR(4) = 'L001';
+DECLARE @MedicoDNI NVARCHAR(8) = '20000001'; -- <<-- DNI REAL del médico L001 (Dato de la tabla Personas)
+DECLARE @FechaTurno DATE = '2025-11-20'; 
+DECLARE @IdEspecialidad INT = 5; -- Asumiendo que la especialidad 1 existe
+
+-- Asegúrate de que estos DNI de paciente existan en dbo.Pacientes/Personas:
+DECLARE @PacienteDNI1 NVARCHAR(8) = '30000001'; 
+DECLARE @PacienteDNI2 NVARCHAR(8) = '30000002';
+
+-- -------------------------------------------------------------
+-- 1. SIMULACIÓN DE INSERCIÓN DE TURNOS OCUPADOS
+-- -------------------------------------------------------------
+
+-- ESTE INSERT DEBE USAR EL DNI (@MedicoDNI) para cumplir la FK de la tabla Turnos.
+INSERT INTO dbo.Turnos (Fecha_T, Hora_T, IdEspecialidad_E_T, Dni_P_M_T, Dni_P_Pa_T, Observacion_T, Atendido_T)
+VALUES (@FechaTurno, '12:00', @IdEspecialidad, @MedicoDNI, @PacienteDNI1, 'Consulta general', 0);
+
+INSERT INTO dbo.Turnos (Fecha_T, Hora_T, IdEspecialidad_E_T, Dni_P_M_T, Dni_P_Pa_T, Observacion_T, Atendido_T)
+VALUES (@FechaTurno, '13:00', @IdEspecialidad, @MedicoDNI, @PacienteDNI2, 'Segunda opinión', 0);
+GO
+
+-- -------------------------------------------------------------
+-- 2. EJECUCIÓN DEL SP (Busca por Legajo, gracias al INNER JOIN)
+-- -------------------------------------------------------------
+
+EXEC [dbo].[sp_ObtenerHorasOcupadas]
+    @LegajoMedico = @LegajoMedico,
+    @Fecha = @FechaTurno;
+
+-- Declaración de variables:
+DECLARE @LegajoMedico NVARCHAR(4) = 'L001';
+DECLARE @FechaTurno DATE = '2025-11-21'; 
+
+EXEC [dbo].[sp_ObtenerHorasOcupadas] @LegajoMedico, @FechaTurno;
+ 
+ */
+
+
+
+
+
+/*dias y hora por medico
+ -- --- SP Requerido para Obtener Días y Horario Base ---
+ALTER TABLE Turnos
+ALTER COLUMN Hora_T TIME(0);--por defecto TIME lo crea con TIME(7) osea nanosegundos
+GO
+
+CREATE PROCEDURE [dbo].[sp_ObtenerDiasYHorarioMedico]
+    @Legajo NVARCHAR(4)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT
+        M.HorarioAtencion_M AS HorarioBase,
+        -- Concatena los IDs de los días (1,2,3...) para usar en C#
+        STRING_AGG(CONVERT(VARCHAR, mxd.IdDia_D_MxD), ',') AS IdsDiasTrabajo --convert convierte ID 1 en "1",string agg hace "1,"
+    FROM
+        Medicos M
+    LEFT JOIN
+        MEDICOSxDIAS mxd ON M.Dni_P_M = mxd.Dni_P_M_MxD
+    WHERE
+        M.Legajo_M = @Legajo
+	GROUP BY 
+     M.HorarioAtencion_M -- Incluimos esta columna porque no está en STRING_AGG
+END
+GO
+
+EXEC sp_ObtenerDiasYHorarioMedico 'L001'
+ 
+ */
+
+/*sp_ObtenerDniPorLegajo migue
+ * CREATE PROCEDURE [dbo].[sp_ObtenerDniPorLegajo]
+    @Legajo_M NVARCHAR(4)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    SELECT 
+        Dni_P_M
+    FROM 
+        Medicos 
+    WHERE 
+        Legajo_M = @Legajo_M;
+END
+GO
+
+EXEC sp_ObtenerDniPorLegajo 'L001';
+
+ */
+
+
+
+/*Ella
+CREATE PROCEDURE sp_EliminarTurno
+    @IdTurno INT
+AS
+BEGIN
+    DELETE FROM Turnos WHERE IdTurno_T = @IdTurno;
+END
+GO*/
+
+
+
+/*lourd 
+ 
+CREATE OR ALTER PROCEDURE sp_ObtenerDatosTurno
+(
+    @IdTurno INT
+)
+AS
+BEGIN
+    SELECT 
+        T.IdTurno_T AS IdTurno,
+        T.IdEspecialidad_E_T AS IdEspecialidad,
+        E.Descripcion_E AS Especialidad,
+
+        -- Médico
+        M.Legajo_M AS LegajoMedico,
+        PM.Nombre_P AS NombreMedico,
+        PM.Apellido_P AS ApellidoMedico,
+        T.Dni_P_M_T AS DniMedico,
+
+        -- Paciente
+        PP.Nombre_P AS NombrePaciente,
+        PP.Apellido_P AS ApellidoPaciente,
+        T.Dni_P_Pa_T AS DniPaciente,
+
+        -- Fecha y Hora
+        T.Fecha_T AS FechaTurno,
+        T.Hora_T AS HoraTurno,
+
+        -- Datos extra
+        T.Observacion_T,
+        T.Atendido_T
+    FROM Turnos T
+    INNER JOIN Especialidades E
+        ON T.IdEspecialidad_E_T = E.IdEspecialidad_E
+    INNER JOIN Medicos M
+        ON T.Dni_P_M_T = M.Dni_P_M
+    INNER JOIN Personas PM
+        ON M.Dni_P_M = PM.Dni_P
+    INNER JOIN Personas PP
+        ON T.Dni_P_Pa_T = PP.Dni_P
+    WHERE T.IdTurno_T = @IdTurno;
+END
+GO
+
+CREATE PROCEDURE sp_EditarTurno
+(
+    @idTurno INT,
+    @dniMedico NVARCHAR(8),
+    @dniPaciente NVARCHAR(8),
+    @idEspecialidad INT,
+
+    @fechaTurno DATE,
+    @horaTurno TIME(0),
+
+    @observacion NVARCHAR(200) = NULL,
+    @atendido BIT = 0
+)
+AS
+BEGIN
+    -- IMPORTANTE: No usar SET NOCOUNT ON (igual que en sp_AgregarTurno)
+
+    UPDATE Turnos
+    SET 
+        Fecha_T = @fechaTurno,
+        Hora_T = @horaTurno,
+        IdEspecialidad_E_T = @idEspecialidad,
+        Dni_P_M_T = @dniMedico,
+        Dni_P_Pa_T = @dniPaciente,
+        Observacion_T = @observacion,
+        Atendido_T = @atendido
+    WHERE IdTurno_T = @idTurno;
+
+    -- Si no explota, devolvemos 1
+    RETURN 1;
+END
+GO
+
+ */
+
+/*habilitar ususario medico migue
+ 
+ CREATE PROCEDURE [dbo].[sp_HabilitarUsuarioMedico]
+    @Legajo NVARCHAR(4)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    UPDATE Medicos
+    SET UsuarioHabilitado_M = 1
+    WHERE Legajo_M = @Legajo;
+    RETURN 1; 
+END
+GO
+ */
+
+
+
+/* ella
+SP para filtrar todo lo que hay desde la visat de admin en turno
+
+USE Clinica
+GO
+
+-- Eliminar si existe
+IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'SP_BuscarTurnosAdministrador')
+    DROP PROCEDURE SP_BuscarTurnosAdministrador
+GO
+
+CREATE PROCEDURE SP_BuscarTurnosAdministrador
+    @NombreApellidoMedico NVARCHAR(100) = NULL,
+    @NombreApellidoPaciente NVARCHAR(100) = NULL,
+    @IdEspecialidad INT = NULL,
+    @Lunes BIT = 0,
+    @Martes BIT = 0,
+    @Miercoles BIT = 0,
+    @Jueves BIT = 0,
+    @Viernes BIT = 0,
+    @Sabado BIT = 0
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    -- Arme esta variable aparte, basicamente lo que quiero es ver si eligio un dia para sumarlo a la consulta despuess
+    DECLARE @AlgunDiaSeleccionado BIT = 0;
+    
+    IF (@Lunes = 1 OR @Martes = 1 OR @Miercoles = 1 OR 
+        @Jueves = 1 OR @Viernes = 1 OR @Sabado = 1)
+    BEGIN
+        SET @AlgunDiaSeleccionado = 1;
+    END
+    
+    SELECT 
+        T.IdTurno_T AS IdTurno,
+        E.Descripcion_E AS Especialidad,
+        (PeMed.Nombre_P + ' ' + PeMed.Apellido_P) AS Medico,
+        T.Fecha_T AS Dia,
+        T.Hora_T AS Horario,
+        (PePac.Nombre_P + ' ' + PePac.Apellido_P) AS Paciente
+    FROM 
+        Turnos T
+    INNER JOIN 
+        Especialidades E ON T.IdEspecialidad_E_T = E.IdEspecialidad_E
+    INNER JOIN 
+        Medicos M ON T.Dni_P_M_T = M.Dni_P_M
+    INNER JOIN 
+        Personas PeMed ON M.Dni_P_M = PeMed.Dni_P
+    INNER JOIN 
+        Pacientes Pa ON T.Dni_P_Pa_T = Pa.Dni_P_Pa
+    INNER JOIN 
+        Personas PePac ON Pa.Dni_P_Pa = PePac.Dni_P
+    WHERE 
+        -- si lo filtro por nombre o ape del medico
+        (
+            @NombreApellidoMedico IS NULL 
+            OR @NombreApellidoMedico = ''
+            OR (PeMed.Nombre_P + ' ' + PeMed.Apellido_P) LIKE '%' + @NombreApellidoMedico + '%'
+        )
+        -- si filtro por los datos del paciente
+        AND (
+            @NombreApellidoPaciente IS NULL 
+            OR @NombreApellidoPaciente = ''
+            OR (PePac.Nombre_P + ' ' + PePac.Apellido_P) LIKE '%' + @NombreApellidoPaciente + '%'
+        )
+        -- si filtro por la especialidad 
+        AND (
+            @IdEspecialidad IS NULL 
+            OR E.IdEspecialidad_E = @IdEspecialidad
+        )
+        -- si filtro por los dias de la semana
+        AND (
+            @AlgunDiaSeleccionado = 0  
+            OR (
+                (@Lunes = 1 AND DATEPART(WEEKDAY, T.Fecha_T) = 2) OR
+                (@Martes = 1 AND DATEPART(WEEKDAY, T.Fecha_T) = 3) OR
+                (@Miercoles = 1 AND DATEPART(WEEKDAY, T.Fecha_T) = 4) OR
+                (@Jueves = 1 AND DATEPART(WEEKDAY, T.Fecha_T) = 5) OR
+                (@Viernes = 1 AND DATEPART(WEEKDAY, T.Fecha_T) = 6) OR
+                (@Sabado = 1 AND DATEPART(WEEKDAY, T.Fecha_T) = 7)
+            )
+        )
+    ORDER BY 
+        T.Fecha_T DESC, T.Hora_T;
+END
+GO
+ */
+
+/*
+ CREATE PROCEDURE sp_ObtenerReportePresentismo
+(
+    @FechaDesde DATE,
+    @FechaHasta DATE
+)
+AS
+BEGIN
+    SELECT 
+        Atendido_T, COUNT(*) AS CANTIDAD
+    FROM 
+        Turnos
+    WHERE 
+        Fecha_T BETWEEN @FechaDesde AND @FechaHasta
+        AND Atendido_T IS NOT NULL
+    GROUP BY 
+        Atendido_T
+END
+GO
+
+EXEC sp_ObtenerReportePresentismo '2025-11-1', '2025-12-31'
+*/
+
+
+
+/*
+CREATE PROCEDURE sp_ListarDetallePresentismo
+    @FechaDesde DATE,
+    @FechaHasta DATE
+AS
+BEGIN
+    SELECT 
+        T.Fecha_T,
+        T.Hora_T,     
+        P.Nombre_P, 
+        P.Apellido_P, 
+        T.Atendido_T
+    FROM 
+        Turnos T
+    INNER JOIN 
+        Personas P ON P.Dni_P = T.Dni_P_Pa_T 
+    WHERE 
+        T.Fecha_T BETWEEN @FechaDesde AND @FechaHasta
+        AND T.Atendido_T IS NOT NULL 
+    ORDER BY 
+        T.Fecha_T DESC, T.Hora_T ASC
+END
+GO
+
+EXEC sp_ListarDetallePresentismo '2025-11-1', '2025-11-27'
+
+ */
+
+
+
+/*
+CREATE PROCEDURE sp_ObtenerReporteTurnosPorMedico
+(
+    @FechaDesde DATE,
+    @FechaHasta DATE
+)
+AS
+BEGIN
+    SELECT 
+        P.Nombre_P AS Nombre, 
+        P.Apellido_P AS Apellido, 
+        E.Descripcion_E AS Especialidad,
+
+        COUNT(*) AS CantidadTurnos
+    FROM 
+        Turnos T
+    INNER JOIN 
+        Especialidades E ON T.IdEspecialidad_E_T = E.IdEspecialidad_E
+    INNER JOIN
+        Medicos M ON T.Dni_P_M_T = M.Dni_P_M
+    INNER JOIN
+        Personas P ON M.Dni_P_M = P.Dni_P
+    WHERE
+        T.Fecha_T BETWEEN @FechaDesde AND @FechaHasta
+    GROUP BY
+        P.Nombre_P, 
+        P.Apellido_P, 
+        E.Descripcion_E
+    ORDER BY 
+        CantidadTurnos DESC
+END
+GO
+
+EXEC sp_ObtenerReporteTurnosPorMedico '2025-11-1', '2025-11-27'
+*/
+
+
+
+
+
+
+
+/*mariano modificado por migue
+ CREATE OR ALTER PROCEDURE sp_ActualizarAtencionTurno
+(
+    @IdTurno INT,
+    @Observacion NVARCHAR(200),
+    @Atendido BIT
+)
+AS
+BEGIN
+		SET NOCOUNT ON;-- asi no me dice los row(s) affected y devuelvo el 1 limpio
+
+    UPDATE Turnos
+    SET 
+        Observacion_T = @Observacion, 
+        Atendido_T = @Atendido       
+    WHERE 
+        IdTurno_T = @IdTurno      
+		RETURN 1;--sin esto no anda el ParameterDirection.ReturnValue
+END
+GO
+ */
+
+/*agregar turno migue modificado por migue
+USE Clinica
+GO
+
+CREATE OR ALTER PROCEDURE [dbo].[sp_AgregarTurno]
+    --FK
+    @dniMedico NVARCHAR(8),
+    @dniPaciente NVARCHAR(8),
+    @idEspecialidad INT,
+
+		--TIEMPO
+    @fechaTurno DATE, -- Fecha del turno (mapeado desde DateTime.Date)
+    @horaTurno TIME(0), -- Hora del turno (mapeado desde TimeSpan)
+
+	  --omisión
+    @observacion NVARCHAR(200) = NULL, 
+    @atendido BIT = NULL
+AS
+BEGIN
+    -- Elimino SET NOCOUNT ON para que no devuelva cero y nos de dolores de cabeza como los que ya me dio
+    INSERT INTO Turnos (Fecha_T, Hora_T, IdEspecialidad_E_T, Dni_P_M_T, Dni_P_Pa_T, Observacion_T, Atendido_T)
+    VALUES (@fechaTurno, @horaTurno, @idEspecialidad, @dniMedico, @dniPaciente, @observacion, @atendido);
+    
+    RETURN 1;  -- PASO CLAVE: Si la inserción fue exitosa (no lanzó excepción), devolvemos 1.
+END
+GO
+*/
+
+
+/*loudes
+
+
+CREATE PROCEDURE sp_BuscarTurnoDeMedicoPorPaciente
+    @UsuarioMedico NVARCHAR(30),
+    @NombreApellido NVARCHAR(100) -- nombre de paciente tiene max 50, y apellido max 50, asi que lo dejo en 100
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SET @NombreApellido = '%' + @NombreApellido + '%';
+
+    SELECT 
+        T.IdTurno_T AS IdTurno,
+        T.Fecha_T AS Dia,
+        T.Hora_T AS Horario,
+        (PePac.Nombre_P + ' ' + PePac.Apellido_P) AS Paciente,
+        T.Observacion_T AS Observacion,
+        T.Atendido_T AS Atendido
+    FROM Turnos T
+    INNER JOIN Pacientes Pa 
+        ON T.Dni_P_Pa_T = Pa.Dni_P_Pa
+    INNER JOIN Personas PePac 
+        ON Pa.Dni_P_Pa = PePac.Dni_P
+    INNER JOIN Medicos M 
+        ON T.Dni_P_M_T = M.Dni_P_M
+    WHERE 
+        M.Usuario_M = @UsuarioMedico
+       AND (
+             UPPER(ISNULL(PePac.Nombre_P,'')) LIKE UPPER(@NombreApellido)
+          OR UPPER(ISNULL(PePac.Apellido_P,'')) LIKE UPPER(@NombreApellido)
+          OR UPPER(ISNULL(PePac.Nombre_P,'') + ' ' + ISNULL(PePac.Apellido_P,'')) LIKE UPPER(@NombreApellido)
+        )
+    ORDER BY T.Fecha_T, T.Hora_T;
+END
+GO
+
+CREATE PROCEDURE sp_FiltrarTurnosMedico
+    @Asistio INT = -1,          -- -1 = TODOS, 0 = No asistió, 1 = Asistió
+    @Fecha DATE = NULL,         -- Puede venir NULL
+    @UsuarioMedico NVARCHAR(30)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 
+        T.IdTurno_T AS IdTurno,
+        T.Fecha_T AS Dia,
+        T.Hora_T AS Horario,
+        (PePac.Nombre_P + ' ' + PePac.Apellido_P) AS Paciente,
+        T.Observacion_T AS Observacion,
+        T.Atendido_T AS Atendido
+    FROM Turnos T
+    INNER JOIN Pacientes Pa 
+        ON T.Dni_P_Pa_T = Pa.Dni_P_Pa
+    INNER JOIN Personas PePac 
+        ON Pa.Dni_P_Pa = PePac.Dni_P
+    INNER JOIN Medicos M 
+        ON T.Dni_P_M_T = M.Dni_P_M
+    WHERE 
+        M.Usuario_M = @UsuarioMedico
+        AND (@Asistio = -1 OR T.Atendido_T = @Asistio)
+        AND (@Fecha IS NULL OR T.Fecha_T = @Fecha)
+    ORDER BY T.Fecha_T, T.Hora_T;
+END
+GO
+
+
+*/
