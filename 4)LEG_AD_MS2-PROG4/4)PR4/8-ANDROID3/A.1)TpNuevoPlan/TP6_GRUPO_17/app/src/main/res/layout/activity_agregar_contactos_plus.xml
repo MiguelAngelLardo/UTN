@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/main"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fillViewport="true">
+
+  <!-- Linear Global -->
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="FORMULARIO MÁS DATOS CONTACTO"
+      android:textSize="19sp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp"
+      android:textSize="19sp"
+      android:text="A continuación, por favor se pide completar más datos personales." />
+
+    <!-- Linear de los RadioButton -->
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:paddingBottom="20dp"
+      android:background="@drawable/borde_caja">
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="12dp"
+        android:text="NIVEL DE ESTUDIOS ALCANZADOS"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+      <RadioGroup
+        android:id="@+id/radioGroupEstudios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+          android:id="@+id/rbPrimarioIncompleto"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Primario incompleto"
+          android:textSize="17sp" />
+
+        <RadioButton
+          android:id="@+id/rbPrimarioCompleto"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Primario completo"
+          android:textSize="17sp" />
+
+        <RadioButton
+          android:id="@+id/rbSecundarioIncompleto"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Secundario incompleto"
+          android:textSize="17sp" />
+
+        <RadioButton
+          android:id="@+id/rbSecundarioCompleto"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Secundario completo"
+          android:textSize="17sp" />
+
+        <RadioButton
+          android:id="@+id/rbOtros"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Otros"
+          android:textSize="17sp" />
+      </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:layout_marginStart="12dp"
+      android:text="INTERESES"
+      android:textSize="17sp"
+      android:textStyle="bold" />
+
+    <!-- Linear de los CheckBox Global -->
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginStart="8dp"
+      android:paddingStart="16dp"
+      android:paddingBottom="20dp"
+
+      android:background="@drawable/borde_caja">
+
+      <!-- Linear Horizontal para hacer la matriz 2*2 -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+          android:id="@+id/chkDeporte"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Deporte"
+          android:textSize="18sp" />
+
+        <CheckBox
+          android:id="@+id/chkMusica"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Música"
+          android:textSize="18sp" />
+      </LinearLayout>
+
+      <!-- Linear Horizontal para hacer la matriz 2*2 -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+          android:id="@+id/chkArte"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Arte"
+          android:textSize="18sp" />
+
+        <CheckBox
+          android:id="@+id/chkTecnologia"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Tecnología"
+          android:textSize="18sp" />
+      </LinearLayout>
+    </LinearLayout>
+
+
+  <!-- Linear Horizontal Text y swich en 1 renglon -->
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="15dp">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Desea recibir información?"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+    <Switch
+      android:id="@+id/switchRecibir"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="15dp"
+      android:checked="true"
+      android:text="Sí"
+      android:textSize="17sp" />
+  </LinearLayout>
+
+
+  <Button
+    android:id="@+id/btnGuardar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="20dp"
+    android:backgroundTint="#d5d8d7"
+    android:textColor="#000000"
+    android:text="GUARDAR" />
+
+
+
+
+  </LinearLayout>
+
+</ScrollView>

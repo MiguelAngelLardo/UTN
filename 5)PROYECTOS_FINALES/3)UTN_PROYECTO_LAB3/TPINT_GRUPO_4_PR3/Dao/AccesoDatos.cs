@@ -13,8 +13,9 @@ namespace Dao
 {
     internal class AccesoDatos
     {
+    //en Web.config => connectionString="Data Source=localhost;Initial Catalog=Clinica;User ID=xx;Password=xxx;Encrypt=False"
 
-        private string _ruta;
+    private string _ruta;
 
         public AccesoDatos(string ruta = null)
         {

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/main"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fillViewport="true">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="FORMULARIO DE CONTACTO"
+      android:textSize="27sp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp"
+      android:textSize="19sp"
+      android:text="Este es un formulario destinado al registro de personas, sus datos personales e intereses." />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="7dp"
+      android:text="NOMBRE"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+    <EditText
+      android:id="@+id/editTextNombre"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Nombre"
+      android:inputType="text"
+      android:textColorHint="#999999"
+      android:textSize="18sp" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="7dp"
+      android:text="APELLIDO"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+    <EditText
+      android:id="@+id/editTextApellido"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Apellido"
+      android:inputType="text"
+      android:textColorHint="#999999"
+      android:textSize="18sp" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="7dp"
+      android:text="TELÉFONO"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Teléfono"
+        android:inputType="phone"
+        android:textColorHint="#999999"
+        android:textSize="18sp" />
+
+      <Spinner
+        android:id="@+id/spinnerTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/opciones_contacto" />
+    </LinearLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="7dp"
+      android:text="EMAIL"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#999999"
+        android:textSize="18sp" />
+
+      <Spinner
+        android:id="@+id/spinnerEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/opciones_contacto" />
+    </LinearLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="7dp"
+      android:text="DIRECCION"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+    <EditText
+      android:id="@+id/editTextDireccion"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Direccion"
+      android:inputType="text"
+      android:textColorHint="#999999"
+      android:textSize="18sp" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="7dp"
+      android:text="FECHA DE NACIMENTO"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+    <EditText
+      android:id="@+id/editTextFechaNacimiento"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Fecha nacimiento"
+      android:inputType="date"
+      android:textColorHint="#999999"
+      android:textSize="18sp" />
+
+    <Button
+      android:id="@+id/btnContinuar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="45dp"
+      android:layout_marginBottom="10dp"
+      android:backgroundTint="#d5d8d7"
+      android:textColor="#000000"
+      android:text="CONTINUAR" />
+
+  </LinearLayout>
+</ScrollView>

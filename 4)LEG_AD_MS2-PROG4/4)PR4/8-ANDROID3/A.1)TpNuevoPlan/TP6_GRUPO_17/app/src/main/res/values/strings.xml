@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EjercicioControles - TP6_GRUPO_17</string>
+    <string name="menu_agregar">Agregar contactos</string>
+    <string name="menu_listado">Listado de contactos</string>
+
+
+    <string-array name="opciones_contacto">
+        <item>Casa</item>
+        <item>Trabajo</item>
+        <item>Móvil</item>
+    </string-array>
+
+</resources>
