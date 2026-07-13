@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HC Electronicas" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/HC Electronicas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/HC Electronicas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=gnu++14" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename=".gitignore" />
+		<Unit filename="AppMenu.cpp" />
+		<Unit filename="AppMenu.exe" />
+		<Unit filename="AppMenu.h" />
+		<Unit filename="Archivo.h" />
+		<Unit filename="Disenio.cpp" />
+		<Unit filename="Disenio.exe" />
+		<Unit filename="Disenio.h" />
+		<Unit filename="Enum.cpp" />
+		<Unit filename="Enum.h" />
+		<Unit filename="Estudios.cpp" />
+		<Unit filename="Estudios.exe" />
+		<Unit filename="Estudios.h" />
+		<Unit filename="EstudiosArchivo.cpp" />
+		<Unit filename="EstudiosArchivo.h" />
+		<Unit filename="EstudiosManager.cpp" />
+		<Unit filename="EstudiosManager.exe" />
+		<Unit filename="EstudiosManager.h" />
+		<Unit filename="EstudiosXHistoriaClinica.cpp" />
+		<Unit filename="EstudiosXHistoriaClinica.exe" />
+		<Unit filename="EstudiosXHistoriaClinica.h" />
+		<Unit filename="EstudiosXHistoriaClinicaArchivo.cpp" />
+		<Unit filename="EstudiosXHistoriaClinicaArchivo.exe" />
+		<Unit filename="EstudiosXHistoriaClinicaArchivo.h" />
+		<Unit filename="EstudiosXHistoriaClinicaManager.cpp" />
+		<Unit filename="EstudiosXHistoriaClinicaManager.exe" />
+		<Unit filename="EstudiosXHistoriaClinicaManager.h" />
+		<Unit filename="HC Electronicas.cbp" />
+		<Unit filename="HC Electronicas.depend" />
+		<Unit filename="HC Electronicas.layout" />
+		<Unit filename="HCMenu.exe" />
+		<Unit filename="HistoriaClinica.cpp" />
+		<Unit filename="HistoriaClinica.exe" />
+		<Unit filename="HistoriaClinica.h" />
+		<Unit filename="HistoriaClinicaArchivo.cpp" />
+		<Unit filename="HistoriaClinicaArchivo.exe" />
+		<Unit filename="HistoriaClinicaArchivo.h" />
+		<Unit filename="HistoriaClinicaManager.cpp" />
+		<Unit filename="HistoriaClinicaManager.exe" />
+		<Unit filename="HistoriaClinicaManager.h" />
+		<Unit filename="HistoriaClinicaMenu.cpp" />
+		<Unit filename="HistoriaClinicaMenu.exe" />
+		<Unit filename="HistoriaClinicaMenu.h" />
+		<Unit filename="MedicoServicesArchivo.h" />
+		<Unit filename="Paciente.cpp" />
+		<Unit filename="Paciente.exe" />
+		<Unit filename="Paciente.h" />
+		<Unit filename="PacienteArchivo.cpp" />
+		<Unit filename="PacienteArchivo.h" />
+		<Unit filename="PacienteManager.cpp" />
+		<Unit filename="PacienteManager.exe" />
+		<Unit filename="PacienteManager.h" />
+		<Unit filename="PacienteMenu.cpp" />
+		<Unit filename="PacienteMenu.h" />
+		<Unit filename="Persona.cpp" />
+		<Unit filename="Persona.exe" />
+		<Unit filename="Persona.h" />
+		<Unit filename="Profesional.cpp" />
+		<Unit filename="Profesional.exe" />
+		<Unit filename="Profesional.h" />
+		<Unit filename="ProfesionalArchivo.cpp" />
+		<Unit filename="ProfesionalArchivo.h" />
+		<Unit filename="ProfesionalManager.cpp" />
+		<Unit filename="ProfesionalManager.exe" />
+		<Unit filename="ProfesionalManager.h" />
+		<Unit filename="ProfesionalXPaciente.cpp" />
+		<Unit filename="ProfesionalXPaciente.exe" />
+		<Unit filename="ProfesionalXPaciente.h" />
+		<Unit filename="ProfesionalXPacienteArchivo.cpp" />
+		<Unit filename="ProfesionalXPacienteArchivo.h" />
+		<Unit filename="ProfesionalXPacienteManager.cpp" />
+		<Unit filename="ProfesionalXPacienteManager.exe" />
+		<Unit filename="ProfesionalXPacienteManager.h" />
+		<Unit filename="README.md" />
+		<Unit filename="SignosDiarios.exe" />
+		<Unit filename="SignosVitales.cpp" />
+		<Unit filename="SignosVitales.exe" />
+		<Unit filename="SignosVitales.h" />
+		<Unit filename="TemplateArchivo.exe" />
+		<Unit filename="TemplateArchivo.h" />
+		<Unit filename="Validaciones.cpp" />
+		<Unit filename="Validaciones.exe" />
+		<Unit filename="Validaciones.h" />
+		<Unit filename="estudios.dat" />
+		<Unit filename="fecha.cpp" />
+		<Unit filename="fecha.exe" />
+		<Unit filename="fecha.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.exe" />
+		<Unit filename="pacientes.dat" />
+		<Unit filename="profesionales.dat" />
+		<Unit filename="rlutil.h" />
+		<Unit filename="signosDiarios.dat" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
